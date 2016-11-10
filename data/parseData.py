@@ -6,14 +6,21 @@ from xlutils.copy import copy # http://pypi.python.org/pypi/xlutils
 
 
 print('hello world')
-HIJRI = 1435
-YEAR = 2014
-FILE = 'years/1435-1436/grads.xlsx'
-SHEET = '4-2'
 
-def parse_file(path, sheet):
+HIJRI = 1431
+YEAR = 2010
+FILE = 'years/1432-1431.xls'
+SHEET = '4-2'
+U_SHEET = '4-5'
+USTARTROW = 3
+G_SHEET = '4-8'
+GSTARTROW = 3
+
+def parse_sheet(path, sheet):
     """
     Open and read an Excel file
+    This works for the last two years 2013 - 2014
+    where
     """
     book = xlrd.open_workbook(path)
 
@@ -52,6 +59,61 @@ def parse_file(path, sheet):
 
     #write_data(val)
 
+def parse_ugsheet(path, usheet, gsheet):
+    """
+    parsing data from files in which undergrad and grad data are in separate sheets
+    :param path:
+    :param usheet:
+    :param gsheet:
+    :return:
+    """
+    book = xlrd.open_workbook(path)
+
+    u_sheet = book.sheet_by_name(usheet)
+    g_sheet = book.sheet_by_name(gsheet)
+
+    #undergrade data has the following order [um, uf, um , uf ..... etc]
+    undergrad_data = []
+    for row in range(USTARTROW,u_sheet.nrows):
+        h =  u_sheet.cell_value(row, 1)
+        print h
+
+        jumlah = u_sheet.cell_value(row, 2)
+        if(jumlah == u'\u062c\u0645\u0644\u0629'):
+            undergrad_data.append(u_sheet.cell_value(row, 3))
+            undergrad_data.append(u_sheet.cell_value(row, 4))
+
+    print undergrad_data
+    print len(undergrad_data)
+
+    grad_data = []
+    for row in range(GSTARTROW,g_sheet.nrows):
+        h =  g_sheet.cell_value(row, 1)
+        print h
+
+        jumlah = g_sheet.cell_value(row, 2)
+        if(jumlah == u'\u062c\u0645\u0644\u0629'):
+            grad_data.append(g_sheet.cell_value(row, 3))
+            grad_data.append(g_sheet.cell_value(row, 4))
+
+    print grad_data
+    print len(grad_data)
+
+    data = [HIJRI , YEAR]
+    for i in range(0, len(grad_data), 2):
+        # mu
+        data.append(undergrad_data[i])
+        # mg
+        data.append(grad_data[i])
+        # fu
+        data.append(undergrad_data[i+1])
+        # fg
+        data.append(grad_data[i+1])
+
+    print data
+    print len(data)
+
+    write_data(data)
 
 
 def write_data (list):
@@ -79,8 +141,6 @@ def write_header(path, sheet):
         h =  data_sheet.cell_value(row, 1)
         header.append(h)
 
-
-
     with open('header_data.csv', 'wb') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames = header, delimiter = ',')
         writer.writeheader()
@@ -91,4 +151,5 @@ if __name__ == "__main__":
     sheet = SHEET
     #write_header(path, sheet)
 
-    parse_file(path, sheet)
+    #parse_sheet(path, sheet)
+    parse_ugsheet(path, U_SHEET, G_SHEET)
