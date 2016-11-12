@@ -1,0 +1,93 @@
+
+#subject-group-view {
+  position: absolute;
+  z-index: -50;
+  right: 0;
+  height: 100%;
+  margin-top: -50px;
+  margin-bottom: -50px;
+  overflow-y: scroll;
+  background: #e8e8e8;
+}
+
+.subject-button1 {
+  float: left;
+  width: 410px;
+  height: 225px;
+  margin: 2% 2% 0 0;
+  cursor: pointer;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  transition-delay: 0s;
+  -webkit-transition-delay: 0s;
+}
+
+.subject-button {
+  margin: 2% 2% 0 0;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  transition-delay: 0s;
+  -webkit-transition-delay: 0s;
+}
+
+
+.subject-button:hover {
+  -moz-box-shadow: 0 0 10px rgba(44, 42, 41, 0.19999999999999996);
+  -webkit-box-shadow: 0 0 10px rgba(44, 42, 41, 0.19999999999999996);
+  box-shadow: 0 0 10px rgba(44, 42, 41, 0.19999999999999996);
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.lineChart{
+    stroke: gray;
+    stroke-dasharray: 5,5;
+    z-index: -1;
+}
+
+.yearChart{
+    stroke: #FFF;
+    fill: gray;
+}
+
+.highlighted{
+    stroke: #404040;;
+    stroke-width:2;
+}
+
+.selected{
+    stroke: #404040;;
+    stroke-width:2;
+    r:12px;
+}
+.content {
+    display: inline-block;
+    width: 100%;
+}
+
+.line{
+    fill: none;
+}
+
+ .male{
+        fill: steelblue
+    }
+
+    .female{
+        fill: darkred
+    }
+
+    rect{
+       stroke: #404040;;
+    stroke-width:2;
+
+    }
+
+
