@@ -11,9 +11,8 @@ print str.encode('utf8')
 print ARB_SUBJECT[0]
 print str.encode('utf') == ARB_SUBJECT[0]
 print str.encode('utf8') in ARB_SUBJECT
-str2 = '\xd8\xa5\xd8\xac\xd9\x85\xd8\xa7\xd9\x84\xd9\x8a \xd9\x85\xd8\xa4\xd8\xb3\xd8\xb3\xd8\xa7\xd8\xaa \xd8\xa7\xd9\x84\xd8\xaa\xd8\xb9\xd9\x84\xd9\x8a\xd9\x85 \xd8\xa7\xd9\x84\xd8\xb9\xd8\xa7\xd9\x84\xd9\x8a'
-print str2
-print str2.decode('utf8')
+str2 = u'\xa0'
+print str2.encode('utf-8', 'ignore')
 '''
 for i in range(0, len(ARB_SUBJECT)):
     print i
