@@ -9,12 +9,11 @@ d3.csv("../data/agg_data.csv", function(error, testData){
         .key(function(d){ return d.subject })
         .key(function(d){ return d.gender })
         .rollup(function(leaves){
-            console.log('leaves', leaves)
-            return{
-                total_male: d3.sum(leaves.value)
+            return {
+                total: d3.sum(leaves, function (d) { return d.value }), // total = grad + undergrad
+                values: leaves
             }
         }).entries(testData)
-
     console.log(data)
 })
 
