@@ -2,9 +2,10 @@
  * Created by asmaa on 11/11/16.
  */
 /**
- * Constructor for the subject Chart
+ * Constructor for the gender Chart
  */
-function SubjectChart(selector, dimension, group) {
+function GenderChart(selector, dimension, group) {
+    console.log('gender')
     var self = this;
     self.selector = selector;
     self.dimension = dimension;
@@ -16,7 +17,7 @@ function SubjectChart(selector, dimension, group) {
 /**
  * Initializes the svg elements required for this chart
  */
-SubjectChart.prototype.init = function () {
+GenderChart.prototype.init = function () {
     var self = this;
     self.margin = {top: 10, right: 10, bottom: 10, left: 10};
 
@@ -26,7 +27,7 @@ SubjectChart.prototype.init = function () {
     self.svgBounds = divChart.node().getBoundingClientRect();
     console.log(self.svgBounds)
     self.svgWidth = self.svgBounds.width - self.margin.left - self.margin.right;
-    self.svgHeight = 600;
+    self.svgHeight = 200 - self.margin.top - self.margin.bottom;;
 
     //creates svg element within the div
     self.svg = divChart.append("svg")
@@ -45,10 +46,11 @@ SubjectChart.prototype.init = function () {
 
     self.yScale = d3.scaleBand()
         .domain(self.group.top(Infinity).map(function (d){
+            console.log(d)
             return d.key
         }))
         .rangeRound([ 0, self.svgHeight - 20])
-        //.padding(.3);
+        .padding(.5)
 
     // color scale
 
@@ -66,7 +68,7 @@ SubjectChart.prototype.init = function () {
 
 
     self.svg.select('g').append('g')
-        .attr('id', 'subject-bars')
+        .attr('id', 'gender-bars')
         //.attr("transform", "translate(0, -20)")
 
     //brush
@@ -85,13 +87,13 @@ self.update();
  *
  *
  */
-SubjectChart.prototype.update = function () {
+GenderChart.prototype.update = function () {
     var self = this;
 
-    self.bars = d3.select('#subject-bars').selectAll("rect").data(self.group.top(Infinity));
+    self.bars = d3.select('#gender-bars').selectAll("rect").data(self.group.top(Infinity));
     self.bars = self.bars.enter()
         .append('rect')
-        .attr('class', 'subject-bar')
+        .attr('class', 'gender-bar')
         .merge(self.bars);
 
     self.bars.exit().remove();

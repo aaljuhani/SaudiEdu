@@ -2,884 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fba3c069-90ca-4c93-b780-792201c1ca2a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/readdir/foo/dolor.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/shown/.hidden/dolor.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/shown/foo/dolor.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/dc.logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/ep/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/.jscsrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/.mailmap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/Changelog.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/LICENSE_BANNER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/_SpecRunner.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/dc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/dc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/dc.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/dc.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/dc.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/dc.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/docs/coverage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/fuck/fruits.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/fuck/ordinal-bar-transitions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/fuck/ordinal-bar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/fuck/ordinal-line-transitions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/fuck/ordinal-line.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/grunt/format-file-list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/headboot.ed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/jsdoc.conf.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/crossfilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/crossfilter.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/array.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/bisect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/crossfilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/heap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/heapselect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/identity.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/insertionsort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/null.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/permute.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/quicksort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/reduce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/zero.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/.spmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/bin/meteor" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/bin/start" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/bin/uglify" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/d3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/d3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/ascending.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/bisect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/descending.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/deviation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/entries.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/extent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/keys.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/max.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/mean.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/median.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/merge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/nest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/pairs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/permute.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/quantile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/range.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/set.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/shuffle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/sum.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/transpose.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/values.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/variance.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/zip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/behavior/behavior.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/behavior/drag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/behavior/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/behavior/zoom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/color/color.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/color/hcl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/color/hsl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/color/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/color/lab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/color/rgb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/color/xyz.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/compat/array.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/compat/date.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/compat/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/compat/style.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/array.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/document.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/functor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/identity.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/noop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/ns.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/rebind.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/source.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/subclass.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/target.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/true.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/vendor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/zero.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/d3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/dsv/csv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/dsv/dsv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/dsv/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/dsv/tsv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/end.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/event/dispatch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/event/drag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/event/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/event/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/event/mouse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/event/timer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/event/touch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/event/touches.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/format/collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/format/format.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/format/formatPrefix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/format/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/format/precision.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/format/requote.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/format/round.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/albers-usa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/albers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/area.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/azimuthal-equal-area.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/azimuthal-equidistant.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/azimuthal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/bounds.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/cartesian.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/centroid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/circle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/clip-antimeridian.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/clip-circle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/clip-extent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/clip-polygon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/clip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/compose.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/conic-conformal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/conic-equal-area.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/conic-equidistant.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/conic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/distance.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/equirectangular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/geo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/gnomonic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/graticule.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/greatArc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/interpolate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/length.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/mercator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/orthographic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/path-area.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/path-bounds.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/path-buffer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/path-centroid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/path-context.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/path.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/point-in-polygon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/projection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/resample.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/rotation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/spherical.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/stereographic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/stream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/transform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/transverse-mercator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/clip-line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/delaunay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/geom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/hull.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/point.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/polygon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/quadtree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/voronoi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/voronoi/beach.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/voronoi/cell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/voronoi/circle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/voronoi/clip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/voronoi/edge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/voronoi/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/voronoi/red-black.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/array.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/ease.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/hcl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/hsl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/interpolate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/lab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/number.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/object.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/rgb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/round.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/string.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/transform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/uninterpolate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/zoom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/chord.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/cluster.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/force.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/hierarchy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/histogram.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/layout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/partition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/pie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/stack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/tree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/treemap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/ca-ES.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/de-CH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/de-DE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/en-CA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/en-GB.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/en-US.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/es-ES.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/fi-FI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/fr-CA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/fr-FR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/he-IL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/hu-HU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/it-IT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/ja-JP.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/ko-KR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/locale.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/mk-MK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/nl-NL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/number-format.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/pl-PL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/ru-RU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/sv-SE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/time-format.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/time-scale.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/math/abs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/math/adder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/math/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/math/number.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/math/random.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/math/transform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/math/trigonometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/bilinear.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/category.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/identity.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/linear.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/log.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/nice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/ordinal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/polylinear.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/pow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/quantile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/quantize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/scale.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/sqrt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/threshold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/append.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/attr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/call.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/classed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/datum.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/each.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/empty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/enter-insert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/enter-select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/enter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/html.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/insert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/interrupt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/on.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/order.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/property.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/remove.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/selectAll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/selection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/size.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/sort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/style.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/start.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/arc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/area-radial.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/area.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/axis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/brush.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/chord.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/diagonal-radial.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/diagonal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/line-radial.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/svg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/symbol.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/day.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/format-iso.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/format-utc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/format.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/hour.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/interval.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/minute.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/month.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/scale-utc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/scale.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/second.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/time.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/week.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/year.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/attr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/delay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/duration.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/each.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/ease.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/remove.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/selectAll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/style.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/subtransition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/tween.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/xhr/html.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/xhr/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/xhr/json.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/xhr/text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/xhr/xhr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/xhr/xml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/LICENSE-MIT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/lib/git.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/lib/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/async/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/async/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/async/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/async/lib/async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/async/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/fs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/graceful-fs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/polyfills.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/test/max-open.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/test/open.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/test/readdir-sort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/test/write-then-read.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/CHANGES.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/browser/fs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/buffer-stream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/coverage-report.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/deprecate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs-base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs-common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs-constructor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs-mock-stream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs-mock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs-root.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs2http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/chain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/content.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/decorators.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/fs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/html.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/json.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/negotiate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/proxy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/redirect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/status.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/node/process-stream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/node/reader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/node/writer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/pipe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/readable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/reader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/semaphore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/streams.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/boot-directory-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/contains-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/fixtures/hello.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/issues/1-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/make-tree-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/append-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/copy-tree-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/fixture/hello.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/link-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/make-tree-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/merge-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/move-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/object-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/range-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/read-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/remove-directory-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/remove-tree-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/root-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/stat-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/symbolic-link-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/working-directory-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/write-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/range-spec.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/range-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/read-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/relative-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/reroot-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/write-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/cookie-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/directory-list-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/fixtures/01234.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/fixtures/1234.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/fixtures/5678.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/fixtures/9012/3456.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/hosts-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/interpret-range-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/partial-range-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/proxy-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/symbolic-link-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http/agent-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http/basic-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http/normalize-request-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/streams-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/web-stream/frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/web-stream/frame.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/web-stream/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/web-stream/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/web-stream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/window-stream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/q.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/url-safe/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/url-safe/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/url-safe/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/url-safe/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/url-safe/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/url-safe/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/lib/wrench.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/copydirsync_unix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/mkdir.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/readdir.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/readdir/bar.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/readdir/foo/bar/ipsum.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/readdir/foo/lorem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/runner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/shown/.hidden.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/shown/bar.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/shown/foo/bar/ipsum.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/shown/foo/lorem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/withsymlinks/test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/tasks/gh-pages.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/add.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/custom-clone-dir.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/deep-base.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/deep-clone-dir.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/different-repo.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/dotfiles-option.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/add/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/add/first/first.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/add/first/sub/sub.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/add/second/second.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/add/second/sub/sub.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/custom-clone-dir/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/custom-clone-dir/hello.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/deep-base/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/deep-base/built/pages/hello.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/deep-clone-dir/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/deep-clone-dir/hello.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/different-repo/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/different-repo/hello.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/different-repo/repo/hello.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/dotfiles-option/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/dotfiles-option/dist/.one" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/dotfiles-option/dist/foo/.bar/two" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/multitask/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/multitask/one.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/multitask/two.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/same-repo/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/unpushed/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/unpushed/hello.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/unpushed/repo/hello.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/helper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/lib/util.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/multitask.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/same-repo.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/unpushed.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/npm-shrinkwrap.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/regression/inject-serializer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/regression/rendered-stock-fixture.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/regression/stock-regression-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/scripts/check_merge_conflict.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/scripts/pre-commit.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/bar-chart-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/base-mixin-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/biggish-data-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/box-plot-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/bubble-chart-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/bubble-overlay-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/color-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/composite-chart-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/coordinate-grid-chart-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/core-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/data-addition-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/data-count-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/data-grid-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/data-table-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/event-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/filter-dates-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/filters-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/geo-choropleth-chart-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/heatmap-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/helpers/custom_matchers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/helpers/fixtures.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/helpers/geoFixtures.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/helpers/load-jsreporter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/helpers/spec-helper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/legend-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/line-chart-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/logger-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/number-display-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/pie-chart-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/row-chart-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/scatter-plot-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/series-chart-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/spec/utils-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/banner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/bar-chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/base-mixin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/box-plot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/bubble-chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/bubble-mixin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/bubble-overlay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/cap-mixin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/color-mixin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/composite-chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/coordinate-grid-mixin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/d3.box.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/data-count.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/data-grid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/data-table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/errors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/filters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/footer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/geo-choropleth-chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/heatmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/legend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/line-chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/logger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/margin-mixin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/number-display.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/pie-chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/row-chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/scatter-plot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/series-chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/stack-mixin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/src/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/crime/canada_map.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/crime/crime.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/crime/filter_stats.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/crime/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/css/colorbrewer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/css/dc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/css/dc.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/dc.logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/docs/api-1.5.0.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/docs/api-1.6.0.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/docs/api-1.7.0.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/docs/api-2.0.0.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/docs/api-latest.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/docs/docco.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/docs/stock.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/ep/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/ep/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/ep/mep.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/#fruits.json#" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/adjustable-threshold.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/align-axes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/area.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/bar-extra-line.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/bar-single-select.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/bar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/box-plot-time.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/box-plot.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/complex-reduce.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/composite.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/download-table.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/filtering-removing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/filtering.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/fruits.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/header.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/heat.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/heatmap-filtering.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/intervals.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/line.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/lysenko-interval-tree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/monthly-move.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/morley.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/morley2.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/morley3.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/multi-focus.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/multi-scatter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/number.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/ordinal-bar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/ordinal-line.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/pie-external-labels.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/pie.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/range-series.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/replacing-data.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/right-axis.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/row.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/scatter-brushing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/scatter-series.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/scatter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/series.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/sparkline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/stacked-bar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/table-on-aggregated-data.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/table-pagination.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/examples/time-intervals.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/geo/us-counties.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/geo/us-states.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/highlighter/shAutoloader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/highlighter/shBrushJScript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/highlighter/shBrushXml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/highlighter/shCore.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/highlighter/shCore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/highlighter/shThemeDefault.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/js/FileSaver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/js/colorbrewer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/js/crossfilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/js/d3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/js/dc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/js/dc.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/js/dc.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/js/dc.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/js/env-data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/js/jasmine-jsreporter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/ndx.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/play-ground.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/resizing/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/resizing/resizing-bar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/resizing/resizing-heatmap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/resizing/resizing-pie.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/resizing/resizing-right-axis.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/resizing/resizing-row.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/resizing/resizing-series.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/stock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/area-transitions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/bar-transitions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/number-transitions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/ordinal-bar-transitions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/ordinal-line-transitions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/ordinal-row-transitions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/ordinal-transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/pie-external-label-transitions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/pie-transitions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/stacked-bar-transitions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/transition-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/vc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/vc/state2code.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/web/vc/vc.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/dc/welcome.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lib/js/queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/dist/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/dist/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/dist/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/dist/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/dist/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/dist/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/dist/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/grunt/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/grunt/bs-commonjs-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/grunt/bs-glyphicons-data-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/grunt/bs-lessdoc-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/grunt/bs-raw-files-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/grunt/change-version.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/grunt/configBridge.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/grunt/npm-shrinkwrap.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/grunt/sauce_browsers.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/js/affix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/js/alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/js/button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/js/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/js/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/js/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/js/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/js/popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/js/scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/js/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/js/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/js/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/badges.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/bootstrap.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/breadcrumbs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/button-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/carousel.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/close.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/code.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/component-animations.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/dropdowns.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/glyphicons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/input-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/jumbotron.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/labels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/media.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/background-variant.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/border-radius.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/center-block.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/clearfix.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/gradients.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/grid-framework.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/hide-text.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/image.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/labels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/nav-divider.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/nav-vertical-align.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/opacity.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/panels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/progress-bar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/reset-filter.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/reset-text.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/resize.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/responsive-visibility.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/size.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/tab-focus.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/table-row.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/text-emphasis.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/text-overflow.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/mixins/vendor-prefixes.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/modals.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/navs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/normalize.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/pager.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/panels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/popovers.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/print.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/progress-bars.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/responsive-embed.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/responsive-utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/scaffolding.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/tables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/theme.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/thumbnails.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/type.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/less/wells.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/node_modules/bootstrap/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/d3-tip/LICENSE" afterPath="$PROJECT_DIR$/static/lib/js/d3-tip/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/d3-tip/README.md" afterPath="$PROJECT_DIR$/static/lib/js/d3-tip/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/d3-tip/bower.json" afterPath="$PROJECT_DIR$/static/lib/js/d3-tip/bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/d3-tip/index.js" afterPath="$PROJECT_DIR$/static/lib/js/d3-tip/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/d3-tip/package.json" afterPath="$PROJECT_DIR$/static/lib/js/d3-tip/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/d3/LICENSE" afterPath="$PROJECT_DIR$/static/lib/js/d3/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/d3/README.md" afterPath="$PROJECT_DIR$/static/lib/js/d3/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/d3/bower.json" afterPath="$PROJECT_DIR$/static/lib/js/d3/bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/d3/d3.js" afterPath="$PROJECT_DIR$/static/lib/js/d3/d3.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower_components/d3/d3.min.js" afterPath="$PROJECT_DIR$/static/lib/js/d3/d3.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/static/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/static/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/overviewChart.js" afterPath="$PROJECT_DIR$/static/js/overviewChart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/subjectChart.js" afterPath="$PROJECT_DIR$/static/js/subjectChart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/yearChart.js" afterPath="$PROJECT_DIR$/static/js/yearChart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw_data/saudi_edu_data.csv" afterPath="$PROJECT_DIR$/raw_data/saudi_edu_data.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="$PROJECT_DIR$/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/main.js" afterPath="$PROJECT_DIR$/static/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/subjectChart.js" afterPath="$PROJECT_DIR$/static/js/subjectChart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/yearChart.js" afterPath="$PROJECT_DIR$/static/js/yearChart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
     </list>
     <ignored path="SaudiWIC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -905,14 +32,36 @@
     <favorites_list name="SaudiWIC" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46012834">
+    <splitter split-orientation="horizontal" split-proportion="0.2823098">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/templates/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.8461537">
-                  <caret line="165" column="51" selection-start-line="165" selection-start-column="51" selection-end-line="165" selection-end-column="51" />
+                <state vertical-scroll-proportion="0.5964912">
+                  <caret line="96" column="31" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="genderChart.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/static/js/genderChart.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-5.0625">
+                  <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
@@ -931,22 +80,32 @@
           <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.4074075">
-                  <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+                <state vertical-scroll-proportion="-11.296296">
+                  <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
-                    <element signature="e#2399#2519#0" expanded="false" />
-                    <element signature="e#2619#2842#0" expanded="false" />
+                    <element signature="e#2639#2759#0" expanded="false" />
+                    <element signature="e#2859#3082#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="yearChart.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="levelChart.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/static/js/levelChart.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-2.8888888">
+                  <caret line="122" column="39" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="yearChart.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/js/yearChart.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-4.4262295">
-                  <caret line="5" column="45" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="45" />
+                <state vertical-scroll-proportion="-2.7777777">
+                  <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -974,16 +133,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="test.tsv" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test.tsv">
               <provider selected="true" editor-type-id="text-editor">
@@ -994,35 +143,25 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="girls-name.csv" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/girls-name.csv">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-19.925926">
-                  <caret line="135991" column="22" selection-start-line="135991" selection-start-column="22" selection-end-line="135991" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="subjectChart.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="subjectChart.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/js/subjectChart.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.1735294">
-                  <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+                <state vertical-scroll-proportion="-0.9375">
+                  <caret line="22" column="61" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="61" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/static/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-25.083334">
-                  <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
+                <state vertical-scroll-proportion="0.86178863">
+                  <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -1088,11 +227,13 @@
         <option value="$PROJECT_DIR$/static/js/charts.js" />
         <option value="$PROJECT_DIR$/static/js/overviewChart.js" />
         <option value="$PROJECT_DIR$/data/saudi_edu_data.csv" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/static/js/yearChart.js" />
-        <option value="$PROJECT_DIR$/static/css/style.css" />
-        <option value="$PROJECT_DIR$/static/js/main.js" />
         <option value="$PROJECT_DIR$/static/js/subjectChart.js" />
+        <option value="$PROJECT_DIR$/static/js/yearChart.js" />
+        <option value="$PROJECT_DIR$/static/js/genderChart.js" />
+        <option value="$PROJECT_DIR$/static/js/main.js" />
+        <option value="$PROJECT_DIR$/static/js/levelChart.js" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
       </list>
     </option>
   </component>
@@ -1196,38 +337,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SaudiWIC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SaudiWIC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SaudiWIC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SaudiWIC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -1265,6 +374,7 @@
       <recent name="$PROJECT_DIR$/data/years" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/static/lib/js" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/static/lib/css" />
@@ -1557,7 +667,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21959943" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1568,7 +678,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39638555" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37777779" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37777779" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1880,14 +990,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1930,22 +1032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OverviewChart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.875">
-          <caret line="51" column="51" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8461537">
-          <caret line="165" column="51" selection-start-line="165" selection-start-column="51" selection-end-line="165" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/saudi_edu_data.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33233082">
@@ -1954,38 +1040,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/OverviewChart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.083334">
-          <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
+        <state vertical-scroll-proportion="-31.875">
+          <caret line="51" column="51" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/yearChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7777777">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/genderChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0625">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4074075">
-          <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+        <state vertical-scroll-proportion="-11.296296">
+          <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#2399#2519#0" expanded="false" />
-            <element signature="e#2619#2842#0" expanded="false" />
+            <element signature="e#2639#2759#0" expanded="false" />
+            <element signature="e#2859#3082#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/yearChart.js">
+    <entry file="file://$PROJECT_DIR$/static/js/levelChart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4262295">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="45" />
+        <state vertical-scroll-proportion="-2.8888888">
+          <caret line="122" column="39" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5964912">
+          <caret line="96" column="31" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/subjectChart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1735294">
-          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+        <state vertical-scroll-proportion="-0.9375">
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.86178863">
+          <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
           <folding />
         </state>
       </provider>

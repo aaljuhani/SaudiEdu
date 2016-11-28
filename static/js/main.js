@@ -76,6 +76,10 @@
         self.charts.push(yearChart);
         var subjectChart = new SubjectChart("#subject-chart", subjectDim, subjectGroup);
         self.charts.push(subjectChart);
+        var genderChart = new GenderChart("#gender-chart", genderDim, genderGroup);
+        self.charts.push(genderChart);
+        var levelChart = new LevelChart("#level-chart", levelDim, levelGroup);
+        self.charts.push(levelChart);
 
     }
     /**

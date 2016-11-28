@@ -39,7 +39,8 @@ YearChart.prototype.init = function () {
         .domain(self.group.all().map(function (d) {
             return d.key
         }))
-        .range([0, self.svgWidth - 50]);//.padding(.1);
+        .rangeRound([0, self.svgWidth - 50])
+        .padding(.3);
 
     self.maxValue = self.group.top(1)[0]["value"];
 

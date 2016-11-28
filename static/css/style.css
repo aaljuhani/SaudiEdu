@@ -85,8 +85,6 @@
     }
 
     rect{
-       stroke: #404040;;
-    stroke-width:2;
 
     }
 
@@ -96,6 +94,10 @@
 
    .bringToFront{
        z-index: -10;
+   }
+
+   .fullView{
+       height: 100%;
    }
 
 

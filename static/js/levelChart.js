@@ -2,9 +2,10 @@
  * Created by asmaa on 11/11/16.
  */
 /**
- * Constructor for the subject Chart
+ * Constructor for the level Chart
  */
-function SubjectChart(selector, dimension, group) {
+function LevelChart(selector, dimension, group) {
+    console.log('level')
     var self = this;
     self.selector = selector;
     self.dimension = dimension;
@@ -16,7 +17,7 @@ function SubjectChart(selector, dimension, group) {
 /**
  * Initializes the svg elements required for this chart
  */
-SubjectChart.prototype.init = function () {
+LevelChart.prototype.init = function () {
     var self = this;
     self.margin = {top: 10, right: 10, bottom: 10, left: 10};
 
@@ -26,7 +27,7 @@ SubjectChart.prototype.init = function () {
     self.svgBounds = divChart.node().getBoundingClientRect();
     console.log(self.svgBounds)
     self.svgWidth = self.svgBounds.width - self.margin.left - self.margin.right;
-    self.svgHeight = 600;
+    self.svgHeight = 200 - self.margin.top - self.margin.bottom;;
 
     //creates svg element within the div
     self.svg = divChart.append("svg")
@@ -48,7 +49,7 @@ SubjectChart.prototype.init = function () {
             return d.key
         }))
         .rangeRound([ 0, self.svgHeight - 20])
-        //.padding(.3);
+        .padding(.5)
 
     // color scale
 
@@ -66,7 +67,7 @@ SubjectChart.prototype.init = function () {
 
 
     self.svg.select('g').append('g')
-        .attr('id', 'subject-bars')
+        .attr('id', 'level-bars')
         //.attr("transform", "translate(0, -20)")
 
     //brush
@@ -85,13 +86,13 @@ self.update();
  *
  *
  */
-SubjectChart.prototype.update = function () {
+LevelChart.prototype.update = function () {
     var self = this;
 
-    self.bars = d3.select('#subject-bars').selectAll("rect").data(self.group.top(Infinity));
+    self.bars = d3.select('#level-bars').selectAll("rect").data(self.group.top(Infinity));
     self.bars = self.bars.enter()
         .append('rect')
-        .attr('class', 'subject-bar')
+        .attr('class', 'level-bar')
         .merge(self.bars);
 
     self.bars.exit().remove();
@@ -112,7 +113,7 @@ SubjectChart.prototype.update = function () {
     self.svg.select('g').append("g")
         .attr('id', 'xAxis')
         .attr("transform", "translate(0," + (self.svgHeight - 20) + ")")
-        .call(d3.axisBottom(self.xScale).tickFormat(d3.format(".0s")));
+        .call(d3.axisBottom(self.xScale));//.tickFormat(d3.format(".0s")));
 
     // Add the Y Axis
     self.svg.select('g').append("g")
