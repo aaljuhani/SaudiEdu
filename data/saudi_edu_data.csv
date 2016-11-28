@@ -1,0 +1,1977 @@
+year,hijri,subject,gender,level,location,value
+2004,1425,Teachers Training,female,undergrad,local,13242
+2004,1425,Humanities,female,undergrad,local,8113
+2004,1425,Islamic Studies,male,diploma,local,5281
+2004,1425,Teachers Training,male,undergrad,local,4009
+2004,1425,Education,female,undergrad,local,3325
+2004,1425,Mathematics and Statistics,female,undergrad,local,3158
+2004,1425,Information Technology,male,diploma,local,2893
+2004,1425,Islamic Studies,male,undergrad,local,2832
+2004,1425,Business and Management,male,diploma,local,2745
+2004,1425,Humanities,male,undergrad,local,2700
+2004,1425,Islamic Studies,female,undergrad,local,2201
+2004,1425,Business and Management,female,undergrad,local,2086
+2004,1425,Business and Management,male,undergrad,local,1658
+2004,1425,Other,female,undergrad,local,1612
+2004,1425,Health,male,diploma,local,1580
+2004,1425,Social and Behavioral Sciences,female,undergrad,local,1508
+2004,1425,Other,male,undergrad,local,1345
+2004,1425,Life Sciences,female,undergrad,local,1308
+2004,1425,Information Technology,female,diploma,local,1300
+2004,1425,Mathematics and Statistics,male,undergrad,local,1170
+2004,1425,Education,male,undergrad,local,1073
+2004,1425,Journalism and Media,male,undergrad,local,1067
+2004,1425,Health,female,diploma,local,1033
+2004,1425,Engineering and Engeneering Trades,male,diploma,local,969
+2004,1425,Humanities,male,diploma,local,951
+2004,1425,Information Technology,male,undergrad,local,761
+2004,1425,Health,male,undergrad,local,699
+2004,1425,Social and Behavioral Sciences,male,undergrad,local,681
+2004,1425,Physical Sciences,female,undergrad,local,624
+2004,1425,Arts,female,undergrad,local,600
+2004,1425,Health,female,undergrad,local,556
+2004,1425,Life Sciences,male,undergrad,local,510
+2004,1425,Information Technology,female,undergrad,local,504
+2004,1425,Engineering and Engeneering Trades,male,undergrad,local,498
+2004,1425,Humanities,female,diploma,local,492
+2004,1425,Physical Sciences,male,undergrad,local,475
+2004,1425,Journalism and Media,female,undergrad,local,474
+2004,1425,Arts,male,undergrad,local,461
+2004,1425,Social Services,female,undergrad,local,334
+2004,1425,Other,female,diploma,local,311
+2004,1425,Teachers Training,male,diploma,local,280
+2004,1425,Architecture and Construction,male,undergrad,local,258
+2004,1425,Architecture and Construction,male,diploma,local,255
+2004,1425,Business and Management,female,diploma,local,210
+2004,1425,"Agriculture, Forestry and Fishery",male,diploma,local,180
+2004,1425,Education,male,grad,local,167
+2004,1425,"Agriculture, Forestry and Fishery",male,undergrad,local,155
+2004,1425, Basic Programs,male,undergrad,local,133
+2004,1425,Social Services,male,undergrad,local,128
+2004,1425, Basic Programs,female,undergrad,local,103
+2004,1425,Education,female,grad,local,101
+2004,1425,Life Sciences,male,grad,local,101
+2004,1425,Other,male,diploma,local,100
+2004,1425,Teachers Training,female,grad,local,88
+2004,1425,Manufacturing and Processing,female,undergrad,local,80
+2004,1425,Education,male,diploma,local,79
+2004,1425, Basic Programs,female,diploma,local,63
+2004,1425,Business and Management,male,grad,local,61
+2004,1425,Social Services,female,diploma,local,54
+2004,1425,Humanities,female,grad,local,53
+2004,1425,Islamic Studies,male,grad,local,38
+2004,1425,  Veterinary Medicine,male,undergrad,local,36
+2004,1425,Arts,male,grad,local,29
+2004,1425,Information Technology,male,grad,local,29
+2004,1425,Social and Behavioral Sciences,female,grad,local,26
+2004,1425,Business and Management,female,grad,local,24
+2004,1425,Environmental Protection,female,undergrad,local,23
+2004,1425,Other,male,grad,local,20
+2004,1425,Information Technology,female,grad,local,18
+2004,1425,Other,female,grad,local,17
+2004,1425,Physical Sciences,female,grad,local,17
+2004,1425,Arts,female,grad,local,15
+2004,1425,Engineering and Engeneering Trades,male,grad,local,13
+2004,1425,Life Sciences,female,grad,local,12
+2004,1425,Mathematics and Statistics,female,grad,local,12
+2004,1425,Humanities,male,grad,local,11
+2004,1425,Social and Behavioral Sciences,male,grad,local,10
+2004,1425,Architecture and Construction,male,grad,local,8
+2004,1425,Islamic Studies,female,grad,local,8
+2004,1425,Physical Sciences,male,grad,local,8
+2004,1425,Journalism and Media,male,grad,local,6
+2004,1425,Social Services,female,grad,local,6
+2004,1425,Mathematics and Statistics,male,grad,local,5
+2004,1425,Health,female,grad,local,4
+2004,1425,Physical Sciences,male,diploma,local,4
+2004,1425,Teachers Training,male,grad,local,4
+2004,1425, Basic Programs,female,grad,local,3
+2004,1425,Health,male,grad,local,3
+2004,1425, Basic Programs,male,grad,local,2
+2004,1425,"Agriculture, Forestry and Fishery",male,grad,local,2
+2004,1425,Social Services,male,grad,local,2
+2004,1425,Arts,male,diploma,local,1
+2004,1425,Journalism and Media,male,diploma,local,1
+2004,1425,Journalism and Media,female,grad,local,1
+2004,1425,  Veterinary Medicine,female,undergrad,local,0
+2004,1425, Basic Programs,male,diploma,local,0
+2004,1425,"Agriculture, Forestry and Fishery",female,diploma,local,0
+2004,1425,"Agriculture, Forestry and Fishery",female,undergrad,local,0
+2004,1425,"Agriculture, Forestry and Fishery",female,grad,local,0
+2004,1425,Architecture and Construction,female,diploma,local,0
+2004,1425,Architecture and Construction,female,undergrad,local,0
+2004,1425,Architecture and Construction,female,grad,local,0
+2004,1425,Arts,female,diploma,local,0
+2004,1425,Education,female,diploma,local,0
+2004,1425,Engineering and Engeneering Trades,female,diploma,local,0
+2004,1425,Engineering and Engeneering Trades,female,undergrad,local,0
+2004,1425,Engineering and Engeneering Trades,female,grad,local,0
+2004,1425,Environmental Protection,male,undergrad,local,0
+2004,1425,Islamic Studies,female,diploma,local,0
+2004,1425,Journalism and Media,female,diploma,local,0
+2004,1425,Manufacturing and Processing,male,undergrad,local,0
+2004,1425,Physical Sciences,female,diploma,local,0
+2004,1425,Social Services,male,diploma,local,0
+2004,1425,Teachers Training,female,diploma,local,0
+2005,1426,Humanities,female,undergrad,local,14094
+2005,1426,Social and Behavioral Sciences,female,undergrad,local,6956
+2005,1426,Islamic Studies,female,undergrad,local,6707
+2005,1426,Humanities,male,undergrad,local,5473
+2005,1426,Engineering and Engeneering Trades,male,diploma,local,4407
+2005,1426,Business and Management,male,diploma,local,4257
+2005,1426,Mathematics and Statistics,female,undergrad,local,4254
+2005,1426,Physical Sciences,female,undergrad,local,4030
+2005,1426,Islamic Studies,male,undergrad,local,3142
+2005,1426,Information Technology,female,diploma,local,2944
+2005,1426,Information Technology,male,diploma,local,2885
+2005,1426,Life Sciences,female,undergrad,local,2583
+2005,1426,Education,female,undergrad,local,2108
+2005,1426,Health,male,diploma,local,2029
+2005,1426,Health,female,undergrad,local,1818
+2005,1426,Business and Management,male,undergrad,local,1666
+2005,1426,Information Technology,male,undergrad,local,1638
+2005,1426,Mathematics and Statistics,male,undergrad,local,1610
+2005,1426,Health,female,diploma,local,1458
+2005,1426, Basic Programs,male,undergrad,local,1410
+2005,1426,Engineering and Engeneering Trades,male,undergrad,local,1387
+2005,1426,Business and Management,female,undergrad,local,1305
+2005,1426,Health,male,undergrad,local,1207
+2005,1426,Teachers Training,female,undergrad,local,1202
+2005,1426,Life Sciences,male,undergrad,local,1193
+2005,1426,Physical Sciences,male,undergrad,local,774
+2005,1426, Basic Programs,female,undergrad,local,732
+2005,1426,Information Technology,female,undergrad,local,662
+2005,1426,Social and Behavioral Sciences,male,undergrad,local,640
+2005,1426,Humanities,female,diploma,local,601
+2005,1426,Education,male,undergrad,local,595
+2005,1426,Other,male,undergrad,local,540
+2005,1426,Teachers Training,male,diploma,local,483
+2005,1426,Architecture and Construction,male,undergrad,local,463
+2005,1426,Business and Management,female,diploma,local,415
+2005,1426,Journalism and Media,female,undergrad,local,401
+2005,1426,Other,female,undergrad,local,369
+2005,1426,Journalism and Media,male,undergrad,local,358
+2005,1426,Humanities,male,diploma,local,301
+2005,1426,Law,male,undergrad,local,243
+2005,1426,Architecture and Construction,male,diploma,local,235
+2005,1426,"Agriculture, Forestry and Fishery",male,diploma,local,232
+2005,1426,Islamic Studies,male,grad,local,201
+2005,1426,"Agriculture, Forestry and Fishery",male,undergrad,local,179
+2005,1426,Education,female,grad,local,168
+2005,1426,Education,male,grad,local,154
+2005,1426,Life Sciences,male,diploma,local,143
+2005,1426,  Veterinary Medicine,male,undergrad,local,100
+2005,1426,Humanities,female,grad,local,85
+2005,1426,Physical Sciences,male,diploma,local,75
+2005,1426,Other,male,grad,local,71
+2005,1426,Islamic Studies,female,diploma,local,65
+2005,1426,Business and Management,male,grad,local,58
+2005,1426,Humanities,male,grad,local,58
+2005,1426,Islamic Studies,female,grad,local,57
+2005,1426,Social and Behavioral Sciences,female,grad,local,55
+2005,1426,Architecture and Construction,female,undergrad,local,53
+2005,1426,Business and Management,female,grad,local,52
+2005,1426,Engineering and Engeneering Trades,male,grad,local,49
+2005,1426,"Agriculture, Forestry and Fishery",female,undergrad,local,44
+2005,1426,Physical Sciences,female,grad,local,43
+2005,1426,Health,female,grad,local,42
+2005,1426,Law,male,diploma,local,37
+2005,1426,Social and Behavioral Sciences,male,grad,local,36
+2005,1426,Mathematics and Statistics,female,grad,local,35
+2005,1426,Life Sciences,female,grad,local,34
+2005,1426,Physical Sciences,male,grad,local,34
+2005,1426,Other,female,diploma,local,33
+2005,1426,Architecture and Construction,male,grad,local,28
+2005,1426,"Agriculture, Forestry and Fishery",male,grad,local,27
+2005,1426,Life Sciences,male,grad,local,23
+2005,1426,Education,male,diploma,local,21
+2005,1426,Information Technology,male,grad,local,18
+2005,1426,Physical Sciences,female,diploma,local,15
+2005,1426,Health,male,grad,local,14
+2005,1426,Teachers Training,female,grad,local,14
+2005,1426,Social and Behavioral Sciences,male,diploma,local,13
+2005,1426,Mathematics and Statistics,male,grad,local,10
+2005,1426,Journalism and Media,male,grad,local,9
+2005,1426,Information Technology,female,grad,local,8
+2005,1426,  Veterinary Medicine,male,grad,local,7
+2005,1426,Mathematics and Statistics,male,diploma,local,7
+2005,1426,Law,male,grad,local,6
+2005,1426,Journalism and Media,female,grad,local,4
+2005,1426,Teachers Training,male,grad,local,2
+2005,1426,Architecture and Construction,female,grad,local,1
+2005,1426,  Veterinary Medicine,female,undergrad,local,0
+2005,1426,  Veterinary Medicine,female,grad,local,0
+2005,1426,"Agriculture, Forestry and Fishery",female,diploma,local,0
+2005,1426,"Agriculture, Forestry and Fishery",female,grad,local,0
+2005,1426,Architecture and Construction,female,diploma,local,0
+2005,1426,Education,female,diploma,local,0
+2005,1426,Engineering and Engeneering Trades,female,diploma,local,0
+2005,1426,Engineering and Engeneering Trades,female,undergrad,local,0
+2005,1426,Engineering and Engeneering Trades,female,grad,local,0
+2005,1426,Islamic Studies,male,diploma,local,0
+2005,1426,Law,female,diploma,local,0
+2005,1426,Law,female,undergrad,local,0
+2005,1426,Law,female,grad,local,0
+2005,1426,Life Sciences,female,diploma,local,0
+2005,1426,Mathematics and Statistics,female,diploma,local,0
+2005,1426,Other,male,diploma,local,0
+2005,1426,Other,female,grad,local,0
+2005,1426,Social and Behavioral Sciences,female,diploma,local,0
+2005,1426,Teachers Training,female,diploma,local,0
+2005,1426,Teachers Training,male,undergrad,local,0
+2006,1427,Humanities,female,undergrad,local,13895
+2006,1427,Islamic Studies,female,undergrad,local,8442
+2006,1427,Islamic Studies,male,diploma,local,7881
+2006,1427,Social and Behavioral Sciences,female,undergrad,local,6563
+2006,1427,Humanities,male,undergrad,local,5136
+2006,1427,Mathematics and Statistics,female,undergrad,local,3908
+2006,1427,Physical Sciences,female,undergrad,local,3434
+2006,1427,Life Sciences,female,undergrad,local,3326
+2006,1427,Islamic Studies,male,undergrad,local,2815
+2006,1427,Education,female,undergrad,local,2634
+2006,1427,Health,male,diploma,local,2631
+2006,1427,Business and Management,male,undergrad,local,2535
+2006,1427,Health,female,diploma,local,2246
+2006,1427,Engineering and Engeneering Trades,male,diploma,local,2052
+2006,1427,Business and Management,female,undergrad,local,2028
+2006,1427,Information Technology,female,diploma,local,1967
+2006,1427,Information Technology,male,undergrad,local,1661
+2006,1427, Basic Programs,male,undergrad,local,1545
+2006,1427,Mathematics and Statistics,male,undergrad,local,1491
+2006,1427,Health,female,undergrad,local,1487
+2006,1427,Information Technology,male,diploma,local,1441
+2006,1427,Health,male,undergrad,local,1314
+2006,1427,Engineering and Engeneering Trades,male,undergrad,local,1287
+2006,1427,Education,male,undergrad,local,1238
+2006,1427,Life Sciences,male,undergrad,local,1179
+2006,1427,Business and Management,male,diploma,local,1172
+2006,1427,Journalism and Media,female,undergrad,local,1074
+2006,1427,Information Technology,female,undergrad,local,1005
+2006,1427,Social Services,female,undergrad,local,999
+2006,1427,Humanities,male,diploma,local,922
+2006,1427, Basic Programs,female,undergrad,local,907
+2006,1427,Social and Behavioral Sciences,male,undergrad,local,706
+2006,1427,Arts,female,undergrad,local,641
+2006,1427,Teachers Training,male,diploma,local,567
+2006,1427,Architecture and Construction,male,undergrad,local,563
+2006,1427,Teachers Training,male,undergrad,local,457
+2006,1427,Business and Management,female,diploma,local,453
+2006,1427,Humanities,female,diploma,local,449
+2006,1427,Teachers Training,female,undergrad,local,399
+2006,1427,Physical Sciences,male,undergrad,local,392
+2006,1427,Journalism and Media,male,undergrad,local,379
+2006,1427,Personal Services,male,diploma,local,246
+2006,1427,Education,male,grad,local,243
+2006,1427,Humanities,male,grad,local,228
+2006,1427,"Agriculture, Forestry and Fishery",female,undergrad,local,221
+2006,1427,Manufacturing and Processing,female,undergrad,local,217
+2006,1427,Islamic Studies,male,grad,local,202
+2006,1427,Social and Behavioral Sciences,male,diploma,local,132
+2006,1427,Social Services,male,undergrad,local,126
+2006,1427,Education,female,grad,local,108
+2006,1427,Business and Management,male,grad,local,102
+2006,1427, Basic Programs,female,diploma,local,101
+2006,1427,Arts,male,undergrad,local,99
+2006,1427,Life Sciences,male,diploma,local,99
+2006,1427,Other,female,undergrad,local,87
+2006,1427,"Agriculture, Forestry and Fishery",male,undergrad,local,81
+2006,1427,Manufacturing and Processing,male,diploma,local,77
+2006,1427,Law,male,diploma,local,75
+2006,1427,Humanities,female,grad,local,71
+2006,1427,Islamic Studies,female,diploma,local,70
+2006,1427, Basic Programs,male,diploma,local,62
+2006,1427,  Veterinary Medicine,male,undergrad,local,58
+2006,1427,Islamic Studies,female,grad,local,51
+2006,1427,Health,female,grad,local,49
+2006,1427,Business and Management,female,grad,local,44
+2006,1427,Other,male,undergrad,local,44
+2006,1427, Basic Programs,male,grad,local,41
+2006,1427,Engineering and Engeneering Trades,male,grad,local,41
+2006,1427,Life Sciences,female,grad,local,39
+2006,1427,Physical Sciences,female,grad,local,39
+2006,1427,Social and Behavioral Sciences,female,grad,local,37
+2006,1427,Manufacturing and Processing,female,diploma,local,36
+2006,1427,Social and Behavioral Sciences,female,diploma,local,36
+2006,1427,Mathematics and Statistics,female,grad,local,34
+2006,1427,Health,male,grad,local,30
+2006,1427,Journalism and Media,male,grad,local,29
+2006,1427,Physical Sciences,male,grad,local,29
+2006,1427,Architecture and Construction,female,undergrad,local,22
+2006,1427,Architecture and Construction,male,grad,local,22
+2006,1427,Physical Sciences,female,diploma,local,22
+2006,1427,Education,male,diploma,local,21
+2006,1427,Social and Behavioral Sciences,male,grad,local,20
+2006,1427,Architecture and Construction,male,diploma,local,19
+2006,1427,Life Sciences,male,grad,local,19
+2006,1427,Mathematics and Statistics,female,diploma,local,18
+2006,1427,Physical Sciences,male,diploma,local,18
+2006,1427,Information Technology,male,grad,local,16
+2006,1427,Social Services,female,grad,local,16
+2006,1427,Arts,female,grad,local,14
+2006,1427,Mathematics and Statistics,male,grad,local,12
+2006,1427, Basic Programs,female,grad,local,11
+2006,1427,Journalism and Media,female,grad,local,11
+2006,1427,Other,female,grad,local,11
+2006,1427,"Agriculture, Forestry and Fishery",male,grad,local,10
+2006,1427,Social Services,male,grad,local,6
+2006,1427,Arts,male,grad,local,5
+2006,1427,Information Technology,female,grad,local,5
+2006,1427,Other,male,grad,local,5
+2006,1427,Manufacturing and Processing,female,grad,local,4
+2006,1427,Environmental Protection,male,undergrad,local,2
+2006,1427,  Veterinary Medicine,male,grad,local,1
+2006,1427,Teachers Training,female,grad,local,1
+2006,1427,  Veterinary Medicine,female,undergrad,local,0
+2006,1427,  Veterinary Medicine,female,grad,local,0
+2006,1427,"Agriculture, Forestry and Fishery",female,grad,local,0
+2006,1427,Architecture and Construction,female,diploma,local,0
+2006,1427,Architecture and Construction,female,grad,local,0
+2006,1427,Education,female,diploma,local,0
+2006,1427,Engineering and Engeneering Trades,female,diploma,local,0
+2006,1427,Engineering and Engeneering Trades,female,undergrad,local,0
+2006,1427,Engineering and Engeneering Trades,female,grad,local,0
+2006,1427,Environmental Protection,female,undergrad,local,0
+2006,1427,Law,female,diploma,local,0
+2006,1427,Law,male,grad,local,0
+2006,1427,Law,female,grad,local,0
+2006,1427,Life Sciences,female,diploma,local,0
+2006,1427,Manufacturing and Processing,male,undergrad,local,0
+2006,1427,Manufacturing and Processing,male,grad,local,0
+2006,1427,Mathematics and Statistics,male,diploma,local,0
+2006,1427,Personal Services,female,diploma,local,0
+2006,1427,Teachers Training,female,diploma,local,0
+2006,1427,Teachers Training,male,grad,local,0
+2007,1428,Humanities,female,undergrad,local,10550
+2007,1428,Education,female,undergrad,local,9680
+2007,1428,Islamic Studies,female,undergrad,local,8399
+2007,1428,Social and Behavioral Sciences,female,undergrad,local,5414
+2007,1428,Life Sciences,female,undergrad,local,3848
+2007,1428,Mathematics and Statistics,female,undergrad,local,3787
+2007,1428,Education,male,undergrad,local,3773
+2007,1428,Humanities,male,undergrad,local,3525
+2007,1428,Physical Sciences,female,undergrad,local,3450
+2007,1428,Islamic Studies,male,diploma,local,3021
+2007,1428,Engineering and Engeneering Trades,male,diploma,local,2928
+2007,1428,Business and Management,male,diploma,local,2675
+2007,1428,Business and Management,male,undergrad,local,2595
+2007,1428,Business and Management,female,undergrad,local,2474
+2007,1428,Islamic Studies,male,undergrad,local,2411
+2007,1428,Information Technology,female,diploma,local,2345
+2007,1428,Information Technology,male,diploma,local,2337
+2007,1428,Humanities,male,diploma,local,2128
+2007,1428,Health,male,diploma,local,2108
+2007,1428,Health,female,undergrad,local,1986
+2007,1428,Health,male,undergrad,local,1786
+2007,1428,Information Technology,female,undergrad,local,1625
+2007,1428,Information Technology,male,undergrad,local,1510
+2007,1428,Life Sciences,male,undergrad,local,1274
+2007,1428,Teachers Training,female,undergrad,local,1243
+2007,1428,Health,female,diploma,local,1166
+2007,1428,Engineering and Engeneering Trades,male,undergrad,local,1150
+2007,1428, Basic Programs,female,undergrad,local,1140
+2007,1428,Teachers Training,male,undergrad,local,1052
+2007,1428,Education,male,diploma,local,1040
+2007,1428,Humanities,female,diploma,local,1036
+2007,1428,Social Services,female,undergrad,local,984
+2007,1428,Physical Sciences,male,undergrad,local,983
+2007,1428,Journalism and Media,female,undergrad,local,950
+2007,1428,Mathematics and Statistics,male,undergrad,local,935
+2007,1428,Architecture and Construction,male,undergrad,local,746
+2007,1428,Social and Behavioral Sciences,male,diploma,local,710
+2007,1428, Basic Programs,male,undergrad,local,679
+2007,1428,Education,female,diploma,local,533
+2007,1428,Social and Behavioral Sciences,male,undergrad,local,450
+2007,1428,Journalism and Media,male,undergrad,local,349
+2007,1428,Islamic Studies,male,grad,local,323
+2007,1428,Business and Management,female,diploma,local,321
+2007,1428,Life Sciences,female,diploma,local,309
+2007,1428,Manufacturing and Processing,female,undergrad,local,306
+2007,1428,"Agriculture, Forestry and Fishery",male,undergrad,local,268
+2007,1428,Architecture and Construction,male,diploma,local,260
+2007,1428,Manufacturing and Processing,male,diploma,local,240
+2007,1428,Social Services,male,diploma,local,236
+2007,1428,Education,male,grad,local,228
+2007,1428,Social Services,male,undergrad,local,228
+2007,1428,Arts,female,undergrad,local,201
+2007,1428,Business and Management,male,grad,local,190
+2007,1428,"Agriculture, Forestry and Fishery",male,diploma,local,186
+2007,1428, Basic Programs,male,diploma,local,185
+2007,1428,Law,female,undergrad,local,158
+2007,1428,Arts,male,diploma,local,142
+2007,1428,Teachers Training,male,diploma,local,142
+2007,1428,Education,female,grad,local,110
+2007,1428,Humanities,female,grad,local,109
+2007,1428, Basic Programs,female,diploma,local,108
+2007,1428,Social and Behavioral Sciences,male,grad,local,102
+2007,1428,Islamic Studies,female,grad,local,101
+2007,1428,Engineering and Engeneering Trades,male,grad,local,100
+2007,1428,Humanities,male,grad,local,98
+2007,1428,Life Sciences,male,diploma,local,89
+2007,1428,Health,male,grad,local,87
+2007,1428,Social and Behavioral Sciences,female,diploma,local,85
+2007,1428,Business and Management,female,grad,local,84
+2007,1428,Physical Sciences,male,diploma,local,83
+2007,1428,Law,male,diploma,local,75
+2007,1428,Arts,male,undergrad,local,72
+2007,1428,Life Sciences,male,grad,local,70
+2007,1428,Journalism and Media,male,grad,local,65
+2007,1428,"Agriculture, Forestry and Fishery",female,undergrad,local,61
+2007,1428,Personal Services,male,diploma,local,57
+2007,1428,Health,female,grad,local,56
+2007,1428,Journalism and Media,female,diploma,local,53
+2007,1428,  Veterinary Medicine,male,undergrad,local,48
+2007,1428,Journalism and Media,male,diploma,local,48
+2007,1428,Architecture and Construction,female,undergrad,local,46
+2007,1428,Life Sciences,female,grad,local,45
+2007,1428,Social and Behavioral Sciences,female,grad,local,43
+2007,1428,Architecture and Construction,male,grad,local,39
+2007,1428,Information Technology,male,grad,local,28
+2007,1428,Physical Sciences,male,grad,local,28
+2007,1428,"Agriculture, Forestry and Fishery",male,grad,local,26
+2007,1428,Social Services,female,grad,local,26
+2007,1428,Mathematics and Statistics,female,grad,local,25
+2007,1428,Manufacturing and Processing,male,undergrad,local,21
+2007,1428,Mathematics and Statistics,male,grad,local,20
+2007,1428,Arts,male,grad,local,18
+2007,1428,Journalism and Media,female,grad,local,18
+2007,1428,Physical Sciences,female,grad,local,18
+2007,1428,Personal Services,male,undergrad,local,13
+2007,1428, Basic Programs,male,grad,local,11
+2007,1428,Social Services,male,grad,local,10
+2007,1428,Information Technology,female,grad,local,8
+2007,1428,Other,male,undergrad,local,8
+2007,1428, Basic Programs,female,grad,local,3
+2007,1428,Arts,female,grad,local,3
+2007,1428,"Agriculture, Forestry and Fishery",female,grad,local,2
+2007,1428,Teachers Training,female,grad,local,1
+2007,1428,  Veterinary Medicine,female,undergrad,local,0
+2007,1428,"Agriculture, Forestry and Fishery",female,diploma,local,0
+2007,1428,Architecture and Construction,female,diploma,local,0
+2007,1428,Architecture and Construction,female,grad,local,0
+2007,1428,Arts,female,diploma,local,0
+2007,1428,Engineering and Engeneering Trades,female,diploma,local,0
+2007,1428,Engineering and Engeneering Trades,female,undergrad,local,0
+2007,1428,Engineering and Engeneering Trades,female,grad,local,0
+2007,1428,Islamic Studies,female,diploma,local,0
+2007,1428,Law,female,diploma,local,0
+2007,1428,Law,male,undergrad,local,0
+2007,1428,Law,male,grad,local,0
+2007,1428,Law,female,grad,local,0
+2007,1428,Manufacturing and Processing,female,diploma,local,0
+2007,1428,Other,female,undergrad,local,0
+2007,1428,Personal Services,female,diploma,local,0
+2007,1428,Personal Services,female,undergrad,local,0
+2007,1428,Physical Sciences,female,diploma,local,0
+2007,1428,Social Services,female,diploma,local,0
+2007,1428,Teachers Training,female,diploma,local,0
+2007,1428,Teachers Training,male,grad,local,0
+2008,1429,Humanities,female,undergrad,local,11570
+2008,1429,Education,female,undergrad,local,10803
+2008,1429,Islamic Studies,female,undergrad,local,9140
+2008,1429,Social and Behavioral Sciences,female,undergrad,local,5803
+2008,1429,Education,male,undergrad,local,4390
+2008,1429,Humanities,male,undergrad,local,4093
+2008,1429,Life Sciences,female,undergrad,local,4085
+2008,1429,Mathematics and Statistics,female,undergrad,local,4025
+2008,1429,Physical Sciences,female,undergrad,local,3662
+2008,1429,Islamic Studies,male,diploma,local,3294
+2008,1429,Engineering and Engeneering Trades,male,diploma,local,3193
+2008,1429,Business and Management,male,undergrad,local,3024
+2008,1429,Business and Management,female,undergrad,local,2936
+2008,1429,Business and Management,male,diploma,local,2917
+2008,1429,Islamic Studies,male,undergrad,local,2784
+2008,1429,Information Technology,female,diploma,local,2574
+2008,1429,Information Technology,male,diploma,local,2548
+2008,1429,Humanities,male,diploma,local,2320
+2008,1429,Health,male,diploma,local,2298
+2008,1429,Health,female,undergrad,local,2108
+2008,1429,Health,male,undergrad,local,2062
+2008,1429,Information Technology,male,undergrad,local,1743
+2008,1429,Information Technology,female,undergrad,local,1725
+2008,1429,Life Sciences,male,undergrad,local,1470
+2008,1429,Engineering and Engeneering Trades,male,undergrad,local,1326
+2008,1429,Teachers Training,female,undergrad,local,1326
+2008,1429,Health,female,diploma,local,1280
+2008,1429, Basic Programs,female,undergrad,local,1251
+2008,1429,Teachers Training,male,undergrad,local,1213
+2008,1429,Humanities,female,diploma,local,1137
+2008,1429,Education,male,diploma,local,1134
+2008,1429,Physical Sciences,male,undergrad,local,1134
+2008,1429,Mathematics and Statistics,male,undergrad,local,1078
+2008,1429,Journalism and Media,female,undergrad,local,1066
+2008,1429,Social Services,female,undergrad,local,1044
+2008,1429,Architecture and Construction,male,undergrad,local,860
+2008,1429, Basic Programs,male,undergrad,local,787
+2008,1429,Social and Behavioral Sciences,male,diploma,local,774
+2008,1429,Education,female,diploma,local,585
+2008,1429,Social and Behavioral Sciences,male,undergrad,local,519
+2008,1429,Journalism and Media,male,undergrad,local,403
+2008,1429,Business and Management,female,diploma,local,352
+2008,1429,Islamic Studies,male,grad,local,349
+2008,1429,Life Sciences,female,diploma,local,339
+2008,1429,Manufacturing and Processing,female,undergrad,local,325
+2008,1429,"Agriculture, Forestry and Fishery",male,undergrad,local,309
+2008,1429,Architecture and Construction,male,diploma,local,283
+2008,1429,Social Services,male,undergrad,local,263
+2008,1429,Manufacturing and Processing,male,diploma,local,262
+2008,1429,Social Services,male,diploma,local,257
+2008,1429,Education,male,grad,local,244
+2008,1429,Arts,female,undergrad,local,213
+2008,1429,"Agriculture, Forestry and Fishery",male,diploma,local,203
+2008,1429,Business and Management,male,grad,local,195
+2008,1429,Law,female,undergrad,local,168
+2008,1429,Arts,male,diploma,local,155
+2008,1429,Teachers Training,male,diploma,local,155
+2008,1429,Humanities,male,grad,local,113
+2008,1429,Social and Behavioral Sciences,male,grad,local,112
+2008,1429,Engineering and Engeneering Trades,male,grad,local,106
+2008,1429,Humanities,female,grad,local,103
+2008,1429,Education,female,grad,local,99
+2008,1429,Life Sciences,male,diploma,local,97
+2008,1429,Social and Behavioral Sciences,female,diploma,local,93
+2008,1429,Physical Sciences,male,diploma,local,91
+2008,1429,Health,male,grad,local,90
+2008,1429,Islamic Studies,female,grad,local,90
+2008,1429,Arts,male,undergrad,local,83
+2008,1429,Law,male,diploma,local,82
+2008,1429,Life Sciences,male,grad,local,76
+2008,1429,Journalism and Media,male,grad,local,71
+2008,1429,Business and Management,female,grad,local,70
+2008,1429,"Agriculture, Forestry and Fishery",female,undergrad,local,65
+2008,1429,Personal Services,male,diploma,local,62
+2008,1429,Journalism and Media,female,diploma,local,58
+2008,1429,  Veterinary Medicine,male,undergrad,local,55
+2008,1429,Journalism and Media,male,diploma,local,52
+2008,1429,Health,female,grad,local,51
+2008,1429,Architecture and Construction,female,undergrad,local,49
+2008,1429,Architecture and Construction,male,grad,local,40
+2008,1429,Life Sciences,female,grad,local,39
+2008,1429,Social and Behavioral Sciences,female,grad,local,39
+2008,1429,Information Technology,male,grad,local,29
+2008,1429,Physical Sciences,male,grad,local,29
+2008,1429,"Agriculture, Forestry and Fishery",male,grad,local,25
+2008,1429,Social Services,female,grad,local,25
+2008,1429,Manufacturing and Processing,male,undergrad,local,24
+2008,1429,Mathematics and Statistics,female,grad,local,22
+2008,1429,Mathematics and Statistics,male,grad,local,21
+2008,1429,Arts,male,grad,local,19
+2008,1429,Journalism and Media,female,grad,local,17
+2008,1429,Physical Sciences,female,grad,local,16
+2008,1429,Personal Services,male,undergrad,local,15
+2008,1429,Social Services,male,grad,local,10
+2008,1429,Other,male,undergrad,local,9
+2008,1429,Information Technology,female,grad,local,7
+2008,1429, Basic Programs,male,grad,local,2
+2008,1429, Basic Programs,female,grad,local,2
+2008,1429,"Agriculture, Forestry and Fishery",female,grad,local,2
+2008,1429,Arts,female,grad,local,2
+2008,1429,Teachers Training,female,grad,local,1
+2008,1429,  Veterinary Medicine,female,undergrad,local,0
+2008,1429,"Agriculture, Forestry and Fishery",female,diploma,local,0
+2008,1429,Architecture and Construction,female,diploma,local,0
+2008,1429,Architecture and Construction,female,grad,local,0
+2008,1429,Arts,female,diploma,local,0
+2008,1429,Engineering and Engeneering Trades,female,diploma,local,0
+2008,1429,Engineering and Engeneering Trades,female,undergrad,local,0
+2008,1429,Engineering and Engeneering Trades,female,grad,local,0
+2008,1429,Islamic Studies,female,diploma,local,0
+2008,1429,Law,female,diploma,local,0
+2008,1429,Law,male,undergrad,local,0
+2008,1429,Law,male,grad,local,0
+2008,1429,Law,female,grad,local,0
+2008,1429,Manufacturing and Processing,female,diploma,local,0
+2008,1429,Other,female,undergrad,local,0
+2008,1429,Personal Services,female,diploma,local,0
+2008,1429,Personal Services,female,undergrad,local,0
+2008,1429,Physical Sciences,female,diploma,local,0
+2008,1429,Social Services,female,diploma,local,0
+2008,1429,Teachers Training,female,diploma,local,0
+2008,1429,Teachers Training,male,grad,local,0
+2009,1430,Engineering and Engeneering Trades,male,diploma,local,16156
+2009,1430,Humanities,female,undergrad,local,13693
+2009,1430,Islamic Studies,female,undergrad,local,8692
+2009,1430,Social and Behavioral Sciences,female,undergrad,local,6018
+2009,1430,Teachers Training,male,undergrad,local,4688
+2009,1430,Humanities,male,undergrad,local,4524
+2009,1430,Physical Sciences,female,undergrad,local,4406
+2009,1430,Business and Management,male,undergrad,local,4051
+2009,1430,Islamic Studies,male,undergrad,local,3369
+2009,1430,Mathematics and Statistics,female,undergrad,local,3302
+2009,1430,Engineering and Engeneering Trades,male,undergrad,local,3229
+2009,1430,Health,male,diploma,local,3151
+2009,1430,Teachers Training,female,undergrad,local,2934
+2009,1430,Education,female,undergrad,local,2868
+2009,1430,Life Sciences,female,undergrad,local,2545
+2009,1430,Information Technology,female,undergrad,local,2428
+2009,1430,Business and Management,female,undergrad,local,1919
+2009,1430,Health,male,undergrad,local,1840
+2009,1430,Information Technology,male,undergrad,local,1656
+2009,1430,Information Technology,female,diploma,local,1628
+2009,1430,Health,female,undergrad,local,1515
+2009,1430,Health,female,diploma,local,1455
+2009,1430,Physical Sciences,male,undergrad,local,1393
+2009,1430,Business and Management,male,diploma,local,1251
+2009,1430,Arts,female,undergrad,local,1235
+2009,1430,Education,male,grad,local,1123
+2009,1430,Social and Behavioral Sciences,male,undergrad,local,1115
+2009,1430,Education,female,grad,local,965
+2009,1430,Education,male,undergrad,local,945
+2009,1430,Mathematics and Statistics,male,undergrad,local,886
+2009,1430,Manufacturing and Processing,female,diploma,local,770
+2009,1430,Journalism and Media,male,undergrad,local,656
+2009,1430,Information Technology,male,diploma,local,645
+2009,1430,Life Sciences,male,undergrad,local,575
+2009,1430,Islamic Studies,male,grad,local,547
+2009,1430,Architecture and Construction,male,undergrad,local,450
+2009,1430,Journalism and Media,female,undergrad,local,402
+2009,1430,Business and Management,female,diploma,local,342
+2009,1430,Business and Management,male,grad,local,296
+2009,1430,Social Services,female,undergrad,local,293
+2009,1430,"Agriculture, Forestry and Fishery",male,undergrad,local,227
+2009,1430,Education,male,diploma,local,202
+2009,1430,Humanities,female,grad,local,150
+2009,1430,Education,female,diploma,local,138
+2009,1430,Social and Behavioral Sciences,female,grad,local,123
+2009,1430,Humanities,female,diploma,local,120
+2009,1430,"Agriculture, Forestry and Fishery",female,undergrad,local,110
+2009,1430,Humanities,male,grad,local,109
+2009,1430,Life Sciences,male,diploma,local,109
+2009,1430,Manufacturing and Processing,female,undergrad,local,106
+2009,1430,  Veterinary Medicine,male,undergrad,local,100
+2009,1430,Personal Services,male,diploma,local,90
+2009,1430,Humanities,male,diploma,local,89
+2009,1430,"Agriculture, Forestry and Fishery",male,diploma,local,87
+2009,1430,Islamic Studies,female,grad,local,80
+2009,1430,Social and Behavioral Sciences,male,grad,local,75
+2009,1430,Business and Management,female,grad,local,73
+2009,1430,Teachers Training,male,diploma,local,72
+2009,1430,Engineering and Engeneering Trades,male,grad,local,69
+2009,1430,Law,male,grad,local,68
+2009,1430,Health,female,grad,local,62
+2009,1430,Mathematics and Statistics,female,grad,local,58
+2009,1430,Physical Sciences,male,grad,local,56
+2009,1430,Physical Sciences,female,grad,local,56
+2009,1430,Life Sciences,female,grad,local,55
+2009,1430,Social Services,male,grad,local,41
+2009,1430,Architecture and Construction,male,diploma,local,38
+2009,1430,Engineering and Engeneering Trades,female,diploma,local,37
+2009,1430,Physical Sciences,male,diploma,local,35
+2009,1430,Social Services,female,grad,local,34
+2009,1430,Health,male,grad,local,32
+2009,1430,Architecture and Construction,female,undergrad,local,28
+2009,1430,Information Technology,male,grad,local,27
+2009,1430,Information Technology,female,grad,local,26
+2009,1430,Architecture and Construction,male,grad,local,25
+2009,1430,Mathematics and Statistics,male,diploma,local,24
+2009,1430,Life Sciences,male,grad,local,21
+2009,1430,Social and Behavioral Sciences,male,diploma,local,21
+2009,1430,Arts,female,grad,local,18
+2009,1430,"Agriculture, Forestry and Fishery",male,grad,local,16
+2009,1430,Journalism and Media,male,diploma,local,16
+2009,1430,Environmental Protection,male,grad,local,15
+2009,1430,  Veterinary Medicine,male,grad,local,11
+2009,1430,Journalism and Media,male,grad,local,7
+2009,1430,Mathematics and Statistics,male,grad,local,7
+2009,1430,Teachers Training,male,grad,local,7
+2009,1430,Journalism and Media,female,grad,local,5
+2009,1430,Manufacturing and Processing,female,grad,local,5
+2009,1430,Architecture and Construction,female,grad,local,3
+2009,1430,Teachers Training,female,grad,local,2
+2009,1430,Arts,male,grad,local,1
+2009,1430,  Veterinary Medicine,male,diploma,local,0
+2009,1430,  Veterinary Medicine,female,diploma,local,0
+2009,1430,  Veterinary Medicine,female,undergrad,local,0
+2009,1430,  Veterinary Medicine,female,grad,local,0
+2009,1430, Basic Programs,male,diploma,local,0
+2009,1430, Basic Programs,female,diploma,local,0
+2009,1430, Basic Programs,male,undergrad,local,0
+2009,1430, Basic Programs,female,undergrad,local,0
+2009,1430, Basic Programs,male,grad,local,0
+2009,1430, Basic Programs,female,grad,local,0
+2009,1430,"Agriculture, Forestry and Fishery",female,diploma,local,0
+2009,1430,"Agriculture, Forestry and Fishery",female,grad,local,0
+2009,1430,Architecture and Construction,female,diploma,local,0
+2009,1430,Arts,male,diploma,local,0
+2009,1430,Arts,female,diploma,local,0
+2009,1430,Arts,male,undergrad,local,0
+2009,1430,Engineering and Engeneering Trades,female,undergrad,local,0
+2009,1430,Engineering and Engeneering Trades,female,grad,local,0
+2009,1430,Environmental Protection,male,diploma,local,0
+2009,1430,Environmental Protection,female,diploma,local,0
+2009,1430,Environmental Protection,male,undergrad,local,0
+2009,1430,Environmental Protection,female,undergrad,local,0
+2009,1430,Environmental Protection,female,grad,local,0
+2009,1430,Islamic Studies,male,diploma,local,0
+2009,1430,Islamic Studies,female,diploma,local,0
+2009,1430,Journalism and Media,female,diploma,local,0
+2009,1430,Law,male,diploma,local,0
+2009,1430,Law,female,diploma,local,0
+2009,1430,Law,male,undergrad,local,0
+2009,1430,Law,female,undergrad,local,0
+2009,1430,Law,female,grad,local,0
+2009,1430,Life Sciences,female,diploma,local,0
+2009,1430,Manufacturing and Processing,male,diploma,local,0
+2009,1430,Manufacturing and Processing,male,undergrad,local,0
+2009,1430,Manufacturing and Processing,male,grad,local,0
+2009,1430,Mathematics and Statistics,female,diploma,local,0
+2009,1430,Other,male,diploma,local,0
+2009,1430,Other,female,diploma,local,0
+2009,1430,Other,male,undergrad,local,0
+2009,1430,Other,female,undergrad,local,0
+2009,1430,Other,male,grad,local,0
+2009,1430,Other,female,grad,local,0
+2009,1430,Personal Services,female,diploma,local,0
+2009,1430,Personal Services,male,undergrad,local,0
+2009,1430,Personal Services,female,undergrad,local,0
+2009,1430,Personal Services,male,grad,local,0
+2009,1430,Personal Services,female,grad,local,0
+2009,1430,Physical Sciences,female,diploma,local,0
+2009,1430,Social and Behavioral Sciences,female,diploma,local,0
+2009,1430,Social Services,male,diploma,local,0
+2009,1430,Social Services,female,diploma,local,0
+2009,1430,Social Services,male,undergrad,local,0
+2009,1430,Teachers Training,female,diploma,local,0
+2010,1431,Engineering and Engeneering Trades,male,diploma,local,17763
+2010,1431,Humanities,female,undergrad,local,13700
+2010,1431,Islamic Studies,female,undergrad,local,8947
+2010,1431,Social and Behavioral Sciences,female,undergrad,local,6013
+2010,1431,Teachers Training,female,undergrad,local,4639
+2010,1431,Business and Management,male,undergrad,local,4227
+2010,1431,Physical Sciences,female,undergrad,local,3908
+2010,1431,Humanities,male,undergrad,local,3858
+2010,1431,Islamic Studies,male,undergrad,local,3467
+2010,1431,Mathematics and Statistics,female,undergrad,local,2967
+2010,1431,Teachers Training,male,undergrad,local,2923
+2010,1431,Health,male,diploma,local,2887
+2010,1431,Business and Management,female,undergrad,local,2862
+2010,1431,Life Sciences,female,undergrad,local,2853
+2010,1431,Education,female,undergrad,local,2819
+2010,1431,Health,female,diploma,local,2691
+2010,1431,Health,female,undergrad,local,2390
+2010,1431,Engineering and Engeneering Trades,male,undergrad,local,2351
+2010,1431,Information Technology,female,undergrad,local,2062
+2010,1431,Information Technology,male,undergrad,local,1844
+2010,1431,Manufacturing and Processing,female,diploma,local,1683
+2010,1431,Business and Management,male,diploma,local,1651
+2010,1431,Health,male,undergrad,local,1600
+2010,1431,Social and Behavioral Sciences,male,undergrad,local,1394
+2010,1431,Arts,female,undergrad,local,1271
+2010,1431,Physical Sciences,male,undergrad,local,1210
+2010,1431,Information Technology,female,diploma,local,1206
+2010,1431,Education,male,grad,local,833
+2010,1431,Architecture and Construction,male,undergrad,local,756
+2010,1431,Business and Management,female,diploma,local,747
+2010,1431,Mathematics and Statistics,male,undergrad,local,720
+2010,1431,Information Technology,male,diploma,local,662
+2010,1431,Social Services,female,undergrad,local,658
+2010,1431,Education,female,diploma,local,622
+2010,1431,Journalism and Media,female,undergrad,local,608
+2010,1431,Personal Services,female,undergrad,local,547
+2010,1431,Journalism and Media,male,undergrad,local,540
+2010,1431,Education,female,grad,local,509
+2010,1431,Life Sciences,male,undergrad,local,476
+2010,1431,Education,male,diploma,local,466
+2010,1431,Law,male,undergrad,local,445
+2010,1431,Islamic Studies,male,grad,local,366
+2010,1431,Teachers Training,female,diploma,local,249
+2010,1431,Manufacturing and Processing,female,undergrad,local,246
+2010,1431,Education,male,undergrad,local,238
+2010,1431,Teachers Training,male,diploma,local,234
+2010,1431,Law,female,undergrad,local,213
+2010,1431,Humanities,female,grad,local,193
+2010,1431,Business and Management,male,grad,local,183
+2010,1431,"Agriculture, Forestry and Fishery",male,undergrad,local,176
+2010,1431,Law,male,grad,local,163
+2010,1431,Health,female,grad,local,131
+2010,1431,Health,male,grad,local,127
+2010,1431,Islamic Studies,female,grad,local,119
+2010,1431,Personal Services,male,undergrad,local,117
+2010,1431,Social Services,male,diploma,local,114
+2010,1431,Social and Behavioral Sciences,female,grad,local,103
+2010,1431,Humanities,male,grad,local,97
+2010,1431,Social and Behavioral Sciences,male,grad,local,97
+2010,1431,Social and Behavioral Sciences,male,diploma,local,86
+2010,1431,Personal Services,male,diploma,local,83
+2010,1431,Arts,male,undergrad,local,79
+2010,1431,Life Sciences,female,grad,local,75
+2010,1431,Business and Management,female,grad,local,72
+2010,1431,Humanities,female,diploma,local,71
+2010,1431,"Agriculture, Forestry and Fishery",male,diploma,local,67
+2010,1431,Social Services,female,diploma,local,65
+2010,1431,Social Services,male,undergrad,local,63
+2010,1431,Social Services,male,grad,local,63
+2010,1431,Humanities,male,diploma,local,61
+2010,1431,Physical Sciences,female,grad,local,59
+2010,1431,Architecture and Construction,male,grad,local,56
+2010,1431,Law,male,diploma,local,51
+2010,1431,Mathematics and Statistics,female,grad,local,51
+2010,1431,Architecture and Construction,male,diploma,local,47
+2010,1431,Engineering and Engeneering Trades,male,grad,local,47
+2010,1431,Life Sciences,male,grad,local,43
+2010,1431,  Veterinary Medicine,male,undergrad,local,42
+2010,1431,Teachers Training,male,grad,local,36
+2010,1431,Physical Sciences,male,diploma,local,32
+2010,1431,Arts,female,grad,local,30
+2010,1431,Physical Sciences,male,grad,local,28
+2010,1431,Teachers Training,female,grad,local,24
+2010,1431,Social Services,female,grad,local,23
+2010,1431,"Agriculture, Forestry and Fishery",male,grad,local,18
+2010,1431,Information Technology,male,grad,local,18
+2010,1431,Journalism and Media,female,grad,local,16
+2010,1431,Information Technology,female,grad,local,15
+2010,1431,Islamic Studies,male,diploma,local,13
+2010,1431,Arts,male,grad,local,12
+2010,1431,Social and Behavioral Sciences,female,diploma,local,12
+2010,1431,Transport Services,male,undergrad,local,11
+2010,1431,  Veterinary Medicine,male,grad,local,10
+2010,1431,Mathematics and Statistics,male,grad,local,10
+2010,1431,Architecture and Construction,female,undergrad,local,9
+2010,1431,Journalism and Media,male,grad,local,7
+2010,1431,Environmental Protection,male,undergrad,local,6
+2010,1431,Manufacturing and Processing,female,grad,local,3
+2010,1431,Personal Services,female,grad,local,3
+2010,1431,Architecture and Construction,female,grad,local,1
+2010,1431,Environmental Protection,female,grad,local,1
+2010,1431,  Veterinary Medicine,male,diploma,local,0
+2010,1431,  Veterinary Medicine,female,diploma,local,0
+2010,1431,  Veterinary Medicine,female,undergrad,local,0
+2010,1431,  Veterinary Medicine,female,grad,local,0
+2010,1431,"Agriculture, Forestry and Fishery",female,diploma,local,0
+2010,1431,"Agriculture, Forestry and Fishery",female,undergrad,local,0
+2010,1431,"Agriculture, Forestry and Fishery",female,grad,local,0
+2010,1431,Architecture and Construction,female,diploma,local,0
+2010,1431,Arts,male,diploma,local,0
+2010,1431,Arts,female,diploma,local,0
+2010,1431,Engineering and Engeneering Trades,female,diploma,local,0
+2010,1431,Engineering and Engeneering Trades,female,undergrad,local,0
+2010,1431,Engineering and Engeneering Trades,female,grad,local,0
+2010,1431,Environmental Protection,male,diploma,local,0
+2010,1431,Environmental Protection,female,diploma,local,0
+2010,1431,Environmental Protection,female,undergrad,local,0
+2010,1431,Environmental Protection,male,grad,local,0
+2010,1431,Islamic Studies,female,diploma,local,0
+2010,1431,Journalism and Media,male,diploma,local,0
+2010,1431,Journalism and Media,female,diploma,local,0
+2010,1431,Law,female,diploma,local,0
+2010,1431,Law,female,grad,local,0
+2010,1431,Life Sciences,male,diploma,local,0
+2010,1431,Life Sciences,female,diploma,local,0
+2010,1431,Manufacturing and Processing,male,diploma,local,0
+2010,1431,Manufacturing and Processing,male,undergrad,local,0
+2010,1431,Manufacturing and Processing,male,grad,local,0
+2010,1431,Mathematics and Statistics,male,diploma,local,0
+2010,1431,Mathematics and Statistics,female,diploma,local,0
+2010,1431,Other,male,diploma,local,0
+2010,1431,Other,female,diploma,local,0
+2010,1431,Other,male,undergrad,local,0
+2010,1431,Other,female,undergrad,local,0
+2010,1431,Other,male,grad,local,0
+2010,1431,Other,female,grad,local,0
+2010,1431,Personal Services,female,diploma,local,0
+2010,1431,Personal Services,male,grad,local,0
+2010,1431,Physical Sciences,female,diploma,local,0
+2010,1431,Transport Services,male,diploma,local,0
+2010,1431,Transport Services,female,diploma,local,0
+2010,1431,Transport Services,female,undergrad,local,0
+2010,1431,Transport Services,male,grad,local,0
+2010,1431,Transport Services,female,grad,local,0
+2010,1431, Basic Programs,male,diploma,local,0
+2010,1431, Basic Programs,female,diploma,local,0
+2010,1431, Basic Programs,male,undergrad,local,0
+2010,1431, Basic Programs,female,undergrad,local,0
+2010,1431, Basic Programs,male,grad,local,0
+2010,1431, Basic Programs,female,grad,local,0
+2011,1432,Humanities,female,undergrad,local,15844
+2011,1432,Islamic Studies,female,undergrad,local,10623
+2011,1432,Business and Management,male,diploma,local,8834
+2011,1432,Social and Behavioral Sciences,female,undergrad,local,6896
+2011,1432,Information Technology,male,diploma,local,6465
+2011,1432,Engineering and Engeneering Trades,male,diploma,local,5934
+2011,1432,Business and Management,male,undergrad,local,4824
+2011,1432,Physical Sciences,female,undergrad,local,4474
+2011,1432,Islamic Studies,male,undergrad,local,4094
+2011,1432,Humanities,male,undergrad,local,3545
+2011,1432,Teachers Training,female,undergrad,local,3393
+2011,1432,Business and Management,female,undergrad,local,3307
+2011,1432,Mathematics and Statistics,female,undergrad,local,3260
+2011,1432,Health,male,diploma,local,3257
+2011,1432,Life Sciences,female,undergrad,local,2865
+2011,1432,Engineering and Engeneering Trades,male,undergrad,local,2717
+2011,1432,Information Technology,male,undergrad,local,2592
+2011,1432,Health,female,undergrad,local,2587
+2011,1432,Health,female,diploma,local,2546
+2011,1432,Business and Management,female,diploma,local,2529
+2011,1432,Teachers Training,male,undergrad,local,2407
+2011,1432,Health,male,undergrad,local,2371
+2011,1432,Information Technology,female,diploma,local,2207
+2011,1432,Information Technology,female,undergrad,local,2056
+2011,1432,Education,male,grad,local,2025
+2011,1432,Education,female,grad,local,1717
+2011,1432,Personal Services,female,diploma,local,1670
+2011,1432,Social and Behavioral Sciences,male,undergrad,local,1586
+2011,1432,Physical Sciences,male,undergrad,local,1280
+2011,1432,Business and Management,male,grad,abroad,1153
+2011,1432,Architecture and Construction,male,diploma,local,1094
+2011,1432,Mathematics and Statistics,male,undergrad,local,1046
+2011,1432,Architecture and Construction,male,undergrad,local,954
+2011,1432,Journalism and Media,female,undergrad,local,710
+2011,1432,Arts,female,undergrad,local,697
+2011,1432,Business and Management,male,undergrad,abroad,650
+2011,1432,Life Sciences,male,undergrad,local,630
+2011,1432,Journalism and Media,male,undergrad,local,627
+2011,1432,Law,male,undergrad,local,554
+2011,1432,Education,male,diploma,local,524
+2011,1432,Business and Management,male,grad,local,504
+2011,1432,Engineering and Engeneering Trades,male,undergrad,abroad,495
+2011,1432,Health,male,undergrad,abroad,469
+2011,1432,Teachers Training,female,diploma,local,468
+2011,1432,Information Technology,male,grad,abroad,458
+2011,1432,Islamic Studies,male,grad,local,457
+2011,1432,Education,female,undergrad,local,395
+2011,1432,Environmental Protection,male,diploma,local,391
+2011,1432,Engineering and Engeneering Trades,male,grad,abroad,381
+2011,1432,Teachers Training,male,diploma,local,360
+2011,1432,Business and Management,female,grad,abroad,353
+2011,1432,Education,female,diploma,local,344
+2011,1432,Education,male,undergrad,local,306
+2011,1432,Information Technology,male,undergrad,abroad,279
+2011,1432,Health,male,grad,abroad,274
+2011,1432,Law,female,undergrad,local,268
+2011,1432,Humanities,male,grad,local,252
+2011,1432,Humanities,female,grad,local,245
+2011,1432,Teachers Training,female,grad,local,245
+2011,1432,Personal Services,female,undergrad,local,241
+2011,1432,"Agriculture, Forestry and Fishery",male,diploma,local,229
+2011,1432,Social and Behavioral Sciences,female,grad,local,223
+2011,1432,Physical Sciences,male,diploma,local,212
+2011,1432,Law,male,grad,abroad,201
+2011,1432,Social Services,male,diploma,local,198
+2011,1432,Personal Services,male,diploma,local,193
+2011,1432,Social and Behavioral Sciences,male,diploma,local,188
+2011,1432,"Agriculture, Forestry and Fishery",male,undergrad,local,179
+2011,1432,Health,female,undergrad,abroad,170
+2011,1432,Manufacturing and Processing,female,undergrad,local,169
+2011,1432,Social and Behavioral Sciences,male,grad,local,165
+2011,1432,Health,female,grad,abroad,158
+2011,1432,Business and Management,female,grad,local,156
+2011,1432,Islamic Studies,female,grad,local,150
+2011,1432,Social Services,female,undergrad,local,145
+2011,1432,Health,female,grad,local,144
+2011,1432,Personal Services,male,undergrad,local,141
+2011,1432,Physical Sciences,female,grad,local,134
+2011,1432,Business and Management,female,undergrad,abroad,124
+2011,1432,Health,male,grad,local,121
+2011,1432,Law,male,grad,local,119
+2011,1432,Information Technology,female,grad,abroad,118
+2011,1432,Humanities,female,diploma,local,115
+2011,1432,Teachers Training,male,grad,local,110
+2011,1432,Arts,male,undergrad,local,105
+2011,1432,Education,female,grad,abroad,105
+2011,1432,Humanities,male,grad,abroad,98
+2011,1432,Social and Behavioral Sciences,female,diploma,local,90
+2011,1432,Mathematics and Statistics,female,grad,local,84
+2011,1432,Humanities,female,grad,abroad,82
+2011,1432,Humanities,male,diploma,local,82
+2011,1432,Other,male,grad,abroad,82
+2011,1432,Physical Sciences,male,grad,local,81
+2011,1432,Education,male,grad,abroad,78
+2011,1432,Architecture and Construction,male,grad,abroad,73
+2011,1432,Information Technology,female,grad,local,73
+2011,1432,Architecture and Construction,female,undergrad,local,71
+2011,1432,  Veterinary Medicine,male,undergrad,local,65
+2011,1432,Law,male,undergrad,abroad,64
+2011,1432,Law,male,diploma,local,64
+2011,1432,Architecture and Construction,male,undergrad,abroad,61
+2011,1432,Physical Sciences,male,grad,abroad,61
+2011,1432,Other,male,undergrad,abroad,60
+2011,1432,Social and Behavioral Sciences,male,undergrad,abroad,60
+2011,1432,Physical Sciences,female,grad,abroad,55
+2011,1432,Life Sciences,male,grad,abroad,53
+2011,1432,Social and Behavioral Sciences,male,grad,abroad,48
+2011,1432,Humanities,female,undergrad,abroad,47
+2011,1432,Social and Behavioral Sciences,female,grad,abroad,46
+2011,1432,Teachers Training,female,grad,abroad,45
+2011,1432,Engineering and Engeneering Trades,female,diploma,local,44
+2011,1432,Business and Management,female,diploma,abroad,43
+2011,1432,Life Sciences,female,grad,local,43
+2011,1432,Engineering and Engeneering Trades,male,diploma,abroad,40
+2011,1432,Social and Behavioral Sciences,female,undergrad,abroad,39
+2011,1432,Information Technology,female,undergrad,abroad,36
+2011,1432,Other,female,grad,abroad,36
+2011,1432,"Agriculture, Forestry and Fishery",female,undergrad,local,35
+2011,1432,Transport Services,male,undergrad,abroad,35
+2011,1432,Business and Management,male,diploma,abroad,32
+2011,1432,Engineering and Engeneering Trades,male,grad,local,32
+2011,1432,Arts,female,grad,local,31
+2011,1432,Life Sciences,female,grad,abroad,31
+2011,1432,Manufacturing and Processing,male,grad,abroad,30
+2011,1432,Mathematics and Statistics,female,grad,abroad,30
+2011,1432,Architecture and Construction,male,grad,local,28
+2011,1432,Mathematics and Statistics,male,grad,abroad,27
+2011,1432,Information Technology,male,grad,local,26
+2011,1432,Life Sciences,male,diploma,local,26
+2011,1432,Life Sciences,male,grad,local,26
+2011,1432,Manufacturing and Processing,male,undergrad,abroad,26
+2011,1432,Teachers Training,male,undergrad,abroad,25
+2011,1432,Humanities,male,undergrad,abroad,23
+2011,1432,Law,female,grad,abroad,21
+2011,1432,Teachers Training,male,grad,abroad,21
+2011,1432,Transport Services,male,diploma,abroad,21
+2011,1432,Social Services,female,grad,abroad,20
+2011,1432,Arts,male,grad,local,18
+2011,1432,Mathematics and Statistics,male,grad,local,18
+2011,1432,Teachers Training,female,undergrad,abroad,17
+2011,1432,"Agriculture, Forestry and Fishery",male,grad,local,16
+2011,1432,Journalism and Media,female,grad,local,16
+2011,1432,Law,female,undergrad,abroad,16
+2011,1432,Engineering and Engeneering Trades,female,undergrad,abroad,15
+2011,1432,Journalism and Media,male,undergrad,abroad,15
+2011,1432,Environmental Protection,female,undergrad,local,14
+2011,1432,Health,female,diploma,abroad,14
+2011,1432,Journalism and Media,female,undergrad,abroad,14
+2011,1432,Journalism and Media,male,grad,abroad,14
+2011,1432,Journalism and Media,male,grad,local,14
+2011,1432,Physical Sciences,male,undergrad,abroad,14
+2011,1432,Social Services,male,undergrad,local,13
+2011,1432,Transport Services,male,grad,abroad,13
+2011,1432,Engineering and Engeneering Trades,female,grad,abroad,12
+2011,1432,Architecture and Construction,female,grad,abroad,11
+2011,1432,Information Technology,female,diploma,abroad,11
+2011,1432,Physical Sciences,female,undergrad,abroad,11
+2011,1432,Life Sciences,female,undergrad,abroad,10
+2011,1432,Other,female,undergrad,abroad,10
+2011,1432,Social Services,male,grad,abroad,10
+2011,1432,Engineering and Engeneering Trades,female,undergrad,local,9
+2011,1432,Environmental Protection,male,undergrad,local,9
+2011,1432,Architecture and Construction,female,undergrad,abroad,8
+2011,1432,Life Sciences,male,undergrad,abroad,8
+2011,1432,Personal Services,female,grad,local,8
+2011,1432,Transport Services,male,undergrad,local,8
+2011,1432,Arts,male,diploma,local,7
+2011,1432,Education,female,undergrad,abroad,7
+2011,1432,Journalism and Media,female,grad,abroad,7
+2011,1432,Security Services,male,undergrad,abroad,7
+2011,1432,"Agriculture, Forestry and Fishery",male,grad,abroad,6
+2011,1432,Law,female,diploma,abroad,6
+2011,1432,Security Services,male,grad,abroad,6
+2011,1432,Architecture and Construction,female,grad,local,5
+2011,1432,Arts,male,grad,abroad,5
+2011,1432,Health,male,diploma,abroad,5
+2011,1432,Social Services,male,grad,local,5
+2011,1432,Social Services,female,grad,local,5
+2011,1432,Arts,male,undergrad,abroad,4
+2011,1432,Arts,female,undergrad,abroad,4
+2011,1432,Arts,female,grad,abroad,4
+2011,1432,Education,male,undergrad,abroad,4
+2011,1432,Information Technology,male,diploma,abroad,4
+2011,1432,Manufacturing and Processing,female,grad,local,4
+2011,1432,Mathematics and Statistics,male,undergrad,abroad,4
+2011,1432,  Veterinary Medicine,male,grad,local,3
+2011,1432,Law,male,diploma,abroad,3
+2011,1432,Mathematics and Statistics,female,undergrad,abroad,3
+2011,1432,Other,male,diploma,abroad,3
+2011,1432,Social Services,female,undergrad,abroad,3
+2011,1432,  Veterinary Medicine,male,grad,abroad,2
+2011,1432,Engineering and Engeneering Trades,female,grad,local,2
+2011,1432,Environmental Protection,male,grad,abroad,2
+2011,1432,Environmental Protection,female,grad,abroad,2
+2011,1432,Humanities,male,diploma,abroad,2
+2011,1432,Life Sciences,male,diploma,abroad,2
+2011,1432,Manufacturing and Processing,female,grad,abroad,2
+2011,1432,Personal Services,male,undergrad,abroad,2
+2011,1432,Transport Services,female,undergrad,abroad,2
+2011,1432,Arts,female,diploma,abroad,1
+2011,1432,Engineering and Engeneering Trades,female,diploma,abroad,1
+2011,1432,Environmental Protection,female,undergrad,abroad,1
+2011,1432,Humanities,female,diploma,abroad,1
+2011,1432,Manufacturing and Processing,male,diploma,abroad,1
+2011,1432,Personal Services,female,diploma,abroad,1
+2011,1432,Personal Services,male,grad,abroad,1
+2011,1432,Personal Services,male,grad,local,1
+2011,1432,Physical Sciences,male,diploma,abroad,1
+2011,1432,Physical Sciences,female,diploma,abroad,1
+2011,1432,Social Services,female,diploma,abroad,1
+2011,1432,Teachers Training,male,diploma,abroad,1
+2011,1432,  Veterinary Medicine,male,diploma,abroad,0
+2011,1432,  Veterinary Medicine,female,diploma,abroad,0
+2011,1432,  Veterinary Medicine,male,undergrad,abroad,0
+2011,1432,  Veterinary Medicine,female,undergrad,abroad,0
+2011,1432,  Veterinary Medicine,female,grad,abroad,0
+2011,1432,  Veterinary Medicine,male,diploma,local,0
+2011,1432,  Veterinary Medicine,female,diploma,local,0
+2011,1432,  Veterinary Medicine,female,undergrad,local,0
+2011,1432,  Veterinary Medicine,female,grad,local,0
+2011,1432, Basic Programs,male,diploma,local,0
+2011,1432, Basic Programs,female,diploma,local,0
+2011,1432, Basic Programs,male,undergrad,local,0
+2011,1432, Basic Programs,female,undergrad,local,0
+2011,1432, Basic Programs,male,grad,local,0
+2011,1432, Basic Programs,female,grad,local,0
+2011,1432,"Agriculture, Forestry and Fishery",male,diploma,abroad,0
+2011,1432,"Agriculture, Forestry and Fishery",female,diploma,abroad,0
+2011,1432,"Agriculture, Forestry and Fishery",male,undergrad,abroad,0
+2011,1432,"Agriculture, Forestry and Fishery",female,undergrad,abroad,0
+2011,1432,"Agriculture, Forestry and Fishery",female,grad,abroad,0
+2011,1432,"Agriculture, Forestry and Fishery",female,diploma,local,0
+2011,1432,"Agriculture, Forestry and Fishery",female,grad,local,0
+2011,1432,Architecture and Construction,male,diploma,abroad,0
+2011,1432,Architecture and Construction,female,diploma,abroad,0
+2011,1432,Architecture and Construction,female,diploma,local,0
+2011,1432,Arts,male,diploma,abroad,0
+2011,1432,Arts,female,diploma,local,0
+2011,1432,Education,male,diploma,abroad,0
+2011,1432,Education,female,diploma,abroad,0
+2011,1432,Environmental Protection,male,diploma,abroad,0
+2011,1432,Environmental Protection,female,diploma,abroad,0
+2011,1432,Environmental Protection,male,undergrad,abroad,0
+2011,1432,Environmental Protection,female,diploma,local,0
+2011,1432,Environmental Protection,male,grad,local,0
+2011,1432,Environmental Protection,female,grad,local,0
+2011,1432,Islamic Studies,male,diploma,local,0
+2011,1432,Islamic Studies,female,diploma,local,0
+2011,1432,Journalism and Media,male,diploma,abroad,0
+2011,1432,Journalism and Media,female,diploma,abroad,0
+2011,1432,Journalism and Media,male,diploma,local,0
+2011,1432,Journalism and Media,female,diploma,local,0
+2011,1432,Law,female,diploma,local,0
+2011,1432,Law,female,grad,local,0
+2011,1432,Life Sciences,female,diploma,abroad,0
+2011,1432,Life Sciences,female,diploma,local,0
+2011,1432,Manufacturing and Processing,female,diploma,abroad,0
+2011,1432,Manufacturing and Processing,female,undergrad,abroad,0
+2011,1432,Manufacturing and Processing,male,diploma,local,0
+2011,1432,Manufacturing and Processing,female,diploma,local,0
+2011,1432,Manufacturing and Processing,male,undergrad,local,0
+2011,1432,Manufacturing and Processing,male,grad,local,0
+2011,1432,Mathematics and Statistics,male,diploma,abroad,0
+2011,1432,Mathematics and Statistics,female,diploma,abroad,0
+2011,1432,Mathematics and Statistics,male,diploma,local,0
+2011,1432,Mathematics and Statistics,female,diploma,local,0
+2011,1432,Other,female,diploma,abroad,0
+2011,1432,Other,male,diploma,local,0
+2011,1432,Other,female,diploma,local,0
+2011,1432,Other,male,undergrad,local,0
+2011,1432,Other,female,undergrad,local,0
+2011,1432,Other,male,grad,local,0
+2011,1432,Other,female,grad,local,0
+2011,1432,Personal Services,male,diploma,abroad,0
+2011,1432,Personal Services,female,undergrad,abroad,0
+2011,1432,Personal Services,female,grad,abroad,0
+2011,1432,Physical Sciences,female,diploma,local,0
+2011,1432,Security Services,male,diploma,abroad,0
+2011,1432,Security Services,female,diploma,abroad,0
+2011,1432,Security Services,female,undergrad,abroad,0
+2011,1432,Security Services,female,grad,abroad,0
+2011,1432,Social and Behavioral Sciences,male,diploma,abroad,0
+2011,1432,Social and Behavioral Sciences,female,diploma,abroad,0
+2011,1432,Social Services,male,diploma,abroad,0
+2011,1432,Social Services,male,undergrad,abroad,0
+2011,1432,Social Services,female,diploma,local,0
+2011,1432,Teachers Training,female,diploma,abroad,0
+2011,1432,Transport Services,female,diploma,abroad,0
+2011,1432,Transport Services,female,grad,abroad,0
+2011,1432,Transport Services,male,diploma,local,0
+2011,1432,Transport Services,female,diploma,local,0
+2011,1432,Transport Services,female,undergrad,local,0
+2011,1432,Transport Services,male,grad,local,0
+2011,1432,Transport Services,female,grad,local,0
+2012,1433,Humanities,female,undergrad,local,15014
+2012,1433,Islamic Studies,female,undergrad,local,10762
+2012,1433,Business and Management,male,diploma,local,7690
+2012,1433,Business and Management,male,undergrad,local,7495
+2012,1433,Engineering and Engeneering Trades,male,diploma,local,6982
+2012,1433,Social and Behavioral Sciences,female,undergrad,local,6781
+2012,1433,Islamic Studies,male,undergrad,local,6127
+2012,1433,Information Technology,male,diploma,local,4937
+2012,1433,Business and Management,female,undergrad,local,4673
+2012,1433,Physical Sciences,female,undergrad,local,4440
+2012,1433,Humanities,male,undergrad,local,4252
+2012,1433,Engineering and Engeneering Trades,male,undergrad,local,3642
+2012,1433,Teachers Training,female,undergrad,local,3242
+2012,1433,Health,female,undergrad,local,3143
+2012,1433,Mathematics and Statistics,female,undergrad,local,3069
+2012,1433,Health,male,undergrad,local,2862
+2012,1433,Life Sciences,female,undergrad,local,2614
+2012,1433,Education,male,grad,local,2603
+2012,1433,Information Technology,male,undergrad,local,2456
+2012,1433,Information Technology,female,undergrad,local,2446
+2012,1433,Social and Behavioral Sciences,male,undergrad,local,1828
+2012,1433,Journalism and Media,male,undergrad,local,1821
+2012,1433,Business and Management,female,diploma,local,1659
+2012,1433,Business and Management,male,grad,abroad,1620
+2012,1433,Personal Services,female,diploma,local,1595
+2012,1433,Information Technology,female,diploma,local,1544
+2012,1433,Physical Sciences,male,undergrad,local,1490
+2012,1433,Education,female,grad,local,1345
+2012,1433,Teachers Training,male,undergrad,local,1291
+2012,1433,Journalism and Media,female,undergrad,local,1282
+2012,1433,Health,male,diploma,local,1243
+2012,1433,Health,female,diploma,local,1153
+2012,1433,Mathematics and Statistics,male,undergrad,local,1138
+2012,1433,Business and Management,male,undergrad,abroad,937
+2012,1433,Architecture and Construction,male,undergrad,local,893
+2012,1433,Architecture and Construction,male,diploma,local,866
+2012,1433,Information Technology,male,grad,abroad,805
+2012,1433,Arts,female,undergrad,local,765
+2012,1433,Engineering and Engeneering Trades,male,undergrad,abroad,755
+2012,1433,Health,male,undergrad,abroad,689
+2012,1433,Law,male,undergrad,local,679
+2012,1433,Business and Management,male,grad,local,638
+2012,1433,Engineering and Engeneering Trades,male,grad,abroad,603
+2012,1433,Teachers Training,female,grad,local,573
+2012,1433,Business and Management,female,grad,abroad,567
+2012,1433,Life Sciences,male,undergrad,local,567
+2012,1433,Teachers Training,female,diploma,local,552
+2012,1433,Social Services,female,undergrad,local,511
+2012,1433,Environmental Protection,male,diploma,local,479
+2012,1433,Education,male,undergrad,local,461
+2012,1433,Law,female,undergrad,local,448
+2012,1433,Education,male,diploma,local,430
+2012,1433,Health,male,grad,abroad,421
+2012,1433,Information Technology,male,undergrad,abroad,397
+2012,1433,Health,female,grad,abroad,392
+2012,1433,Law,male,grad,abroad,337
+2012,1433,Islamic Studies,male,grad,local,334
+2012,1433,Personal Services,male,diploma,local,333
+2012,1433,Social Services,male,undergrad,local,318
+2012,1433,Personal Services,female,undergrad,local,306
+2012,1433,Teachers Training,male,diploma,local,301
+2012,1433,Manufacturing and Processing,female,undergrad,local,282
+2012,1433,Humanities,male,grad,local,271
+2012,1433,Education,female,undergrad,local,267
+2012,1433,Education,female,diploma,local,264
+2012,1433,Health,female,undergrad,abroad,260
+2012,1433,Information Technology,female,grad,abroad,255
+2012,1433,Teachers Training,male,grad,local,250
+2012,1433,Law,male,grad,local,246
+2012,1433,Business and Management,female,undergrad,abroad,234
+2012,1433,Education,female,grad,abroad,231
+2012,1433,Health,male,grad,local,223
+2012,1433,Business and Management,female,grad,local,219
+2012,1433,Humanities,male,grad,abroad,219
+2012,1433,Social and Behavioral Sciences,male,grad,local,202
+2012,1433,"Agriculture, Forestry and Fishery",male,undergrad,local,190
+2012,1433,Personal Services,male,undergrad,local,190
+2012,1433,Humanities,female,grad,local,188
+2012,1433,Humanities,female,grad,abroad,182
+2012,1433,Humanities,female,diploma,local,174
+2012,1433,Islamic Studies,female,grad,local,160
+2012,1433,Social and Behavioral Sciences,female,grad,local,159
+2012,1433,Health,female,grad,local,150
+2012,1433,Education,male,grad,abroad,149
+2012,1433,Law,male,undergrad,abroad,143
+2012,1433,"Agriculture, Forestry and Fishery",female,undergrad,local,134
+2012,1433,Architecture and Construction,male,grad,abroad,130
+2012,1433,Arts,male,undergrad,local,118
+2012,1433,Environmental Protection,male,undergrad,local,118
+2012,1433,Physical Sciences,male,grad,abroad,117
+2012,1433,Environmental Protection,female,undergrad,local,107
+2012,1433,Architecture and Construction,female,undergrad,local,102
+2012,1433,Physical Sciences,male,grad,local,101
+2012,1433,Physical Sciences,female,grad,local,100
+2012,1433,Architecture and Construction,male,undergrad,abroad,96
+2012,1433,Information Technology,female,undergrad,abroad,94
+2012,1433,Other,male,grad,abroad,90
+2012,1433,Physical Sciences,female,grad,abroad,86
+2012,1433,Social and Behavioral Sciences,female,grad,abroad,86
+2012,1433,Journalism and Media,male,grad,local,84
+2012,1433,Teachers Training,female,grad,abroad,82
+2012,1433,Life Sciences,male,grad,abroad,79
+2012,1433,Business and Management,female,diploma,abroad,78
+2012,1433,Life Sciences,female,grad,abroad,75
+2012,1433,Humanities,female,undergrad,abroad,72
+2012,1433,Engineering and Engeneering Trades,male,diploma,abroad,68
+2012,1433,Life Sciences,female,grad,local,68
+2012,1433,Mathematics and Statistics,female,grad,abroad,67
+2012,1433,Social and Behavioral Sciences,female,undergrad,abroad,67
+2012,1433,  Veterinary Medicine,male,undergrad,local,66
+2012,1433,Other,female,grad,abroad,64
+2012,1433,Social and Behavioral Sciences,male,grad,abroad,62
+2012,1433,Humanities,male,diploma,local,60
+2012,1433,Teachers Training,male,undergrad,abroad,57
+2012,1433,Mathematics and Statistics,male,grad,abroad,56
+2012,1433,Social and Behavioral Sciences,male,undergrad,abroad,55
+2012,1433,Social and Behavioral Sciences,male,diploma,local,55
+2012,1433,Teachers Training,male,grad,abroad,52
+2012,1433,Engineering and Engeneering Trades,male,grad,local,50
+2012,1433,Mathematics and Statistics,female,grad,local,50
+2012,1433,Arts,female,undergrad,abroad,49
+2012,1433,Information Technology,female,grad,local,48
+2012,1433,Other,male,undergrad,abroad,48
+2012,1433,Law,female,grad,abroad,42
+2012,1433,Transport Services,male,undergrad,abroad,41
+2012,1433,Law,female,undergrad,abroad,39
+2012,1433,Manufacturing and Processing,male,undergrad,abroad,39
+2012,1433,Security Services,male,grad,abroad,38
+2012,1433,Business and Management,male,diploma,abroad,34
+2012,1433,Manufacturing and Processing,male,undergrad,local,33
+2012,1433,Engineering and Engeneering Trades,female,undergrad,local,31
+2012,1433,Arts,female,grad,abroad,30
+2012,1433,Arts,female,grad,local,30
+2012,1433,Humanities,male,undergrad,abroad,30
+2012,1433,Journalism and Media,female,undergrad,abroad,30
+2012,1433,Life Sciences,male,grad,local,30
+2012,1433,Mathematics and Statistics,male,grad,local,29
+2012,1433,Social Services,male,grad,abroad,28
+2012,1433,Social Services,female,grad,abroad,27
+2012,1433,Social and Behavioral Sciences,female,diploma,local,26
+2012,1433,Architecture and Construction,male,grad,local,25
+2012,1433,Manufacturing and Processing,male,grad,abroad,25
+2012,1433,Teachers Training,female,undergrad,abroad,25
+2012,1433,Information Technology,male,grad,local,23
+2012,1433,Transport Services,male,diploma,abroad,23
+2012,1433,Engineering and Engeneering Trades,female,undergrad,abroad,22
+2012,1433,Engineering and Engeneering Trades,female,grad,abroad,22
+2012,1433,Health,female,diploma,abroad,22
+2012,1433,Law,male,diploma,local,22
+2012,1433,Physical Sciences,male,undergrad,abroad,22
+2012,1433,Journalism and Media,male,undergrad,abroad,21
+2012,1433,Environmental Protection,male,grad,abroad,19
+2012,1433,Environmental Protection,male,grad,local,19
+2012,1433,Other,male,diploma,abroad,19
+2012,1433,Social Services,male,grad,local,19
+2012,1433,Social Services,female,grad,local,18
+2012,1433,"Agriculture, Forestry and Fishery",male,diploma,local,17
+2012,1433,"Agriculture, Forestry and Fishery",male,grad,local,17
+2012,1433,Architecture and Construction,female,undergrad,abroad,17
+2012,1433,Journalism and Media,female,grad,abroad,17
+2012,1433,Life Sciences,female,undergrad,abroad,17
+2012,1433,Other,female,undergrad,abroad,17
+2012,1433,Journalism and Media,male,grad,abroad,16
+2012,1433,Life Sciences,male,undergrad,abroad,16
+2012,1433,Transport Services,male,grad,abroad,16
+2012,1433,Arts,male,grad,local,15
+2012,1433,Physical Sciences,female,undergrad,abroad,15
+2012,1433,Social Services,female,undergrad,abroad,15
+2012,1433,  Veterinary Medicine,male,grad,local,14
+2012,1433,Information Technology,male,diploma,abroad,13
+2012,1433,Journalism and Media,female,diploma,local,13
+2012,1433,Security Services,male,undergrad,abroad,13
+2012,1433,Mathematics and Statistics,female,undergrad,abroad,12
+2012,1433,Architecture and Construction,female,grad,abroad,11
+2012,1433,Engineering and Engeneering Trades,female,diploma,local,11
+2012,1433,Education,female,undergrad,abroad,10
+2012,1433,Information Technology,female,diploma,abroad,10
+2012,1433,Arts,male,grad,abroad,9
+2012,1433,Education,male,undergrad,abroad,9
+2012,1433,Personal Services,male,undergrad,abroad,9
+2012,1433,Transport Services,male,undergrad,local,8
+2012,1433,"Agriculture, Forestry and Fishery",male,grad,abroad,7
+2012,1433,Arts,male,undergrad,abroad,7
+2012,1433,Health,male,diploma,abroad,7
+2012,1433,Arts,female,diploma,abroad,6
+2012,1433,Journalism and Media,female,grad,local,6
+2012,1433,Law,female,grad,local,6
+2012,1433,Manufacturing and Processing,male,diploma,local,6
+2012,1433,Personal Services,male,grad,abroad,6
+2012,1433,Physical Sciences,female,diploma,abroad,6
+2012,1433,Transport Services,female,undergrad,abroad,6
+2012,1433,Architecture and Construction,male,diploma,abroad,5
+2012,1433,Environmental Protection,female,grad,abroad,5
+2012,1433,Architecture and Construction,female,grad,local,4
+2012,1433,Arts,male,diploma,local,4
+2012,1433,Law,female,diploma,abroad,4
+2012,1433,Life Sciences,male,diploma,local,4
+2012,1433,Manufacturing and Processing,female,undergrad,abroad,4
+2012,1433,Manufacturing and Processing,female,grad,abroad,4
+2012,1433,Social Services,male,undergrad,abroad,4
+2012,1433,Environmental Protection,male,undergrad,abroad,3
+2012,1433,Mathematics and Statistics,male,undergrad,abroad,3
+2012,1433,Personal Services,female,diploma,abroad,3
+2012,1433,  Veterinary Medicine,male,grad,abroad,2
+2012,1433,Engineering and Engeneering Trades,female,grad,local,2
+2012,1433,Humanities,male,diploma,abroad,2
+2012,1433,Humanities,female,diploma,abroad,2
+2012,1433,Law,male,diploma,abroad,2
+2012,1433,Manufacturing and Processing,female,grad,local,2
+2012,1433,Personal Services,female,undergrad,abroad,2
+2012,1433,"Agriculture, Forestry and Fishery",female,grad,abroad,1
+2012,1433,Arts,male,diploma,abroad,1
+2012,1433,Engineering and Engeneering Trades,female,diploma,abroad,1
+2012,1433,Other,female,diploma,abroad,1
+2012,1433,Security Services,male,diploma,abroad,1
+2012,1433,Social Services,female,diploma,abroad,1
+2012,1433,Teachers Training,male,diploma,abroad,1
+2012,1433,Teachers Training,female,diploma,abroad,1
+2012,1433,  Veterinary Medicine,male,diploma,abroad,0
+2012,1433,  Veterinary Medicine,female,diploma,abroad,0
+2012,1433,  Veterinary Medicine,male,undergrad,abroad,0
+2012,1433,  Veterinary Medicine,female,undergrad,abroad,0
+2012,1433,  Veterinary Medicine,female,grad,abroad,0
+2012,1433,  Veterinary Medicine,male,diploma,local,0
+2012,1433,  Veterinary Medicine,female,diploma,local,0
+2012,1433,  Veterinary Medicine,female,undergrad,local,0
+2012,1433,  Veterinary Medicine,female,grad,local,0
+2012,1433, Basic Programs,male,diploma,local,0
+2012,1433, Basic Programs,female,diploma,local,0
+2012,1433, Basic Programs,male,undergrad,local,0
+2012,1433, Basic Programs,female,undergrad,local,0
+2012,1433,"Agriculture, Forestry and Fishery",male,diploma,abroad,0
+2012,1433,"Agriculture, Forestry and Fishery",female,diploma,abroad,0
+2012,1433,"Agriculture, Forestry and Fishery",male,undergrad,abroad,0
+2012,1433,"Agriculture, Forestry and Fishery",female,undergrad,abroad,0
+2012,1433,"Agriculture, Forestry and Fishery",female,diploma,local,0
+2012,1433,"Agriculture, Forestry and Fishery",female,grad,local,0
+2012,1433,Architecture and Construction,female,diploma,abroad,0
+2012,1433,Architecture and Construction,female,diploma,local,0
+2012,1433,Arts,female,diploma,local,0
+2012,1433,Education,male,diploma,abroad,0
+2012,1433,Education,female,diploma,abroad,0
+2012,1433,Environmental Protection,male,diploma,abroad,0
+2012,1433,Environmental Protection,female,diploma,abroad,0
+2012,1433,Environmental Protection,female,undergrad,abroad,0
+2012,1433,Environmental Protection,female,diploma,local,0
+2012,1433,Environmental Protection,female,grad,local,0
+2012,1433,Islamic Studies,male,diploma,local,0
+2012,1433,Islamic Studies,female,diploma,local,0
+2012,1433,Journalism and Media,male,diploma,abroad,0
+2012,1433,Journalism and Media,female,diploma,abroad,0
+2012,1433,Journalism and Media,male,diploma,local,0
+2012,1433,Law,female,diploma,local,0
+2012,1433,Life Sciences,male,diploma,abroad,0
+2012,1433,Life Sciences,female,diploma,abroad,0
+2012,1433,Life Sciences,female,diploma,local,0
+2012,1433,Manufacturing and Processing,male,diploma,abroad,0
+2012,1433,Manufacturing and Processing,female,diploma,abroad,0
+2012,1433,Manufacturing and Processing,female,diploma,local,0
+2012,1433,Manufacturing and Processing,male,grad,local,0
+2012,1433,Mathematics and Statistics,male,diploma,abroad,0
+2012,1433,Mathematics and Statistics,female,diploma,abroad,0
+2012,1433,Mathematics and Statistics,male,diploma,local,0
+2012,1433,Mathematics and Statistics,female,diploma,local,0
+2012,1433,Other,male,diploma,local,0
+2012,1433,Other,female,diploma,local,0
+2012,1433,Other,male,undergrad,local,0
+2012,1433,Other,female,undergrad,local,0
+2012,1433,Other,male,grad,local,0
+2012,1433,Other,female,grad,local,0
+2012,1433,Personal Services,male,diploma,abroad,0
+2012,1433,Personal Services,female,grad,abroad,0
+2012,1433,Personal Services,male,grad,local,0
+2012,1433,Personal Services,female,grad,local,0
+2012,1433,Physical Sciences,male,diploma,abroad,0
+2012,1433,Physical Sciences,male,diploma,local,0
+2012,1433,Physical Sciences,female,diploma,local,0
+2012,1433,Security Services,female,diploma,abroad,0
+2012,1433,Security Services,female,undergrad,abroad,0
+2012,1433,Security Services,female,grad,abroad,0
+2012,1433,Social and Behavioral Sciences,male,diploma,abroad,0
+2012,1433,Social and Behavioral Sciences,female,diploma,abroad,0
+2012,1433,Social Services,male,diploma,abroad,0
+2012,1433,Social Services,male,diploma,local,0
+2012,1433,Social Services,female,diploma,local,0
+2012,1433,Transport Services,female,diploma,abroad,0
+2012,1433,Transport Services,female,grad,abroad,0
+2012,1433,Transport Services,male,diploma,local,0
+2012,1433,Transport Services,female,diploma,local,0
+2012,1433,Transport Services,female,undergrad,local,0
+2012,1433,Transport Services,male,grad,local,0
+2012,1433,Transport Services,female,grad,local,0
+2012,1433, Basic Programs,male,grad,local,0
+2012,1433, Basic Programs,female,grad,local,0
+2013,1434,Humanities,female,undergrad,local,13849
+2013,1434,Business and Management,male,undergrad,local,10108
+2013,1434,Islamic Studies,female,undergrad,local,9277
+2013,1434,Business and Management,female,undergrad,local,7086
+2013,1434,Business and Management,male,diploma,local,7033
+2013,1434,Islamic Studies,male,undergrad,local,6942
+2013,1434,Engineering and Engeneering Trades,male,diploma,local,6929
+2013,1434,Social and Behavioral Sciences,female,undergrad,local,6178
+2013,1434,Teachers Training,female,undergrad,local,5253
+2013,1434,Information Technology,male,diploma,local,5049
+2013,1434,Education,male,grad,local,4735
+2013,1434,Health,female,undergrad,local,4137
+2013,1434,Health,male,undergrad,local,3935
+2013,1434,Engineering and Engeneering Trades,male,undergrad,local,3915
+2013,1434,Humanities,male,undergrad,local,3908
+2013,1434,Physical Sciences,female,undergrad,local,3864
+2013,1434,Information Technology,female,undergrad,local,3126
+2013,1434,Mathematics and Statistics,female,undergrad,local,2923
+2013,1434,Education,female,grad,local,2902
+2013,1434,Life Sciences,female,undergrad,local,2586
+2013,1434,Information Technology,male,undergrad,local,2571
+2013,1434,Teachers Training,male,undergrad,local,2546
+2013,1434,Social and Behavioral Sciences,male,undergrad,local,2218
+2013,1434,Information Technology,female,diploma,local,2147
+2013,1434,Business and Management,female,diploma,local,1860
+2013,1434,Journalism and Media,male,undergrad,local,1675
+2013,1434,Personal Services,female,diploma,local,1595
+2013,1434,Business and Management,male,undergrad,abroad,1562
+2013,1434,Business and Management,male,grad,abroad,1512
+2013,1434,Physical Sciences,male,undergrad,local,1486
+2013,1434,Engineering and Engeneering Trades,male,undergrad,abroad,1194
+2013,1434,Architecture and Construction,male,undergrad,local,1147
+2013,1434,Mathematics and Statistics,male,undergrad,local,1084
+2013,1434,Journalism and Media,female,undergrad,local,1035
+2013,1434,Architecture and Construction,male,diploma,local,976
+2013,1434,Education,male,diploma,local,904
+2013,1434,Engineering and Engeneering Trades,male,grad,abroad,891
+2013,1434,Law,male,undergrad,local,872
+2013,1434,Health,male,undergrad,abroad,862
+2013,1434,Information Technology,male,grad,abroad,845
+2013,1434,Education,female,diploma,local,838
+2013,1434,Life Sciences,male,undergrad,local,815
+2013,1434,Health,male,diploma,local,737
+2013,1434,Business and Management,female,grad,abroad,682
+2013,1434,Law,female,undergrad,local,659
+2013,1434,Arts,female,undergrad,local,612
+2013,1434,Information Technology,male,undergrad,abroad,609
+2013,1434,Islamic Studies,male,grad,local,549
+2013,1434,Health,male,grad,abroad,543
+2013,1434,Health,female,grad,abroad,515
+2013,1434,Social Services,female,undergrad,local,486
+2013,1434,Education,male,undergrad,local,458
+2013,1434,Business and Management,male,grad,local,451
+2013,1434,Environmental Protection,male,diploma,local,400
+2013,1434,Health,female,diploma,local,396
+2013,1434,Personal Services,male,diploma,local,383
+2013,1434,Teachers Training,male,diploma,local,356
+2013,1434,Health,female,undergrad,abroad,351
+2013,1434,Education,female,grad,abroad,350
+2013,1434,Business and Management,female,undergrad,abroad,342
+2013,1434,Information Technology,female,grad,abroad,328
+2013,1434,Law,male,grad,abroad,314
+2013,1434,Teachers Training,male,grad,local,314
+2013,1434,Law,male,grad,local,296
+2013,1434,Architecture and Construction,female,undergrad,local,276
+2013,1434,Social and Behavioral Sciences,male,grad,local,275
+2013,1434,Business and Management,female,grad,local,274
+2013,1434,Humanities,male,grad,local,263
+2013,1434,Humanities,female,diploma,local,262
+2013,1434,Humanities,female,grad,abroad,252
+2013,1434,Social and Behavioral Sciences,female,grad,local,249
+2013,1434,"Agriculture, Forestry and Fishery",male,undergrad,local,220
+2013,1434,Humanities,male,grad,abroad,207
+2013,1434,Personal Services,female,undergrad,local,206
+2013,1434,Social Services,male,undergrad,local,192
+2013,1434,Education,male,grad,abroad,176
+2013,1434,Manufacturing and Processing,female,undergrad,local,170
+2013,1434,Health,female,grad,local,169
+2013,1434,Law,male,undergrad,abroad,168
+2013,1434,Humanities,female,grad,local,166
+2013,1434,Architecture and Construction,male,grad,abroad,149
+2013,1434,Islamic Studies,female,grad,local,149
+2013,1434,Engineering and Engeneering Trades,male,diploma,abroad,148
+2013,1434,Physical Sciences,female,grad,abroad,145
+2013,1434,Teachers Training,female,diploma,local,142
+2013,1434,"Agriculture, Forestry and Fishery",female,undergrad,local,140
+2013,1434,Physical Sciences,male,grad,abroad,134
+2013,1434,Life Sciences,female,grad,abroad,128
+2013,1434,Physical Sciences,male,grad,local,123
+2013,1434,Architecture and Construction,male,undergrad,abroad,121
+2013,1434,Humanities,male,diploma,local,119
+2013,1434,Arts,male,undergrad,local,117
+2013,1434,Physical Sciences,female,grad,local,116
+2013,1434,Health,male,grad,local,115
+2013,1434,Teachers Training,female,grad,local,114
+2013,1434,Personal Services,male,undergrad,local,113
+2013,1434,Information Technology,female,undergrad,abroad,109
+2013,1434,Social and Behavioral Sciences,female,grad,abroad,105
+2013,1434,Engineering and Engeneering Trades,male,grad,local,93
+2013,1434,Information Technology,male,grad,local,91
+2013,1434,Teachers Training,female,grad,abroad,91
+2013,1434,Law,female,grad,abroad,89
+2013,1434,Life Sciences,female,grad,local,89
+2013,1434,Mathematics and Statistics,female,grad,abroad,87
+2013,1434,Engineering and Engeneering Trades,female,undergrad,local,85
+2013,1434,Life Sciences,male,grad,abroad,82
+2013,1434,Business and Management,female,diploma,abroad,80
+2013,1434,Humanities,female,undergrad,abroad,79
+2013,1434,Law,male,diploma,local,76
+2013,1434,Information Technology,female,grad,local,74
+2013,1434,  Veterinary Medicine,male,undergrad,local,71
+2013,1434,Social and Behavioral Sciences,male,grad,abroad,70
+2013,1434,Mathematics and Statistics,male,grad,abroad,68
+2013,1434,Architecture and Construction,male,grad,local,67
+2013,1434,Environmental Protection,male,undergrad,local,67
+2013,1434,Engineering and Engeneering Trades,female,grad,abroad,65
+2013,1434,Social and Behavioral Sciences,male,undergrad,abroad,63
+2013,1434,Law,female,undergrad,abroad,62
+2013,1434,Social Services,female,grad,local,60
+2013,1434,Social and Behavioral Sciences,female,undergrad,abroad,58
+2013,1434,Transport Services,male,undergrad,abroad,57
+2013,1434,Mathematics and Statistics,female,grad,local,55
+2013,1434,Social Services,male,grad,local,55
+2013,1434,Arts,female,undergrad,abroad,51
+2013,1434,Arts,female,grad,abroad,45
+2013,1434,Social and Behavioral Sciences,male,diploma,local,43
+2013,1434,Teachers Training,male,grad,abroad,43
+2013,1434,Transport Services,male,diploma,abroad,43
+2013,1434,Manufacturing and Processing,male,undergrad,local,41
+2013,1434,Security Services,male,undergrad,abroad,40
+2013,1434,Engineering and Engeneering Trades,female,undergrad,abroad,39
+2013,1434,Life Sciences,male,grad,local,39
+2013,1434,Social Services,female,grad,abroad,39
+2013,1434,Teachers Training,male,undergrad,abroad,36
+2013,1434,Manufacturing and Processing,male,undergrad,abroad,34
+2013,1434,Business and Management,male,diploma,abroad,32
+2013,1434,Teachers Training,female,undergrad,abroad,30
+2013,1434,Arts,female,grad,local,29
+2013,1434,Life Sciences,female,undergrad,abroad,28
+2013,1434,Humanities,male,undergrad,abroad,27
+2013,1434,Journalism and Media,male,grad,abroad,27
+2013,1434,Journalism and Media,female,grad,local,26
+2013,1434,Mathematics and Statistics,male,grad,local,25
+2013,1434,Physical Sciences,male,undergrad,abroad,25
+2013,1434,Other,male,grad,abroad,24
+2013,1434,Physical Sciences,female,undergrad,abroad,24
+2013,1434,Transport Services,male,undergrad,local,23
+2013,1434,"Agriculture, Forestry and Fishery",male,grad,local,22
+2013,1434,Environmental Protection,male,grad,local,22
+2013,1434,Architecture and Construction,female,undergrad,abroad,21
+2013,1434,Education,female,undergrad,abroad,21
+2013,1434,Life Sciences,male,undergrad,abroad,21
+2013,1434,Social and Behavioral Sciences,female,diploma,local,21
+2013,1434,Architecture and Construction,female,grad,abroad,20
+2013,1434,Journalism and Media,female,grad,abroad,20
+2013,1434,Journalism and Media,female,diploma,local,19
+2013,1434,Journalism and Media,female,undergrad,abroad,19
+2013,1434,Law,female,grad,local,19
+2013,1434,Transport Services,male,grad,abroad,19
+2013,1434,Health,female,diploma,abroad,18
+2013,1434,Manufacturing and Processing,male,grad,abroad,17
+2013,1434,Arts,female,diploma,abroad,16
+2013,1434,Journalism and Media,male,undergrad,abroad,16
+2013,1434,Other,female,grad,abroad,16
+2013,1434,Social Services,male,grad,abroad,16
+2013,1434,Other,male,undergrad,abroad,15
+2013,1434,Security Services,male,grad,abroad,15
+2013,1434,Education,female,undergrad,local,14
+2013,1434,Mathematics and Statistics,female,undergrad,abroad,13
+2013,1434,Arts,male,grad,abroad,12
+2013,1434,Environmental Protection,male,grad,abroad,12
+2013,1434,Information Technology,female,diploma,abroad,12
+2013,1434,Journalism and Media,male,grad,local,11
+2013,1434,"Agriculture, Forestry and Fishery",male,grad,abroad,10
+2013,1434,Arts,male,undergrad,abroad,10
+2013,1434,Security Services,male,diploma,abroad,10
+2013,1434,Engineering and Engeneering Trades,female,diploma,abroad,9
+2013,1434,Social Services,female,undergrad,abroad,8
+2013,1434,Arts,male,grad,local,7
+2013,1434,Personal Services,male,undergrad,abroad,7
+2013,1434,Social Services,male,undergrad,abroad,7
+2013,1434,"Agriculture, Forestry and Fishery",male,diploma,local,6
+2013,1434,Architecture and Construction,male,diploma,abroad,6
+2013,1434,Environmental Protection,male,undergrad,abroad,6
+2013,1434,Health,male,diploma,abroad,6
+2013,1434,  Veterinary Medicine,male,grad,local,5
+2013,1434,Architecture and Construction,female,grad,local,5
+2013,1434,Education,male,undergrad,abroad,5
+2013,1434,Information Technology,male,diploma,abroad,5
+2013,1434,Physical Sciences,female,diploma,abroad,5
+2013,1434,Life Sciences,male,diploma,abroad,4
+2013,1434,Other,female,undergrad,abroad,4
+2013,1434,Arts,male,diploma,local,3
+2013,1434,Law,male,diploma,abroad,3
+2013,1434,Manufacturing and Processing,female,undergrad,abroad,3
+2013,1434,Manufacturing and Processing,female,grad,abroad,3
+2013,1434,Personal Services,female,undergrad,abroad,3
+2013,1434,Personal Services,male,grad,abroad,3
+2013,1434,Physical Sciences,male,diploma,abroad,3
+2013,1434,  Veterinary Medicine,male,grad,abroad,2
+2013,1434,Manufacturing and Processing,female,grad,local,2
+2013,1434,Manufacturing and Processing,male,diploma,abroad,2
+2013,1434,Personal Services,female,grad,local,2
+2013,1434,Transport Services,female,grad,abroad,2
+2013,1434,  Veterinary Medicine,male,undergrad,abroad,1
+2013,1434,"Agriculture, Forestry and Fishery",male,undergrad,abroad,1
+2013,1434,"Agriculture, Forestry and Fishery",female,grad,abroad,1
+2013,1434,Arts,male,diploma,abroad,1
+2013,1434,Education,female,diploma,abroad,1
+2013,1434,Engineering and Engeneering Trades,female,diploma,local,1
+2013,1434,Environmental Protection,female,undergrad,local,1
+2013,1434,Environmental Protection,female,grad,local,1
+2013,1434,Environmental Protection,female,undergrad,abroad,1
+2013,1434,Environmental Protection,female,grad,abroad,1
+2013,1434,Humanities,male,diploma,abroad,1
+2013,1434,Personal Services,female,diploma,abroad,1
+2013,1434,Personal Services,female,grad,abroad,1
+2013,1434,Security Services,female,undergrad,abroad,1
+2013,1434,Security Services,female,grad,abroad,1
+2013,1434,Social Services,female,diploma,abroad,1
+2013,1434,  Veterinary Medicine,female,undergrad,local,0
+2013,1434,  Veterinary Medicine,female,grad,local,0
+2013,1434,  Veterinary Medicine,male,diploma,local,0
+2013,1434,  Veterinary Medicine,female,diploma,local,0
+2013,1434,  Veterinary Medicine,male,diploma,abroad,0
+2013,1434,  Veterinary Medicine,female,diploma,abroad,0
+2013,1434,  Veterinary Medicine,female,undergrad,abroad,0
+2013,1434,  Veterinary Medicine,female,grad,abroad,0
+2013,1434, Basic Programs,male,undergrad,local,0
+2013,1434, Basic Programs,male,grad,local,0
+2013,1434, Basic Programs,female,undergrad,local,0
+2013,1434, Basic Programs,female,grad,local,0
+2013,1434, Basic Programs,male,diploma,local,0
+2013,1434, Basic Programs,female,diploma,local,0
+2013,1434,"Agriculture, Forestry and Fishery",female,grad,local,0
+2013,1434,"Agriculture, Forestry and Fishery",female,diploma,local,0
+2013,1434,"Agriculture, Forestry and Fishery",male,diploma,abroad,0
+2013,1434,"Agriculture, Forestry and Fishery",female,diploma,abroad,0
+2013,1434,"Agriculture, Forestry and Fishery",female,undergrad,abroad,0
+2013,1434,Architecture and Construction,female,diploma,local,0
+2013,1434,Architecture and Construction,female,diploma,abroad,0
+2013,1434,Arts,female,diploma,local,0
+2013,1434,Education,male,diploma,abroad,0
+2013,1434,Engineering and Engeneering Trades,female,grad,local,0
+2013,1434,Environmental Protection,female,diploma,local,0
+2013,1434,Environmental Protection,male,diploma,abroad,0
+2013,1434,Environmental Protection,female,diploma,abroad,0
+2013,1434,Humanities,female,diploma,abroad,0
+2013,1434,Islamic Studies,male,diploma,local,0
+2013,1434,Islamic Studies,female,diploma,local,0
+2013,1434,Journalism and Media,male,diploma,local,0
+2013,1434,Journalism and Media,male,diploma,abroad,0
+2013,1434,Journalism and Media,female,diploma,abroad,0
+2013,1434,Law,female,diploma,local,0
+2013,1434,Law,female,diploma,abroad,0
+2013,1434,Life Sciences,male,diploma,local,0
+2013,1434,Life Sciences,female,diploma,local,0
+2013,1434,Life Sciences,female,diploma,abroad,0
+2013,1434,Manufacturing and Processing,male,grad,local,0
+2013,1434,Manufacturing and Processing,male,diploma,local,0
+2013,1434,Manufacturing and Processing,female,diploma,local,0
+2013,1434,Manufacturing and Processing,female,diploma,abroad,0
+2013,1434,Mathematics and Statistics,male,diploma,local,0
+2013,1434,Mathematics and Statistics,female,diploma,local,0
+2013,1434,Mathematics and Statistics,male,diploma,abroad,0
+2013,1434,Mathematics and Statistics,female,diploma,abroad,0
+2013,1434,Mathematics and Statistics,male,undergrad,abroad,0
+2013,1434,Other,male,undergrad,local,0
+2013,1434,Other,male,grad,local,0
+2013,1434,Other,female,undergrad,local,0
+2013,1434,Other,female,grad,local,0
+2013,1434,Other,male,diploma,local,0
+2013,1434,Other,female,diploma,local,0
+2013,1434,Other,male,diploma,abroad,0
+2013,1434,Other,female,diploma,abroad,0
+2013,1434,Personal Services,male,grad,local,0
+2013,1434,Personal Services,male,diploma,abroad,0
+2013,1434,Physical Sciences,male,diploma,local,0
+2013,1434,Physical Sciences,female,diploma,local,0
+2013,1434,Security Services,female,diploma,abroad,0
+2013,1434,Social and Behavioral Sciences,male,diploma,abroad,0
+2013,1434,Social and Behavioral Sciences,female,diploma,abroad,0
+2013,1434,Social Services,male,diploma,local,0
+2013,1434,Social Services,female,diploma,local,0
+2013,1434,Social Services,male,diploma,abroad,0
+2013,1434,Teachers Training,male,diploma,abroad,0
+2013,1434,Teachers Training,female,diploma,abroad,0
+2013,1434,Transport Services,male,grad,local,0
+2013,1434,Transport Services,female,undergrad,local,0
+2013,1434,Transport Services,female,grad,local,0
+2013,1434,Transport Services,male,diploma,local,0
+2013,1434,Transport Services,female,diploma,local,0
+2013,1434,Transport Services,female,diploma,abroad,0
+2013,1434,Transport Services,female,undergrad,abroad,0
+2014,1435,Humanities,female,undergrad,local,16342
+2014,1435,Business and Management,male,undergrad,local,14017
+2014,1435,Islamic Studies,female,undergrad,local,11254
+2014,1435,Islamic Studies,male,undergrad,local,9485
+2014,1435,Business and Management,female,undergrad,local,9050
+2014,1435,Teachers Training,female,undergrad,local,8580
+2014,1435,Engineering and Engeneering Trades,male,diploma,local,8186
+2014,1435,Business and Management,male,diploma,local,7646
+2014,1435,Social and Behavioral Sciences,female,undergrad,local,6652
+2014,1435,Humanities,male,undergrad,local,5510
+2014,1435,Information Technology,male,diploma,local,5382
+2014,1435,Education,female,grad,local,5305
+2014,1435,Education,male,grad,local,5148
+2014,1435,Health,female,undergrad,local,4869
+2014,1435,Physical Sciences,female,undergrad,local,4296
+2014,1435,Health,male,undergrad,local,4081
+2014,1435,Engineering and Engeneering Trades,male,undergrad,local,3989
+2014,1435,Teachers Training,male,undergrad,local,3562
+2014,1435,Social and Behavioral Sciences,male,undergrad,local,3419
+2014,1435,Information Technology,female,undergrad,local,3264
+2014,1435,Life Sciences,female,undergrad,local,3198
+2014,1435,Business and Management,female,diploma,local,3125
+2014,1435,Journalism and Media,male,undergrad,local,3078
+2014,1435,Mathematics and Statistics,female,undergrad,local,2987
+2014,1435,Business and Management,male,undergrad,abroad,2590
+2014,1435,Information Technology,male,undergrad,local,2399
+2014,1435,Engineering and Engeneering Trades,male,undergrad,abroad,2006
+2014,1435,Physical Sciences,male,undergrad,local,1987
+2014,1435,Information Technology,female,diploma,local,1956
+2014,1435,Business and Management,male,grad,abroad,1629
+2014,1435,Mathematics and Statistics,male,undergrad,local,1595
+2014,1435,Personal Services,female,diploma,local,1567
+2014,1435,Architecture and Construction,male,undergrad,local,1350
+2014,1435,Law,female,undergrad,local,1322
+2014,1435,Law,male,undergrad,local,1258
+2014,1435,Life Sciences,male,undergrad,local,1201
+2014,1435,Architecture and Construction,male,diploma,local,1185
+2014,1435,Education,female,diploma,local,1142
+2014,1435,Education,male,diploma,local,1125
+2014,1435,Engineering and Engeneering Trades,male,grad,abroad,1120
+2014,1435,Journalism and Media,female,undergrad,local,1046
+2014,1435,Information Technology,male,grad,abroad,968
+2014,1435,Health,male,undergrad,abroad,961
+2014,1435,Information Technology,male,undergrad,abroad,879
+2014,1435,Arts,female,undergrad,local,782
+2014,1435,Health,male,grad,abroad,781
+2014,1435,Business and Management,female,grad,abroad,775
+2014,1435,Humanities,male,diploma,local,743
+2014,1435,Business and Management,male,grad,local,708
+2014,1435,Education,male,undergrad,local,699
+2014,1435,Teachers Training,female,grad,local,663
+2014,1435,Health,female,grad,abroad,628
+2014,1435,Personal Services,female,undergrad,local,587
+2014,1435,Environmental Protection,male,diploma,local,555
+2014,1435,Islamic Studies,male,grad,local,550
+2014,1435,Education,female,grad,abroad,483
+2014,1435,Law,male,grad,local,470
+2014,1435,Business and Management,female,undergrad,abroad,449
+2014,1435,Teachers Training,male,grad,local,443
+2014,1435,Health,female,undergrad,abroad,437
+2014,1435,Health,male,diploma,local,431
+2014,1435,Social and Behavioral Sciences,male,grad,local,424
+2014,1435,Teachers Training,female,diploma,local,423
+2014,1435,Information Technology,female,grad,abroad,416
+2014,1435,Teachers Training,male,diploma,local,409
+2014,1435,Social and Behavioral Sciences,female,grad,local,398
+2014,1435,Law,male,grad,abroad,328
+2014,1435,Humanities,female,grad,local,314
+2014,1435,Humanities,female,grad,abroad,304
+2014,1435,Humanities,male,grad,local,283
+2014,1435,Personal Services,male,diploma,local,277
+2014,1435,Manufacturing and Processing,female,undergrad,local,266
+2014,1435,Business and Management,female,grad,local,262
+2014,1435,Humanities,male,grad,abroad,243
+2014,1435,Education,female,undergrad,local,237
+2014,1435,Personal Services,male,undergrad,local,234
+2014,1435,Humanities,female,diploma,local,218
+2014,1435,Islamic Studies,female,grad,local,214
+2014,1435,Education,male,grad,abroad,210
+2014,1435,Engineering and Engeneering Trades,male,diploma,abroad,210
+2014,1435,Social Services,female,undergrad,local,209
+2014,1435,Architecture and Construction,male,grad,abroad,201
+2014,1435,Health,female,diploma,local,196
+2014,1435,Life Sciences,female,grad,abroad,195
+2014,1435,Physical Sciences,female,grad,abroad,195
+2014,1435,Engineering and Engeneering Trades,female,undergrad,local,185
+2014,1435,Social Services,female,grad,local,183
+2014,1435,Arts,male,undergrad,local,170
+2014,1435,"Agriculture, Forestry and Fishery",male,undergrad,local,165
+2014,1435,Physical Sciences,male,grad,abroad,164
+2014,1435,Architecture and Construction,female,undergrad,local,157
+2014,1435,Law,male,undergrad,abroad,152
+2014,1435,Architecture and Construction,male,undergrad,abroad,143
+2014,1435,Social Services,male,undergrad,local,143
+2014,1435,Health,male,grad,local,133
+2014,1435,Information Technology,female,undergrad,abroad,131
+2014,1435,Law,female,grad,abroad,131
+2014,1435,Mathematics and Statistics,female,grad,abroad,127
+2014,1435,Arts,female,grad,abroad,125
+2014,1435,Teachers Training,female,grad,abroad,121
+2014,1435,Transport Services,male,undergrad,abroad,120
+2014,1435,Health,female,grad,local,119
+2014,1435,Engineering and Engeneering Trades,male,grad,local,116
+2014,1435,Physical Sciences,female,grad,local,111
+2014,1435,Humanities,female,undergrad,abroad,108
+2014,1435,Life Sciences,male,grad,abroad,105
+2014,1435,Mathematics and Statistics,male,grad,abroad,99
+2014,1435,"Agriculture, Forestry and Fishery",female,undergrad,local,97
+2014,1435,Social Services,male,grad,local,97
+2014,1435,Social and Behavioral Sciences,female,grad,abroad,88
+2014,1435,Social and Behavioral Sciences,male,undergrad,abroad,85
+2014,1435,Information Technology,male,grad,local,83
+2014,1435,Social and Behavioral Sciences,female,undergrad,abroad,82
+2014,1435,Life Sciences,female,grad,local,79
+2014,1435,Social and Behavioral Sciences,male,grad,abroad,76
+2014,1435,Arts,female,undergrad,abroad,71
+2014,1435,Information Technology,female,grad,local,71
+2014,1435,Law,female,undergrad,abroad,70
+2014,1435,Arts,male,undergrad,abroad,67
+2014,1435,Physical Sciences,male,grad,local,66
+2014,1435,Physical Sciences,male,undergrad,abroad,66
+2014,1435,Engineering and Engeneering Trades,female,grad,abroad,62
+2014,1435,Arts,male,grad,abroad,61
+2014,1435,Security Services,male,undergrad,abroad,61
+2014,1435,Law,male,diploma,local,60
+2014,1435,Engineering and Engeneering Trades,female,undergrad,abroad,59
+2014,1435,Social and Behavioral Sciences,male,diploma,local,59
+2014,1435,  Veterinary Medicine,male,undergrad,local,58
+2014,1435,Teachers Training,male,grad,abroad,54
+2014,1435,Humanities,male,undergrad,abroad,53
+2014,1435,Architecture and Construction,female,grad,abroad,52
+2014,1435,Journalism and Media,male,grad,abroad,47
+2014,1435,Business and Management,female,diploma,abroad,45
+2014,1435,Architecture and Construction,male,grad,local,44
+2014,1435,Architecture and Construction,female,undergrad,abroad,44
+2014,1435,Business and Management,male,diploma,abroad,44
+2014,1435,Life Sciences,male,undergrad,abroad,41
+2014,1435,Mathematics and Statistics,male,grad,local,41
+2014,1435,Life Sciences,female,undergrad,abroad,40
+2014,1435,Manufacturing and Processing,male,undergrad,abroad,40
+2014,1435,Social Services,female,grad,abroad,39
+2014,1435,Life Sciences,male,grad,local,38
+2014,1435,Mathematics and Statistics,female,grad,local,38
+2014,1435,Environmental Protection,male,undergrad,local,36
+2014,1435,Environmental Protection,male,grad,local,34
+2014,1435,Journalism and Media,female,undergrad,abroad,34
+2014,1435,Education,female,undergrad,abroad,32
+2014,1435,Teachers Training,female,undergrad,abroad,32
+2014,1435,Health,female,diploma,abroad,31
+2014,1435,Other,male,grad,abroad,30
+2014,1435,Physical Sciences,female,undergrad,abroad,30
+2014,1435,Journalism and Media,male,grad,local,24
+2014,1435,Law,female,grad,local,24
+2014,1435,Social Services,male,grad,abroad,22
+2014,1435,Journalism and Media,female,grad,local,21
+2014,1435,"Agriculture, Forestry and Fishery",male,grad,local,20
+2014,1435,Environmental Protection,male,grad,abroad,20
+2014,1435,Teachers Training,male,undergrad,abroad,20
+2014,1435,Arts,female,grad,local,19
+2014,1435,Journalism and Media,female,diploma,local,19
+2014,1435,Journalism and Media,female,grad,abroad,19
+2014,1435,Mathematics and Statistics,female,undergrad,abroad,19
+2014,1435,Other,female,grad,abroad,19
+2014,1435,Arts,male,diploma,abroad,18
+2014,1435,Journalism and Media,male,undergrad,abroad,18
+2014,1435,Security Services,male,grad,abroad,17
+2014,1435,Arts,female,diploma,abroad,15
+2014,1435,Arts,male,grad,local,13
+2014,1435,Health,male,diploma,abroad,13
+2014,1435,Manufacturing and Processing,female,grad,local,13
+2014,1435,Manufacturing and Processing,male,grad,abroad,12
+2014,1435,Transport Services,male,grad,abroad,12
+2014,1435,Other,male,undergrad,abroad,11
+2014,1435,"Agriculture, Forestry and Fishery",male,grad,abroad,10
+2014,1435,Education,male,undergrad,abroad,10
+2014,1435,Transport Services,male,undergrad,local,10
+2014,1435,Environmental Protection,female,grad,abroad,9
+2014,1435,Information Technology,male,diploma,abroad,8
+2014,1435,Physical Sciences,male,diploma,abroad,8
+2014,1435,Engineering and Engeneering Trades,female,diploma,abroad,7
+2014,1435,Environmental Protection,female,undergrad,local,7
+2014,1435,Information Technology,female,diploma,abroad,7
+2014,1435,Personal Services,male,undergrad,abroad,7
+2014,1435,Environmental Protection,male,undergrad,abroad,6
+2014,1435,Social Services,female,undergrad,abroad,6
+2014,1435,Transport Services,female,undergrad,abroad,6
+2014,1435,"Agriculture, Forestry and Fishery",male,diploma,local,5
+2014,1435,"Agriculture, Forestry and Fishery",female,grad,abroad,5
+2014,1435,Architecture and Construction,female,grad,local,5
+2014,1435,Manufacturing and Processing,female,grad,abroad,5
+2014,1435,Social Services,male,undergrad,abroad,5
+2014,1435,  Veterinary Medicine,male,grad,local,4
+2014,1435,Law,female,diploma,abroad,4
+2014,1435,Mathematics and Statistics,male,undergrad,abroad,4
+2014,1435,Personal Services,male,grad,abroad,4
+2014,1435,Transport Services,male,diploma,abroad,4
+2014,1435,  Veterinary Medicine,male,grad,abroad,3
+2014,1435,Personal Services,female,undergrad,abroad,3
+2014,1435,Humanities,female,diploma,abroad,2
+2014,1435,Other,female,undergrad,abroad,2
+2014,1435,Personal Services,female,grad,local,2
+2014,1435,  Veterinary Medicine,male,undergrad,abroad,1
+2014,1435,"Agriculture, Forestry and Fishery",male,undergrad,abroad,1
+2014,1435,Architecture and Construction,male,diploma,abroad,1
+2014,1435,Education,female,diploma,abroad,1
+2014,1435,Law,male,diploma,abroad,1
+2014,1435,Manufacturing and Processing,male,diploma,abroad,1
+2014,1435,Manufacturing and Processing,female,undergrad,abroad,1
+2014,1435,Personal Services,female,grad,abroad,1
+2014,1435,Physical Sciences,female,diploma,abroad,1
+2014,1435,Security Services,female,undergrad,abroad,1
+2014,1435,Security Services,female,grad,abroad,1
