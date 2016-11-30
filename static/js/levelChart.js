@@ -4,13 +4,13 @@
 /**
  * Constructor for the level Chart
  */
-function LevelChart(selector, dimension, group) {
-    console.log('level')
+function LevelChart(selector, dispatch, dimension, group) {
     var self = this;
     self.selector = selector;
+    self.dispatch = dispatch;
     self.dimension = dimension;
     self.group = group;
-    self.init();
+    //self.init();
 
 };
 
@@ -56,7 +56,7 @@ LevelChart.prototype.init = function () {
     // Create colorScale
     self.colorScale = d3.scaleLinear()
         .domain([0, self.maxValue])
-        .range(['#0099cc', '#003333']);
+        .range(['#99cccc', '#336666']);
 
     // transition time
     self.t = d3.transition()

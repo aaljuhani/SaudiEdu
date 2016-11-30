@@ -2,7 +2,7 @@
  * Created by asmaa on 11/10/16.
  */
 
-d3.csv("../data/agg_data.csv", function(error, testData){
+d3.csv("../data/saudi_edu_data.csv", function(error, testData){
     console.log('test',testData)
     data = d3.nest()
         .key(function(d){ return d.year })
@@ -10,11 +10,31 @@ d3.csv("../data/agg_data.csv", function(error, testData){
         .key(function(d){ return d.gender })
         .rollup(function(leaves){
             return {
-                total: d3.sum(leaves, function (d) { return d.value }), // total = grad + undergrad
+                //total: d3.sum(leaves, function (d) { return d.value }), // total = grad + undergrad
                 values: leaves
             }
         }).entries(testData)
     console.log(data)
+
+
+
+    var textFile = null,
+    makeTextFile = function (text) {
+    var data = new Blob([text], {type: 'text/plain'});
+
+    // If we are replacing a previously generated file we need to
+    // manually revoke the object URL to avoid memory leaks.
+    if (textFile !== null) {
+      window.URL.revokeObjectURL(textFile);
+    }
+
+    textFile = window.URL.createObjectURL(data);
+
+    // returns a URL you can use as a href
+    return textFile;
+  };
+
+    console.log(makeTextFile(data))
 })
 
 /*

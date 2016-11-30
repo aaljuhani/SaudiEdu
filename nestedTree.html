@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+    label {
+        font-family: sans-serif;
+        font-size: 14px;
+        position: absolute;
+        left: 92px;
+        top: 26px;
+    }
+
+    .axis .domain {
+        display: none;
+    }
+
+    .axis line {
+        stroke: #ccc;
+    }
+
+    .axis.x0 text {
+        font-weight: 700;
+    }
+
+    .hover-active rect {
+        opacity: .67;
+    }
+
+    .hover-active rect.hover {
+        opacity: 1;
+    }
+</style>
+<body>
+
+<script src="//d3js.org/d3.v4.min.js"></script>
+<script>
+    var margin = {top: 15, right: 15, bottom: 40, left: 60}
+    var width = 960 - margin.left - margin.right
+    var height = 500 - margin.top - margin.bottom
+
+    var orderedSubjects = ['Basic Programs', 'Islamic Studies', 'Teachers Training', 'Education', 'Arts', 'Humanities', 'Social and Behavioral Sciences', 'Journalism and Media', 'Business and Management', 'Law', 'Life Sciences', 'Physical Sciences', 'Mathematics and Statistics', 'Information Technology', 'Engineering and Engeneering Trades', 'Manufacturing and Processing', 'Architecture and Construction', 'Agriculture, Forestry and Fishery', '  Veterinary Medicine', 'Health', 'Social Services', 'Personal Services', 'Transport Services', 'Environmental Protection', 'Other', 'Health', 'Transport Services', 'Security Services']
+
+    var orderedGender = ['female', 'male']
+    var color = d3.scaleOrdinal()
+            .domain(orderedGender)
+            .range(['#8da0cb', '#fc8d62'])
+
+
+    // Aggregate the values for internal nodes. This is normally done by the
+    // treemap layout, but not here because of the custom implementation.
+    function accumulate(d) {
+        return d.children
+                ? d.value = d.children.reduce(function (p, v) {
+            return p + accumulate(v);
+        }, 0)
+                : d.value;
+    }
+
+
+    function reSortRoot(root, value_key) {
+        //console.log("Calling");
+        var yearRegex = /(\d{4}|\d{4}\-\d{4})$/g;
+
+        for (var key in root) {
+            if (key == "key") {
+                //console.log(root.key)
+                if(root.key.match(yearRegex)){
+                    root.year = root.key
+                    delete root.key;
+                } else if (root.key == "female" || root.key == "male"){
+                    root.gender = root.key;
+                    delete root.key;
+                } else {
+                    root.subject = root.key;
+                    delete root.key;
+                }
+            }
+            if (key == "values") {
+                root.children = [];
+                for (item in root.values) {
+                    root.children.push(reSortRoot(root.values[item], value_key));
+                }
+                delete root.values;
+            }
+            if (key == value_key) {
+                root.value = parseFloat(root[value_key]);
+                //delete root[value_key];
+
+            }
+        }
+        return root;
+    }
+
+    //d3.json('treeData.json', initialize)
+
+    var data = {}
+    d3.csv("../data/saudi_edu_data.csv", function (error, testData) {
+        nested_data = d3.nest()
+                .key(function (d) {
+                    return d.year
+                })
+                .key(function (d) {
+                    return d.gender
+                })
+                .key(function (d) {
+                    return d.subject
+                }).entries(testData)
+
+        console.log(nested_data)
+
+        // Creat the root node for the treemap
+        var root = {};
+
+        // Add the data to the tree
+        root.key = "Data";
+        root.values = nested_data;
+
+        // Change the key names and children values from .next and add values for a chosen column to define the size of the blocks
+        root = reSortRoot(root, "value");
+
+        console.log(root)
+
+        accumulate(root)
+
+        console.log('acc', root)
+
+        initialize(false, root)
+
+
+    });
+
+    function initialize(error, data) {
+        if (error) {
+            throw error
+        }
+
+        var root = d3.hierarchy(data)
+        console.log('root', root)
+
+        root.children.sort(function (a, b) {
+            return a.data.year - b.data.year
+        })
+
+        var svg = d3.select('body')
+                .append('svg')
+                .attr('width', width + margin.left + margin.right)
+                .attr('height', height + margin.top + margin.bottom)
+                .append('g')
+                .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+
+
+        var xScale = d3.scaleBand()
+                .range([0, width])
+                .padding(0.15)
+
+        var yScale = d3.scaleLinear()
+                .range([height, 0])
+
+
+        d3.select('#inflation-adjusted').on('change', function () {
+            update(this.checked ? 'adj_value' : 'value')
+        })
+
+        update('value')
+
+        function update(key) {
+            root.sum(function (d) {
+                return d[key]
+            })
+
+            var yearData = root.children
+
+            console.log(yearData)
+            var genderData = d3.merge(yearData.map(function (d) {
+                return d.children
+            }))
+
+            console.log(genderData)
+
+
+            xScale.domain(yearData.map(function (d) {
+                return d.data.name
+            }).sort())
+            yScale.domain([0, d3.max(genderData.map(function (d) {
+                return d.value
+            }))]).nice()
+
+            var xAxis = svg.append('g')
+                    .attr('class', 'x axis')
+                    .attr('transform', 'translate(0,' + (height + 22) + ')')
+                    .call(d3.axisBottom(xScale))
+
+
+            var yAxis = svg.append('g')
+                    .attr('class', 'y axis')
+                    .call(d3.axisLeft(yScale));
+
+            // We use a copied Y scale to invert the range for display purposes
+            // yAxis.scale(yScale.copy().range([height, 0]))
+
+
+            var t = d3.transition()
+
+            var years = svg.selectAll('.year')
+                    .data(root.children,
+                            function (d) {
+                                return d.data.year
+                            })
+
+            var enterYears = years.enter().append('g')
+                    .attr('class', 'year')
+                    .attr('transform', function (d) {
+                        return 'translate(' + xScale(d.data.year) + ',0)'
+                    })
+                    .attr('id', function (d) {
+                        return d.data.year
+                    })
+                    .each(function (d) {
+                        // ENTER
+                        // Note that we can use .each on selections as a way to perform operations
+                        // at a given depth of the hierarchy tree.
+                        d.children.sort(function (a, b) {
+                            return orderedGender.indexOf(b.data.gender) -
+                                    orderedGender.indexOf(a.data.gender)
+                        })
+                        d.children.forEach(function (d) {
+                            d.sort(function (a, b) {
+                                return b.value - a.value
+                            })
+                        })
+                        d.treemap = d3.treemap().tile(d3.treemapResquarify)
+
+                        // The treemap layout must be given a root node, so we make a copy of our
+                        // child node, which creates a new tree from the branch.
+                        d.treemapRoot = d.copy()
+                    })
+                    .merge(years)
+                    .each(function (d) {
+                        // UPDATE + ENTER
+                        d.treemap.size([xScale.bandwidth(), yScale(d.value)])(d.treemapRoot)
+                    })
+
+
+            // d3.hierarchy gives us a convenient way to access the parent datum. This line
+            // adds an index property to each node that we'll use for the transition delay.
+            root.each(function (d) {
+
+                d.index = d.parent ? d.parent.children.indexOf(d) : 0
+            })
+
+
+            var subjects = years.selectAll('.subject')
+                    // Note that we're using our copied branch.
+                    .data(genderData, function (d) {
+                                console.log('241', d)
+                                return d.treemapRoot.children
+                            },
+                            function (d) {
+                                console.log('245', d)
+                                return d.data.subject
+                            })
+
+             subjects = subjects.enter().append('g')
+             .attr('class', 'subject')
+             .merge(subjects)
+
+             var subjects = subjects.selectAll('.s')
+             .data(function (d) {
+             return d.children
+             },
+             function (d) {
+             return d.data.name
+             })
+
+             var enterSubjects = subjects.enter().append('rect')
+             .attr('class', 's')
+             .attr('x', function (d) {
+             return d.x0
+             })
+             .attr('width', function (d) {
+             return d.x1 - d.x0
+             })
+             .attr('y', 0)
+             .attr('height', 0)
+             .style('fill', function (d) {
+             return color(d.parent.data.subject)
+             })
+
+             subjects = subjects.merge(enterSubjects)
+
+
+        }
+    }
+
+</script>
+</body>

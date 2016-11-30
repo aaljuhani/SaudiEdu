@@ -4,13 +4,17 @@
 /**
  * Constructor for the gender Chart
  */
-function GenderChart(selector, dimension, group) {
-    console.log('gender')
+function GenderChart(selector, dispatch, dimension, group) {
     var self = this;
     self.selector = selector;
+    self.dispatch = dispatch;
     self.dimension = dimension;
     self.group = group;
-    self.init();
+    //self.init();
+    // for interaction with gender bars
+    self.activeGender = []
+    //clicked flag
+    self.clickFlag = false;
 
 };
 
@@ -25,7 +29,6 @@ GenderChart.prototype.init = function () {
 
     //Gets access to the div element created for this chart from HTML
     self.svgBounds = divChart.node().getBoundingClientRect();
-    console.log(self.svgBounds)
     self.svgWidth = self.svgBounds.width - self.margin.left - self.margin.right;
     self.svgHeight = 200 - self.margin.top - self.margin.bottom;;
 
@@ -35,20 +38,12 @@ GenderChart.prototype.init = function () {
         .attr("height", self.svgHeight)
 
     // x scale
-    self.maxValue = self.group.top(1)[0]["value"];
-
     self.xScale = d3.scaleLinear()
-        .domain([0 , self.maxValue ])
         .range([0 , self.svgWidth])
 
 
     // y scale
-
     self.yScale = d3.scaleBand()
-        .domain(self.group.top(Infinity).map(function (d){
-            console.log(d)
-            return d.key
-        }))
         .rangeRound([ 0, self.svgHeight - 20])
         .padding(.5)
 
@@ -56,8 +51,7 @@ GenderChart.prototype.init = function () {
 
     // Create colorScale
     self.colorScale = d3.scaleLinear()
-        .domain([0, self.maxValue])
-        .range(['#0099cc', '#003333']);
+        .range(['#99cccc', '#336666']);
 
     // transition time
     self.t = d3.transition()
@@ -71,6 +65,15 @@ GenderChart.prototype.init = function () {
         .attr('id', 'gender-bars')
         //.attr("transform", "translate(0, -20)")
 
+    // Add the X Axis
+    self.xAxis = self.svg.select('g').append("g")
+        .attr('id', 'xAxis')
+        .attr("transform", "translate(0," + (self.svgHeight - 20) + ")")
+
+    // Add the Y Axis
+    self.yAxis = self.svg.select('g').append("g")
+        .attr('id', 'yAxis')
+
     //brush
     self.svg.append("g")
         .attr("class", "brush")
@@ -81,7 +84,6 @@ self.update();
 };
 
 
-
 /**
  * Creates the  horizontal bar chart
  *
@@ -90,10 +92,22 @@ self.update();
 GenderChart.prototype.update = function () {
     var self = this;
 
+    // x scale
+    self.maxValue = self.group.top(1)[0]["value"];
+
+    //updating domains based on the filtered data
+    self.xScale.domain([0 , self.maxValue ])
+    self.yScale.domain(self.group.top(Infinity).map(function (d){
+            return d.key
+        }))
+    self.colorScale.domain([0, self.maxValue])
+
+
     self.bars = d3.select('#gender-bars').selectAll("rect").data(self.group.top(Infinity));
+
     self.bars = self.bars.enter()
         .append('rect')
-        .attr('class', 'gender-bar')
+        .attr('class', 'gender-bar active')
         .merge(self.bars);
 
     self.bars.exit().remove();
@@ -103,29 +117,73 @@ GenderChart.prototype.update = function () {
         .attr("height", self.yScale.bandwidth())
         .attr("y", function(d) { return self.yScale(d.key); })
         .attr("width", function(d) { return self.xScale(d.value); })
-    .attr('fill', function (d) {
-            return self.colorScale(d.value);
-        })
+        .attr('fill', function (d) {
+            return isActive(d.key)? self.colorScale(d.value) : 'lightgray';
+         })
         .attr('id', function (d) {
             return d.key
         })
+        .attr('class', 'gender-bar')
+        .on('click', updateSelection)
+
 
     // Add the X Axis
-    self.svg.select('g').append("g")
-        .attr('id', 'xAxis')
-        .attr("transform", "translate(0," + (self.svgHeight - 20) + ")")
-        .call(d3.axisBottom(self.xScale).tickFormat(d3.format(".0s")));
+    self.xAxis.call(d3.axisBottom(self.xScale).tickFormat(d3.format(".0s")));
 
     // Add the Y Axis
-    self.svg.select('g').append("g")
-        .attr('id', 'yAxis')
-        .attr('class', 'bringToFront')
-        //.attr("transform", "translate(0,-20)")
-        .call(d3.axisRight(self.yScale))
+    self.yAxis.call(d3.axisRight(self.yScale))
 
 
+function isActive(elm){
+        if (!self.clickFlag)
+            return true;
+        return self.activeGender.indexOf(elm) <= -1 ? false: true;
+    }
 
+  /**
+ * filter selected gender and highlight the associated bars
+ * by assigning active/inactive classes
+ */
 
+function updateSelection (){
+    //initially all gender are active
+    // on click all gender become inactive
+    self.clickFlag = true;
+
+    //1) check if gender is already active
+    console.log(this.id)
+    var elm = this.id
+    var clickedGenderId = self.svg.selectAll('.gender-bar')
+            .filter(function (d) {
+            return d.key == elm
+            }).attr('id');
+    if (self.activeGender.indexOf(clickedGenderId) <= -1 ){
+       //2) if not add it to the active array
+        self.activeGender.push(clickedGenderId)
+        self.svg.select(clickedGenderId)
+            .attr('class', 'gender-bar active')
+    } else {
+        //remove from the array
+        self.activeGender.splice(self.activeGender.indexOf(clickedGenderId) , 1)
+    }
+
+        // make unselected bars inactive
+        self.svg.selectAll('.gender-bar')
+            .filter(function (d) {
+            return self.activeGender.indexOf(d.key) <= -1
+            })
+            .attr('class', 'gender-bar inactive')
+
+    console.log(self.activeGender)
+    // filter domain
+    self.dimension.filter(function(d){
+            return self.activeGender.indexOf(d) > -1
+        })
+
+     // update all charts
+        self.dispatch.call('update')
 
 };
+};
+
 

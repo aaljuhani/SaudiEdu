@@ -62,11 +62,11 @@
     stroke-width:2;
 }
 
-.selected{
-    stroke: #404040;;
-    stroke-width:2;
-    r:12px;
+.inactive {
+    fill: lightgray
 }
+
+
 .content {
     display: inline-block;
     width: 100%;
@@ -88,9 +88,6 @@
 
     }
 
-   .unselected{
-       fill: gray
-   }
 
    .bringToFront{
        z-index: -10;
@@ -98,6 +95,10 @@
 
    .fullView{
        height: 100%;
+   }
+
+   .subject-bar{
+       cursor: pointer;
    }
 
 
