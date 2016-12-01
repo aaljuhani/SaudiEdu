@@ -119,7 +119,7 @@ GenderChart.prototype.update = function () {
         .attr("width", function(d) { return self.xScale(d.value); })
         .attr('fill', function (d) {
             return isActive(d.key)? self.colorScale(d.value) : 'lightgray';
-         })
+       })
         .attr('id', function (d) {
             return d.key
         })

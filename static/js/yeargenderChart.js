@@ -254,7 +254,7 @@ YearGenderChart.prototype.update = function () {
             self.dispatch.call('update')
         })
 
-    
+
 
         self.svgYear.select('.brush')
         .call(d3.brushX()

@@ -177,10 +177,12 @@
         //self.charts.push(yearChart);
         var subjectChart = new SubjectChart("#subject-chart", self.dispatch, subjectDim, subjectGroup);
         self.charts.push(subjectChart);
-        var genderChart = new GenderChart("#gender-chart", self.dispatch, genderDim, genderGroup);
-        self.charts.push(genderChart);
+        //var genderChart = new GenderChart("#gender-chart", self.dispatch, genderDim, genderGroup);
+        //self.charts.push(genderChart);
         var levelChart = new LevelChart("#level-chart", self.dispatch, levelDim, levelGroup);
         self.charts.push(levelChart);
+        var locationChart = new LevelChart("#location-chart", self.dispatch, locationDim, locationGroup);
+        self.charts.push(locationChart);
 
 
         charts.forEach(function (chart) {

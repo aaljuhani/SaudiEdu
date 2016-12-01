@@ -2,9 +2,9 @@
  * Created by asmaa on 11/11/16.
  */
 /**
- * Constructor for the level Chart
+ * Constructor for the location Chart
  */
-function LevelChart(selector, dispatch, dimension, group) {
+function LocationChart(selector, dispatch, dimension, group) {
     var self = this;
     self.selector = selector;
     self.dispatch = dispatch;
@@ -12,14 +12,14 @@ function LevelChart(selector, dispatch, dimension, group) {
     self.group = group;
     //self.init();
     // for interaction with gender bars
-    self.activeLevel = 'undergrad'
+    self.activeLocation = 'local'
 
 };
 
 /**
  * Initializes the svg elements required for this chart
  */
-LevelChart.prototype.init = function () {
+LocationChart.prototype.init = function () {
     var self = this;
     self.margin = {top: 10, right: 10, bottom: 10, left: 10};
 
@@ -51,7 +51,7 @@ LevelChart.prototype.init = function () {
 
 
     self.svg.select('g').append('g')
-        .attr('id', 'level-pie')
+        .attr('id', 'location-pie')
     //.attr("transform", "translate(0, -20)")
     var radius = self.svgWidth / 3;
     self.arc = d3.arc()
@@ -75,7 +75,7 @@ LevelChart.prototype.init = function () {
         .attr('id', function (d, i) {
             return d.data.key
         })
-        .attr('class', 'level-pie')
+        .attr('class', 'location-pie')
         .style("fill", function (d, i) {
             return self.colorScale(d.data.value);
         })
@@ -94,7 +94,7 @@ LevelChart.prototype.init = function () {
         });
 
     self.pie.append("text")
-        .attr('class', 'level-middletext')
+        .attr('class', 'loc-middletext')
         .attr("text-anchor", "middle")
         .attr('font-size', '1.7em')
         .attr('y', 10)
@@ -111,7 +111,7 @@ LevelChart.prototype.init = function () {
  *
  *
  */
-LevelChart.prototype.update = function () {
+LocationChart.prototype.update = function () {
     var self = this;
 
     //update domains
@@ -124,9 +124,9 @@ LevelChart.prototype.update = function () {
         .attr('id', function (d, i) {
             return d.data.key
         })
-        .attr('class', 'level-pie')
+        .attr('class', 'location-pie')
         .style("fill", function (d, i) {
-            return self.activeLevel == d.data.key ? self.colorScale(d.data.value) : 'lightgray';
+            return self.activeLocation == d.data.key ? self.colorScale(d.data.value) : 'lightgray';
         })
         .on("mouseover", function (d, i) {
 
@@ -147,16 +147,16 @@ LevelChart.prototype.update = function () {
         .on("click", function (d, i) {
 
             console.log(d)
-            var clicked = d.data.key;
-            if (clicked == self.activeLevel) {
+            var locclicked = d.data.key;
+            if (locclicked == self.activeLocation) {
                 self.dimension.filterAll()
-                self.activeLevel = "All"
+                self.activeLocation = "All"
 
             } else {
-                self.activeLevel = clicked;
-                self.dimension.filter(clicked)
+                self.activeLocation = locclicked;
+                self.dimension.filter(locclicked)
 
-                self.svg.selectAll('.level-pie').transition()
+                self.svg.selectAll('.location-pie').transition()
                     .duration(250)
                     .attr("fill", function (d, j) {
                         return j != i ? 'lightgray' : self.colorScale(d.data.value);
@@ -178,7 +178,7 @@ LevelChart.prototype.update = function () {
             return d.data.key;
         });
 
-    self.svg.select('.level-middletext').text(self.activeLevel)
+    self.svg.select('.loc-middletext').text(self.activeLocation)
 
 
 };

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fba3c069-90ca-4c93-b780-792201c1ca2a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="$PROJECT_DIR$/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/genderChart.js" afterPath="$PROJECT_DIR$/static/js/genderChart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/levelChart.js" afterPath="$PROJECT_DIR$/static/js/levelChart.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/main.js" afterPath="$PROJECT_DIR$/static/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/subjectChart.js" afterPath="$PROJECT_DIR$/static/js/subjectChart.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/yeargenderChart.js" afterPath="$PROJECT_DIR$/static/js/yeargenderChart.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
     </list>
@@ -40,11 +41,11 @@
               <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/static/js/main.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-3.7777777">
-                      <caret line="176" column="10" selection-start-line="176" selection-start-column="10" selection-end-line="176" selection-end-column="10" />
+                    <state vertical-scroll-proportion="-4.3333335">
+                      <caret line="183" column="88" selection-start-line="183" selection-start-column="77" selection-end-line="183" selection-end-column="88" />
                       <folding>
                         <element signature="n#!!doc" expanded="true" />
-                        <element signature="e#6378#6603#0" expanded="false" />
+                        <element signature="e#6529#6754#0" expanded="false" />
                       </folding>
                     </state>
                   </provider>
@@ -53,8 +54,8 @@
               <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/templates/index.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-12.333333">
-                      <caret line="140" column="22" selection-start-line="140" selection-start-column="22" selection-end-line="140" selection-end-column="22" />
+                    <state vertical-scroll-proportion="-4.7058825">
+                      <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
                       <folding>
                         <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                         <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -66,18 +67,18 @@
               <file leaf-file-name="levelChart.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/static/js/levelChart.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-0.5555556">
-                      <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+                    <state vertical-scroll-proportion="-3.2037036">
+                      <caret line="128" column="35" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="35" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="yeargenderChart.js" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/static/js/yeargenderChart.js">
+              <file leaf-file-name="locationChart.js" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/static/js/locationChart.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.1618497">
-                      <caret line="256" column="4" selection-start-line="256" selection-start-column="4" selection-end-line="256" selection-end-column="4" />
+                    <state vertical-scroll-proportion="5.144509">
+                      <caret line="180" column="12" selection-start-line="180" selection-start-column="9" selection-end-line="180" selection-end-column="12" />
                       <folding />
                     </state>
                   </provider>
@@ -160,8 +161,28 @@
               <file leaf-file-name="subjectChart.js" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/static/js/subjectChart.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.2857143">
-                      <caret line="166" column="12" selection-start-line="166" selection-start-column="12" selection-end-line="166" selection-end-column="12" />
+                    <state vertical-scroll-proportion="0.71428573">
+                      <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="genderChart.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/static/js/genderChart.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state vertical-scroll-proportion="-0.5625">
+                      <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="yeargenderChart.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/static/js/yeargenderChart.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state vertical-scroll-proportion="-23.88889">
+                      <caret line="227" column="6" selection-start-line="223" selection-start-column="46" selection-end-line="227" selection-end-column="6" />
                       <folding />
                     </state>
                   </provider>
@@ -192,8 +213,8 @@
       <list>
         <option value="CSS File" />
         <option value="Python Script" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -203,8 +224,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/styles.css" />
-        <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/public/js/yearChart.js" />
         <option value="$PROJECT_DIR$/LineChart.html" />
         <option value="$PROJECT_DIR$/data/years.csv" />
@@ -242,18 +261,20 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/test2.html" />
         <option value="$PROJECT_DIR$/nestedTree.html" />
-        <option value="$PROJECT_DIR$/static/js/levelChart.js" />
-        <option value="$PROJECT_DIR$/static/js/genderChart.js" />
-        <option value="$PROJECT_DIR$/static/js/subjectChart.js" />
         <option value="$PROJECT_DIR$/static/js/overviewChart.js" />
         <option value="$PROJECT_DIR$/test3.txt" />
         <option value="$PROJECT_DIR$/test3.html" />
         <option value="$PROJECT_DIR$/static/js/year-genderChart.js" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/static/js/yearChart.js" />
-        <option value="$PROJECT_DIR$/static/js/main.js" />
         <option value="$PROJECT_DIR$/static/js/yeargenderChart.js" />
+        <option value="$PROJECT_DIR$/static/js/genderChart.js" />
+        <option value="$PROJECT_DIR$/static/js/location.js" />
+        <option value="$PROJECT_DIR$/static/js/main.js" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/static/js/levelChart.js" />
+        <option value="$PROJECT_DIR$/static/js/subjectChart.js" />
+        <option value="$PROJECT_DIR$/static/js/locationChart.js" />
       </list>
     </option>
   </component>
@@ -766,14 +787,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/subjectChart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.291666">
-          <caret line="84" column="5" selection-start-line="78" selection-start-column="3" selection-end-line="84" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/test.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17569546">
@@ -1075,14 +1088,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/genderChart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.296296">
-          <caret line="177" column="20" selection-start-line="177" selection-start-column="20" selection-end-line="177" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625">
@@ -1123,14 +1128,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/subjectChart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2857143">
-          <caret line="166" column="12" selection-start-line="166" selection-start-column="12" selection-end-line="166" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/overviewChart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.24725275">
@@ -1149,10 +1146,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/yeargenderChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.88889">
+          <caret line="227" column="6" selection-start-line="223" selection-start-column="46" selection-end-line="227" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/genderChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5625">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.333333">
-          <caret line="140" column="22" selection-start-line="140" selection-start-column="22" selection-end-line="140" selection-end-column="22" />
+        <state vertical-scroll-proportion="-4.7058825">
+          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1160,29 +1173,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/subjectChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71428573">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/levelChart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5555556">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state vertical-scroll-proportion="-3.2037036">
+          <caret line="128" column="35" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7777777">
-          <caret line="176" column="10" selection-start-line="176" selection-start-column="10" selection-end-line="176" selection-end-column="10" />
+        <state vertical-scroll-proportion="-4.3333335">
+          <caret line="183" column="88" selection-start-line="183" selection-start-column="77" selection-end-line="183" selection-end-column="88" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#6378#6603#0" expanded="false" />
+            <element signature="e#6529#6754#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/yeargenderChart.js">
+    <entry file="file://$PROJECT_DIR$/static/js/locationChart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1618497">
-          <caret line="256" column="4" selection-start-line="256" selection-start-column="4" selection-end-line="256" selection-end-column="4" />
+        <state vertical-scroll-proportion="5.144509">
+          <caret line="180" column="12" selection-start-line="180" selection-start-column="9" selection-end-line="180" selection-end-column="12" />
           <folding />
         </state>
       </provider>
