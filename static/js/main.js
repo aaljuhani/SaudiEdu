@@ -13,7 +13,7 @@
         self.charts = [];
         self.overviews = [];
         //d3 dispatcher
-        self.dispatch = d3.dispatch('update', 'filterGraph', 'addGraph', 'deleteGraph');
+        self.dispatch = d3.dispatch('update', 'filter', 'filterGraph', 'addGraph', 'deleteGraph');
         queue()
             .defer(d3.csv, '/data')
             .await(makeCharts);
@@ -61,59 +61,57 @@
 
         //test year gender dimension
         var yeargenderDim = ndx.dimension(function (d) {
-            return d['gender'];
+            return d['year'];
         })
-
+/*
         var yeargenderGroup = d3.nest()
             .key(function(d){return d.gender})
             //.key(function(d){return d.year}).sortKeys(d3.ascending)
             .rollup(function(leaves){return {'value':d3.sum(leaves, function(d){return d.value})}})
             .entries(yeargenderDim.top(Infinity))
+*/
 
-   /*     console.log(yeargender)
 
 
         var yeargenderGroup = yeargenderDim.group().reduce(reduceAddgender, reduceRemovegender, reduceInitialgender).order(orderGender);//.all();
 
         function reduceAddgender(p, v) {
             //console.log(p,v)
-            p.year = v['year'];
-            p.value +=  +v['value']
-            /!*p.female += (v['gender'] == 'female')? +v['value']: 0;
+            //p.value +=  +v['value']
+            p.female += (v['gender'] == 'female')? +v['value']: 0;
             p.male += (v['gender'] == 'male')? +v['value']: 0;
-            p.total +=  +v['value'];*!/
+            p.total +=  +v['value'];
             return p;
         }
 
         function reduceRemovegender(p, v) {
-            p.year = v['year'];
-            p.value +=  +v['value']
-            /!*p.female -= (v['gender'] == 'female')? +v['value']: 0;
+
+           // p.value +=  +v['value']
+            p.female -= (v['gender'] == 'female')? +v['value']: 0;
             p.male -= (v['gender'] == 'male')? +v['value']: 0;
-            p.total -=  +v['value'];*!/
+            p.total -=  +v['value'];
             return p;
         }
 
         function reduceInitialgender() {
             return {
                // year: 0,
-                gender:0,
-                value:0
-                //female: 0,
-              //  male:0,
-               // total:0
+               // value:0
+                female: 0,
+                male:0,
+                total:0
             };
         }
 
         function orderGender(p) {
-            return p.value;
+            return p.total;
         }
 
 
         console.log('yearGender', yeargenderDim.top(Infinity))
         console.log('yearGender', yeargenderGroup.all())
 
-*/
+
 
         var yearDim = ndx.dimension(function (d) {
             return d["year"];
@@ -173,10 +171,10 @@
         //console.log('year', numRecordsByYear.all())
 
         //Creating instances for each visualization then add it to the charts array
-        var yeargenderChart = new YearGenderChart("#yeargender-chart", self.dispatch, yearDim,genderDim, numRecordsByYear , yeargenderGroup);
+        var yeargenderChart = new YearGenderChart("#yeargender-chart", self.dispatch, yearDim,genderDim, numRecordsByYear, yeargenderDim, yeargenderGroup);
         self.charts.push(yeargenderChart);
-        var yearChart = new YearChart("#year-chart", self.dispatch, yearDim, numRecordsByYear);
-        self.charts.push(yearChart);
+        //var yearChart = new YearChart("#year-chart", self.dispatch, yearDim, numRecordsByYear);
+        //self.charts.push(yearChart);
         var subjectChart = new SubjectChart("#subject-chart", self.dispatch, subjectDim, subjectGroup);
         self.charts.push(subjectChart);
         var genderChart = new GenderChart("#gender-chart", self.dispatch, genderDim, genderGroup);
@@ -195,7 +193,17 @@
             charts.forEach(function (chart) {
                 chart.update();
             })
-            console.log('all', allDim.top(Infinity))
+
+        })
+
+        self.dispatch.on('filter', function () {
+            alert('filter')
+
+                yearChart.update();
+                subjectChart.update();
+                genderChart.update();
+
+
         })
 
     }

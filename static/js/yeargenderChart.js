@@ -6,17 +6,22 @@
  *
  * @param yearsData
  */
-function YearGenderChart(selector, dispatch, yeardimension, genderdimension , yearGroup ,group) {
+function YearGenderChart(selector, dispatch, yeardimension, genderdimension , yearGroup ,yeargenderDim ,group) {
     console.log('yeargender')
-    console.log(group)
+    console.log(group.all())
     var self = this;
     self.selector = selector;
     self.dispatch = dispatch;
     self.yeardimension = yeardimension;
     self.genderdimension = genderdimension;
    // self.dimension = dimension;
+    self.yeargenderDim = yeargenderDim;
     self.yeargroup = yearGroup;
     self.group = group;
+
+    //for filtiring
+    self.activeGender = 'both'
+    self.activeYears = []
     //self.init();
 
 };
@@ -42,23 +47,34 @@ YearGenderChart.prototype.init = function () {
         .attr("width", self.svgWidth)
         .attr("height", self.svgHeight)
 
-    // x scale
+    self.svgYear = divChart.append('svg')
+        .attr('id','#year-chart')
+        .attr("width", self.svgWidth)
+        .attr("height", self.svgHeight/3)
+        .attr("transform", "translate(20, 0)")
 
+    // x scale
     self.xScale = d3.scaleBand()
         .domain(self.yeargroup.all().map(function (d) {
             return d.key
         }))
-        .rangeRound([0, self.svgWidth - 50])
-        .padding(.3);
-
-
+        .range([0, self.svgWidth - 30])
+        //.padding(.3);
 
     // y axis
     self.yScale = d3.scaleLinear()
-        .range([self.svgHeight - 20, 0]);
+        .range([0, self.svgHeight]);
+
+    self.yScale0 = d3.scaleLinear()
+        .range([self.svgHeight, 0]);
 
     // Create colorScale
-    self.colorScale = d3.scaleLinear()
+    self.colorScale = d3.scaleOrdinal()
+        .domain(["female","male"])
+        .range(['#cc9999', '#99B3CC']);
+
+    // Create colorScale
+    self.YcolorScale = d3.scaleLinear()
         .range(['#99cccc', '#336666']);
 
     // transition time
@@ -66,27 +82,73 @@ YearGenderChart.prototype.init = function () {
         .duration(1000);
 
     self.svg.append('g')
-        .attr("transform", "translate(40, 0)")
+        .attr("transform", "translate(20, 0)")
+
+    self.svgYear.append('g')
+        .attr("transform", "translate(50, 0)")
 
     // Add the X Axis
     self.xAxis = self.svg.select('g').append("g")
         .attr('id', 'xAxis')
         .attr("transform", "translate(0," + (self.svgHeight - 20) + ")")
-        .call(d3.axisBottom(self.xScale));
+       // .call(d3.axisBottom(self.xScale));
 
     // Add the Y Axis
     self.yAxis = self.svg.select('g').append("g")
         .attr('id', 'yAxis')
-        .call(d3.axisLeft(self.yScale))//.tickFormat(d3.format(".0s")))//.tickFormat(function (d) {return d.value + "%";}))
+        .call(d3.axisLeft(self.yScale0))//.tickFormat(d3.format(".0s")))//.tickFormat(function (d) {return d.value + "%";}))
+
 
     self.svg.select('g').append('g')
-        .attr('id', 'yeargender-bars')
-        .attr("transform", "translate(0, -20)")
+        .attr('id', 'yeargender-area')
+        .attr("transform", "translate(35, 30)scale(1,.8)")
+
+
 
     //brush
-    self.svg.append("g")
+     self.svgYear.append("g")
         .attr("class", "brush")
         .attr("transform", "translate(40, 0)")
+
+     // year chart
+    var dashLine = self.svgYear
+        .append('line')
+    .attr("x1", 0)     // x position of the first end of the line
+    .attr("y1", 20)      // y position of the first end of the line
+    .attr("x2", self.svgWidth)     // x position of the second end of the line
+    .attr("y2", 20) // y position of the second end of the line
+    .attr('class', 'lineChart');
+
+    //create a g element that holds circle and text
+    self.elemYear = self.svgYear.select('g').selectAll('g').data(self.yeargroup.all())
+
+    var elemYearEnter = self.elemYear.enter().append('g')
+        .attr("transform", function(d, i){
+            return "translate("+ self.xScale(d.key)+",20)"})
+
+
+    self.elemYear = elemYearEnter.merge(self.elemYear)
+
+    //create circle for each year
+    self.circle = self.elemYear.append('circle')
+        .transition()
+        .duration(1000)
+        .attr("r", 9)
+        .attr('fill', '#336666')
+        .attr('class','year-circle active')
+        .style("opacity", 1)
+
+
+    //Append text information of each year right below the corresponding circle
+    //HINT: Use .yeartext class to style your text elements
+    //create text for each year
+    var textYear = self.elemYear.append('text')
+        .attr("dx", function(d, i){return -15})
+        .attr("dy", function(d, i){return 30})
+        .attr("class","yeartext")
+        .text(function(d){return d.key})
+
+
 
 
    self.update();
@@ -95,140 +157,137 @@ YearGenderChart.prototype.init = function () {
 
 
 /**
- * Creates a chart with circles representing each election year, populates text content and other required elements for the YearGender Chart
+ * Creates a chart with area representing each gender, populates text content and other required elements for the YearGender Chart
  */
 YearGenderChart.prototype.update = function () {
     var self = this;
 
-    //updating domains based on filtered data
+    console.log(self.group.all())
+
+       //updating domains based on filtered data
     self.maxValue = self.yeargroup.top(1)[0]["value"];
-    self.yScale.domain([0, self.maxValue])
-    self.colorScale.domain([0, self.maxValue])
+   // console.log(self.maxValue)
+    self.yScale0.domain([0, self.maxValue])
+     self.YcolorScale.domain([0, self.maxValue])
+
+
 
     var stack = d3.stack()
-        .keys(["female",'male'])
-        .value(function(d, key){
-            console.log('d',d)
-            console.log('key',key)
+        .keys(["female", 'male'])
+        .value(function (d, key) {
+            return d.value[key]
         })
         .order(d3.stackOrderNone)
-        .offset(d3.stackOffsetWiggle);
+        .offset(d3.stackOffsetNone);
 
-    console.log('group gender year', self.group)
-
-
-    var series = stack(self.group)
-
-    console.log('series', series)
+    var series = stack(self.group.all())
 
 
-/*
+    self.yScale.domain([ d3.max(series, function (layer) {
+        return d3.max(layer, function (d) {
+            return d[1];
+        });
+    }), 0])
 
-    // Create the bars
-    self.bars = d3.select("#yeargender-bars").selectAll("rect").data(self.group.all());
-
-    self.bars = self.bars.enter()
-        .append('rect')
-        .attr('class', 'yeargender-bar active')
-        .merge(self.bars);
-    self.bars.exit().remove();
-
-    self.bars
-        .attr('x', function (d) {
-            return self.xScale(d.key);
+    var area = d3.area()
+        .x(function (d) {
+            return self.xScale(d.data.key)
         })
-        .attr('width', function (d) {
-            return self.xScale.bandwidth();
+        .y0(function (d) {
+            return self.yScale(d[0])
         })
-        .transition(self.t)
-        .attr('y', function (d) {
-            return self.yScale(d.value);
-        })
-        .attr('height', function (d) {
-            return self.svgHeight - self.yScale(d.value);
-        })
-        .attr('fill', function (d) {
-            return isActive(d.key) ? self.colorScale(d.value): 'lightgray';
-        })
-        .attr('id', function (d) {
-            return 'yeargender-'+d.key
-        })
-        //.attr('class', 'year-bar active')
+        .y1(function (d) {
+            return self.yScale(d[1])
+        });
 
-    self.svg.select('.brush')
+
+    // creat areas
+    self.areas = d3.select('#yeargender-area').selectAll('path').data(series);
+
+    self.areas = self.areas.enter()
+        .append('path')
+        .attr('class', 'gender-area active')
+        .merge(self.areas);
+
+    self.areas.exit().remove();
+
+    self.areas.attr("d", area)
+        .attr('id', function (d, i) {
+            return i == 0 ? "female" : "male"
+        })
+        .attr('fill', function (d, i) {
+            return self.colorScale(i)
+        })
+        .attr("opacity", 1)
+        .on('mouseover', function (d,i) {
+            console.log('clicked')
+            self.svg.selectAll('.gender-area').transition()
+      .duration(250)
+      .attr("opacity", function(d, j) {
+        return j != i ? 0.6 : 1;
+    })
+        .attr("strok", "#336666")
+        .attr("stroke-width", "10px")})
+
+    .on("mouseout", function(d, i) {
+     self.svg.selectAll(".gender-area")
+      .transition()
+      .duration(250)
+      .attr("opacity", "1");
+      d3.select(this)
+      .attr("stroke-width", "0px")
+  })
+        .on("click", function(d,i){
+            console.log(d)
+            console.log(i)
+            var clicked = i == 0?'female':'male'
+            console.log(clicked)
+            if(clicked == self.activeGender){
+                self.genderdimension.filterAll()
+                self.activeGender = "both"
+            } else {
+                self.activeGender = clicked;
+                self.genderdimension.filter(clicked)
+            }
+
+
+            self.dispatch.call('update')
+        })
+
+    
+
+        self.svgYear.select('.brush')
         .call(d3.brushX()
-            .extent([[0, 0], [self.svgWidth - 40, self.svgHeight - 20]])
-            .on("end", brushed));
+            .extent([[0, 0], [self.svgWidth - 40, self.svgHeight ]])
+            .on("brush", brushed));
 
-
-    function brushed() {
-         var brushSelection = []
+     function brushed() {
+         self.activeYears = []
         if (!d3.event.sourceEvent) return; // Only transition after input.
         if (!d3.event.selection) return; // Ignore empty selections.
         var s = d3.event.selection;
         console.log('s', s)
 
-        self.bars.each(function (d, i) {
-            if ((s[0] <= self.xScale(d.key) + 20) && (self.xScale(d.key) + 20 <= s[1])) {
-                brushSelection.push(d.key);
+        self.elemYear.each(function (d, i) {
+               if ((s[0] <= self.xScale(d.key) + 20) && (self.xScale(d.key) + 20 <= s[1])) {
+                self.activeYears.push(d.key);
             }
         });
 
-        self.updateSelection(brushSelection)
         // self.shiftChart.update(brushSelection)
-    }
+         //update year filter
+         self.yeardimension.filter(function(d){
+             return self.activeYears.indexOf(d) > -1
+         })
 
-    function isActive(elm){
-        if(elm == null) return;
-        elmClass = self.svg.selectAll('.yeargender-bar')
-            .filter(function (d) {
-            return d.key == elm
-            }).attr('class')
-        return elmClass ==  'yeargender-bar inactive' ? false: true;
-    }
-
-    YearGenderChart.prototype.updateSelection = function (active) {
-        console.log(active)
-        console.log(active.length)
-        console.log(d3.min(active))
-        console.log(d3.max(active))
-        // make unselected bars inactive
-        self.svg.selectAll('.year-bar')
-            .filter(function (d) {
-            return active.indexOf(d.key) <= -1
-            })
-            .attr('class', 'yeargender-bar inactive')
-
-        // make selected bars active
-        self.svg.selectAll('.yeargender-bar')
-            .filter(function (d) {
-            return active.indexOf(d.key) > -1
-            })
-            .attr('class', 'yeargender-bar active')
-
-        // update filter
-        self.dimension.filter(function(d){
-            return active.indexOf(d) > -1
-        })
-        /*
-        if (active.length == 1){
-            self.dimension.filter(active[0])
-        }else {
-            var minYearGender = d3.min(active)
-            var maxYearGender = d3.max(active)
-            self.dimension.filter([minYearGender,maxYearGender])
-        }*/
-
-/*
-
-        // update all charts
+          // update all charts
         self.dispatch.call('update')
+    }
+
+    YearGenderChart.prototype.updateSelection = function () {
+
 
     }
-*/
+
 
 };
-
-
-
-
