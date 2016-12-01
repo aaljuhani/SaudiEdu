@@ -5,34 +5,12 @@
  * Constructor for the overview Chart
  */
 
-var data = [{
-    "male": "202",
-    "female": "102",
-    "year": "2000"
-}, {
-    "male": "215",
-    "female": "315",
-    "year": "2001"
-}, {
-    "male": "179",
-    "female": "279",
-    "year": "2002"
-}, {
-    "male": "199",
-    "female": "499",
-    "year": "2003"
-}, {
-    "male": "134",
-    "female": "134",
-    "year": "2004"
-}, {
-    "male": "176",
-    "female": "276",
-    "year": "2005"
-}];
-function OverviewChart() {
+function OverviewChart( dispatch, newid) {
 
     var self = this;
+
+    self.dispatch = dispatch;
+    self.newid = newid;
     self.init();
 };
 
@@ -41,21 +19,25 @@ function OverviewChart() {
  */
 OverviewChart.prototype.init = function () {
     var self = this;
-    self.margin = {top: 30, right: 20, bottom: 30, left: 50};
-    var divOverview = d3.select("#chart-vis").classed("content", true);
 
-    //Gets access to the div element created for this chart from HTML
-    self.svgBounds = divOverview.node().getBoundingClientRect();
-    self.svgWidth = self.svgBounds.width - self.margin.left - self.margin.right;
-    self.svgHeight = 500;
+    var container = document.getElementById('dynamic-charts' )
+    var newgraph = document.createElement('div');
+    newgraph.setAttribute('id', 'overviewGraph-' + self.newid)
+    newgraph.setAttribute('class', 'chart-wrapper overview-graph active');
+    var htmlAddition = "<div class=\"chart-title\">";
+    htmlAddition += "<div class=\"chart-title\">Overview"
+    htmlAddition += "<div class=\"chart-tools\">"
+    //htmlAddition += "<span class=\"glyphicon glyphicon-remove\" aria-hidden=\"true\"></span>"
+    //htmlAddition += "<span class=\"glyphicon glyphicon-duplicate\" aria-hidden=\"true\"></span>"
+    //htmlAddition += "<span class=\"glyphicon glyphicon-plus\" aria-hidden=\"true\"></span>"
+    htmlAddition += "</div></div>"
+    htmlAddition += "<div class=\"chart-stage\">"
+    htmlAddition += "<div id=\"overview-"+ self.newid + "\" style=\"width: 400px; height: 380px\"></div>"
+    htmlAddition += "</div></div>"
+    newgraph.innerHTML = htmlAddition;
+    container.appendChild(newgraph)
 
-    //creates svg element within the div
-    self.svg = divOverview.append("svg")
-        .attr("width", self.svgWidth + self.margin.left + self.margin.right)
-        .attr("height", self.svgHeight + self.margin.top + self.margin.bottom)
-        .append("g")
-        .attr("transform",
-            "translate(" + self.margin.left + "," + self.margin.top + ")");
+
 
 
 };
@@ -69,6 +51,7 @@ OverviewChart.prototype.init = function () {
 OverviewChart.prototype.update = function (yData, yearScale) {
     var self = this;
 
+/*
 
 // set the ranges
     var x = d3.scaleBand().range([0, self.svgWidth]);
@@ -138,6 +121,7 @@ OverviewChart.prototype.update = function (yData, yearScale) {
         .call(d3.axisLeft(y).tickFormat(function (d) {
             return d + "%";
         }))
+*/
 
 
 }

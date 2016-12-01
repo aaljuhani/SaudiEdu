@@ -11,9 +11,36 @@
     function init() {
         // array of all charts
         self.charts = [];
+        self.overviews = [];
+        //d3 dispatcher
+        self.dispatch = d3.dispatch('update', 'filterGraph', 'addGraph', 'deleteGraph');
         queue()
             .defer(d3.csv, '/data')
             .await(makeCharts);
+
+        handelGraphEvents()
+
+    }
+
+    /**
+     * handel adding/duplicate/removing overview chart
+     */
+    function handelGraphEvents() {
+
+
+        //handel delete event
+        d3.selectAll('.glyphicon-remove')
+            .on('click', function () {
+                d3.select(this.parentNode.parentNode.parentNode).remove()
+                //self.dispatch.call('deleteGraph')
+            })
+
+        d3.selectAll('.glyphicon-plus')
+            .on('click', function () {
+                self.overviews.push(new OverviewChart(self.dispatch, self.overviews.length))
+            })
+
+
     }
 
     /**
@@ -29,6 +56,65 @@
         var ndx = crossfilter(records);
 
         //Define Dimensions
+
+
+
+        //test year gender dimension
+        var yeargenderDim = ndx.dimension(function (d) {
+            return d['gender'];
+        })
+
+        var yeargenderGroup = d3.nest()
+            .key(function(d){return d.gender})
+            //.key(function(d){return d.year}).sortKeys(d3.ascending)
+            .rollup(function(leaves){return {'value':d3.sum(leaves, function(d){return d.value})}})
+            .entries(yeargenderDim.top(Infinity))
+
+   /*     console.log(yeargender)
+
+
+        var yeargenderGroup = yeargenderDim.group().reduce(reduceAddgender, reduceRemovegender, reduceInitialgender).order(orderGender);//.all();
+
+        function reduceAddgender(p, v) {
+            //console.log(p,v)
+            p.year = v['year'];
+            p.value +=  +v['value']
+            /!*p.female += (v['gender'] == 'female')? +v['value']: 0;
+            p.male += (v['gender'] == 'male')? +v['value']: 0;
+            p.total +=  +v['value'];*!/
+            return p;
+        }
+
+        function reduceRemovegender(p, v) {
+            p.year = v['year'];
+            p.value +=  +v['value']
+            /!*p.female -= (v['gender'] == 'female')? +v['value']: 0;
+            p.male -= (v['gender'] == 'male')? +v['value']: 0;
+            p.total -=  +v['value'];*!/
+            return p;
+        }
+
+        function reduceInitialgender() {
+            return {
+               // year: 0,
+                gender:0,
+                value:0
+                //female: 0,
+              //  male:0,
+               // total:0
+            };
+        }
+
+        function orderGender(p) {
+            return p.value;
+        }
+
+
+        console.log('yearGender', yeargenderDim.top(Infinity))
+        console.log('yearGender', yeargenderGroup.all())
+
+*/
+
         var yearDim = ndx.dimension(function (d) {
             return d["year"];
         });
@@ -52,13 +138,15 @@
         });
 
         //Group Data
-        var numRecordsByYear = yearDim.group().reduceSum(function (fact) {
-            return fact.value;
-        });
+        var numRecordsByYear = yearDim.group()
+            .reduceSum(function (fact) {
+                return fact.value;
+            });
 
-        var genderGroup = genderDim.group().reduceSum(function (fact) {
-            return fact.value
-        });
+        var genderGroup = genderDim.group()
+            .reduceSum(function (fact) {
+                return fact.value
+            });
 
         var subjectGroup = subjectDim.group()
             .reduceSum(function (fact) {
@@ -76,50 +164,39 @@
         var minYear = yearDim.bottom(2)[1]["year"];
         var maxYear = yearDim.top(1)[0]["year"];
 
-        //d3 dispatcher
-        var dispatch = d3.dispatch('update');
 
         //yearDim.filter([2014, 2006,2010,2004,2007])
 
 
         //genderDim.filter('female')
         //subjectDim.filter('Information Technology')
+        //console.log('year', numRecordsByYear.all())
 
         //Creating instances for each visualization then add it to the charts array
-        var yearChart = new YearChart("#year-chart", dispatch, yearDim, numRecordsByYear);
+        var yeargenderChart = new YearGenderChart("#yeargender-chart", self.dispatch, yearDim,genderDim, numRecordsByYear , yeargenderGroup);
+        self.charts.push(yeargenderChart);
+        var yearChart = new YearChart("#year-chart", self.dispatch, yearDim, numRecordsByYear);
         self.charts.push(yearChart);
-        var subjectChart = new SubjectChart("#subject-chart",dispatch, subjectDim, subjectGroup);
+        var subjectChart = new SubjectChart("#subject-chart", self.dispatch, subjectDim, subjectGroup);
         self.charts.push(subjectChart);
-        var genderChart = new GenderChart("#gender-chart", dispatch, genderDim, genderGroup);
+        var genderChart = new GenderChart("#gender-chart", self.dispatch, genderDim, genderGroup);
         self.charts.push(genderChart);
-        var levelChart = new LevelChart("#level-chart", dispatch, levelDim, levelGroup);
+        var levelChart = new LevelChart("#level-chart", self.dispatch, levelDim, levelGroup);
         self.charts.push(levelChart);
 
 
-        charts.forEach(function(chart){
+        charts.forEach(function (chart) {
             allDim.filterAll()
             chart.init()
 
         })
 
-        dispatch.on('update',function(){
-            charts.forEach(function(chart){
+        self.dispatch.on('update', function () {
+            charts.forEach(function (chart) {
                 chart.update();
             })
             console.log('all', allDim.top(Infinity))
         })
-
-
-
-        console.log('******************************************')
-
-
-
-
-
-
-
-
 
     }
 

@@ -101,4 +101,22 @@
        cursor: pointer;
    }
 
+   .gender-bar{
+       cursor: pointer;
+   }
+   .chart-tools{
+           float: right;
+   }
+   .chart-tools span {
+    float: right;
+    margin-left: 15px;
+    cursor: pointer;
+   }
+
+   #dynamic-charts{
+       overflow: auto;
+       max-height: 90vh;
+       height: 100%;
+   }
+
 
