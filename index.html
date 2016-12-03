@@ -32,7 +32,7 @@
 
     <div class="row">
 
-        <div class="col-sm-6">
+        <div class="col-sm-8">
             <div class="row">
 
                 <!-- Year Gender Chart -->
@@ -100,7 +100,7 @@
         </div>
 
 
-        <div class="col-sm-2">
+        <div class="col-sm-4">
             <div class="row">
 
                 <!-- Subject Chart -->
@@ -119,16 +119,16 @@
         </div>
 
 
-        <div class="col-sm-4">
+       <!-- <div class="col-sm-4">
 
             <div class="row">
-                <!-- Overview -->
+                &lt;!&ndash; Overview &ndash;&gt;
                 <div id="dynamic-charts" class="col-sm-12">
                     <div class="chart-wrapper">
                         <div class="chart-title">
                             Overview 1
                             <div class="chart-tools">
-                                <!--<span class="glyphicon glyphicon-duplicate" aria-hidden="true"></span>-->
+                                &lt;!&ndash;<span class="glyphicon glyphicon-duplicate" aria-hidden="true"></span>&ndash;&gt;
                                 <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
 
 
@@ -141,10 +141,10 @@
                 </div>
 
 
-                <!-- Overview -->
+                &lt;!&ndash; Overview &ndash;&gt;
             </div>
 
-        </div>
+        </div>-->
 
     </div>
 
@@ -174,139 +174,3 @@
 </body>
 </html>
 
-
-<!--
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Higher Education in Saudi Arabia</title>
-    <link rel="stylesheet" href="public/css/style.css"/>
-    &lt;!&ndash;<script src="https://d3js.org/d3.v4.min.js"></script>&ndash;&gt;
-    <script type="text/javascript" src="bower_components/d3/d3.js"></script>
-    <script type="text/javascript" src="bower_components/d3-tip/index.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.9.0/d3-legend.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-
-    &lt;!&ndash; Latest compiled and minified CSS &ndash;&gt;
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    &lt;!&ndash; Optional theme &ndash;&gt;
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-    &lt;!&ndash; Latest compiled and minified JavaScript &ndash;&gt;
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-            crossorigin="anonymous"></script>
-
-
-</head>
-
-<body>
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        &lt;!&ndash; Brand and toggle get grouped for better mobile display &ndash;&gt;
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">Higher Education in Saudi Arabia</a>
-        </div>
-
-        &lt;!&ndash; Collect the nav links, forms, and other content for toggling &ndash;&gt;
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-            &lt;!&ndash;<form class="navbar-form navbar-right">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
-              </div>
-              <button type="submit" class="btn btn-default">Submit</button>
-            </form>&ndash;&gt;
-        </div>&lt;!&ndash; /.navbar-collapse &ndash;&gt;
-    </div>&lt;!&ndash; /.container-fluid &ndash;&gt;
-</nav>
-
-
-<div class="container">
-    <div class="row">
-        <div id="main-view" class="col-md-8">
-            <div id="story-vis"></div>
-            <div id="chart-vis"></div>
-            <div id="years-vis">
-
-                <div class="row">
-                    <div class="col-md-1"><span class="btn glyphicon glyphicon-play" aria-hidden="true"></span>
-                    </div>
-                    <div class="col-md-10">
-                        <div id="year-chart" class="view"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div id="subject-group-view" class="col-md-4">
-            <div class="subject-con" style="margin-top: 50px">
-
-                <div class="subject-button">
-                    <div id='subject-chart' class="subject-vis"></div>
-                    <p>All</p>
-                </div>
-
-                <div class="subject-button selected">
-                    <div class="subject-vis">
-
-                    </div>
-                    <p>Art</p>
-                </div>
-                <div class="subject-button">
-                    <div class="subject-vis">
-
-                    </div>
-                    <p>Health</p>
-                </div>
-                <div class="subject-button">
-                    <div class="subject-vis">
-
-                    </div>
-                    <p>Islamic Studies</p>
-                </div>
-                <div class="subject-button">
-                    <div class="subject-vis">
-
-                    </div>
-                    <p>Humanities</p>
-                </div>
-                <div class="subject-button">
-                    <div class="subject-vis">
-                        
-                    </div>
-                    <p>Business and Management</p>
-                </div>
-                <div class="subject-button">
-                    <div class="subject-vis">
-                        
-                    </div>
-                    <p>Technology</p>
-                </div>
-
-            </div>
-        </div>
-    </div>&lt;!&ndash; /.row &ndash;&gt;
-</div>&lt;!&ndash; /.container &ndash;&gt;
-
-
-<script type="application/javascript" src="public/js/yearChart.js"></script>
-<script type="application/javascript" src="public/js/overviewChart.js"></script>
-<script type="application/javascript" src="public/js/subjectChart.js"></script>
-<script type="application/javascript" src="public/js/main.js"></script>
-
-
-
-</body>
-</html>
--->

@@ -53,6 +53,14 @@ YearGenderChart.prototype.init = function () {
         .attr("height", self.svgHeight/3)
         .attr("transform", "translate(20, 0)")
 
+    var tooltipLine = d3.select("body")
+	.append("div")
+	.style("position", "absolute")
+	.style("z-index", "10")
+	.style("visibility", "hidden")
+	.text("a simple tooltip");
+
+
     // x scale
     self.xScale = d3.scaleBand()
         .domain(self.yeargroup.all().map(function (d) {
@@ -96,7 +104,7 @@ YearGenderChart.prototype.init = function () {
     // Add the Y Axis
     self.yAxis = self.svg.select('g').append("g")
         .attr('id', 'yAxis')
-        .call(d3.axisLeft(self.yScale0))//.tickFormat(d3.format(".0s")))//.tickFormat(function (d) {return d.value + "%";}))
+        //.call(d3.axisLeft(self.yScale0))//.tickFormat(d3.format(".0s")))//.tickFormat(function (d) {return d.value + "%";}))
 
 
     self.svg.select('g').append('g')
@@ -109,6 +117,16 @@ YearGenderChart.prototype.init = function () {
      self.svgYear.append("g")
         .attr("class", "brush")
         .attr("transform", "translate(40, 0)")
+
+    // vertical dashline for mouse eveent
+    self.mouseLine = self.svg
+    .append('line')
+    .attr("x1", 20)     // x position of the first end of the line
+    .attr("y1", 0)      // y position of the first end of the line
+    .attr("x2", 20)     // x position of the second end of the line
+    .attr("y2", self.svgHeight) // y position of the second end of the line
+    .attr('class', 'lineChart')
+     .attr('opacity','0');
 
      // year chart
     var dashLine = self.svgYear
@@ -155,6 +173,10 @@ YearGenderChart.prototype.init = function () {
 
 };
 
+/**
+ *  marker for data
+ */
+
 
 /**
  * Creates a chart with area representing each gender, populates text content and other required elements for the YearGender Chart
@@ -182,13 +204,15 @@ YearGenderChart.prototype.update = function () {
 
     var series = stack(self.group.all())
 
+    if(self.activeGender == 'both'){
+
 
     self.yScale.domain([ d3.max(series, function (layer) {
         return d3.max(layer, function (d) {
             return d[1];
         });
     }), 0])
-
+    }
     var area = d3.area()
         .x(function (d) {
             return self.xScale(d.data.key)
@@ -236,6 +260,9 @@ YearGenderChart.prototype.update = function () {
       .attr("opacity", "1");
       d3.select(this)
       .attr("stroke-width", "0px")
+
+        self.mouseLine
+                .attr('opacity','0')
   })
         .on("click", function(d,i){
             console.log(d)
@@ -252,6 +279,22 @@ YearGenderChart.prototype.update = function () {
 
 
             self.dispatch.call('update')
+        })
+        .on('mousemove', function(d, i){
+            console.log('mosemove')
+            var eachBand = self.xScale.step();
+            var index = Math.round((d3.mouse(this)[0] / eachBand))
+            var val = self.xScale.domain()[index]
+
+            self.mouseLine
+                .attr('opacity','1')
+                .attr('x1', d3.mouse(this)[0] + 50)
+                .attr('x2', d3.mouse(this)[0] + 50)
+
+            console.log(val)
+            console.log('mouse',d3.mouse(this) )
+            console.log(val)
+
         })
 
 
@@ -276,17 +319,13 @@ YearGenderChart.prototype.update = function () {
 
         // self.shiftChart.update(brushSelection)
          //update year filter
+         //var
          self.yeardimension.filter(function(d){
              return self.activeYears.indexOf(d) > -1
          })
 
           // update all charts
         self.dispatch.call('update')
-    }
-
-    YearGenderChart.prototype.updateSelection = function () {
-
-
     }
 
 

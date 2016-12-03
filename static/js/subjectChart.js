@@ -31,7 +31,7 @@ SubjectChart.prototype.init = function () {
     self.svgBounds = divChart.node().getBoundingClientRect();
     console.log(self.svgBounds)
     self.svgWidth = self.svgBounds.width - self.margin.left - self.margin.right;
-    self.svgHeight = 610;
+    self.svgHeight = 700;
 
     //creates svg element within the div
     self.svg = divChart.append("svg")

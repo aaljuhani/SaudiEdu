@@ -14,34 +14,16 @@
         self.overviews = [];
         //d3 dispatcher
         self.dispatch = d3.dispatch('update', 'filter', 'filterGraph', 'addGraph', 'deleteGraph');
+
         queue()
-            .defer(d3.csv, '/data')
+            .defer(d3.csv, '/data/saudi_edu_data.csv')
             .await(makeCharts);
 
-        handelGraphEvents()
-
-    }
-
-    /**
-     * handel adding/duplicate/removing overview chart
-     */
-    function handelGraphEvents() {
-
-
-        //handel delete event
-        d3.selectAll('.glyphicon-remove')
-            .on('click', function () {
-                d3.select(this.parentNode.parentNode.parentNode).remove()
-                //self.dispatch.call('deleteGraph')
-            })
-
-        d3.selectAll('.glyphicon-plus')
-            .on('click', function () {
-                self.overviews.push(new OverviewChart(self.dispatch, self.overviews.length))
-            })
 
 
     }
+
+
 
     /**
      *
@@ -63,14 +45,6 @@
         var yeargenderDim = ndx.dimension(function (d) {
             return d['year'];
         })
-/*
-        var yeargenderGroup = d3.nest()
-            .key(function(d){return d.gender})
-            //.key(function(d){return d.year}).sortKeys(d3.ascending)
-            .rollup(function(leaves){return {'value':d3.sum(leaves, function(d){return d.value})}})
-            .entries(yeargenderDim.top(Infinity))
-*/
-
 
 
         var yeargenderGroup = yeargenderDim.group().reduce(reduceAddgender, reduceRemovegender, reduceInitialgender).order(orderGender);//.all();
@@ -106,11 +80,6 @@
         function orderGender(p) {
             return p.total;
         }
-
-
-        console.log('yearGender', yeargenderDim.top(Infinity))
-        console.log('yearGender', yeargenderGroup.all())
-
 
 
         var yearDim = ndx.dimension(function (d) {
@@ -151,8 +120,14 @@
                 return fact.value
             });
 
-        var levelGroup = levelDim.group();
-        var locationGroup = locationDim.group();
+        var levelGroup = levelDim.group().reduceSum(function (fact) {
+                return fact.value
+            });
+        var locationGroup = locationDim.group().reduceSum(function (fact) {
+                return fact.value
+            });
+
+
         var valueGroup = valueDim.group();
         var allGroups = allDim.group();
         var all = ndx.groupAll();
@@ -181,7 +156,7 @@
         //self.charts.push(genderChart);
         var levelChart = new LevelChart("#level-chart", self.dispatch, levelDim, levelGroup);
         self.charts.push(levelChart);
-        var locationChart = new LevelChart("#location-chart", self.dispatch, locationDim, locationGroup);
+        var locationChart = new LocationChart("#location-chart", self.dispatch, locationDim, locationGroup);
         self.charts.push(locationChart);
 
 
