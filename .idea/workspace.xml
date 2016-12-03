@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fba3c069-90ca-4c93-b780-792201c1ca2a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OverviewChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fix1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/girls-name.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nestedTree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/streamGraph.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/subjectChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test3.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/treeData.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/trends.csv" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="$PROJECT_DIR$/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/levelChart.js" afterPath="$PROJECT_DIR$/static/js/levelChart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/locationChart.js" afterPath="$PROJECT_DIR$/static/js/locationChart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/main.js" afterPath="$PROJECT_DIR$/static/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/subjectChart.js" afterPath="$PROJECT_DIR$/static/js/subjectChart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/yeargenderChart.js" afterPath="$PROJECT_DIR$/static/js/yeargenderChart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="SaudiWIC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,11 +44,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-8.235294">
-                  <caret line="40" column="47" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="47" />
+                <state vertical-scroll-proportion="0.123796426">
+                  <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -96,10 +76,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="yeargenderChart.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="yeargenderChart.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/js/yeargenderChart.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.3743094">
+                <state vertical-scroll-proportion="-5.0185184">
                   <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
                   <folding />
                 </state>
@@ -205,12 +185,12 @@
         <option value="$PROJECT_DIR$/static/js/location.js" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/static/js/yeargenderChart.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/static/js/main.js" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/static/js/levelChart.js" />
         <option value="$PROJECT_DIR$/static/js/locationChart.js" />
         <option value="$PROJECT_DIR$/static/js/subjectChart.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -663,9 +643,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="23" width="1920" height="992" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10170394" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10170394" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -975,16 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.235294">
-          <caret line="40" column="47" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-26.416666">
@@ -1019,9 +989,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/yeargenderChart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3743094">
+        <state vertical-scroll-proportion="-5.0185184">
           <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.123796426">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
