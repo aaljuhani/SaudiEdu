@@ -16,7 +16,7 @@
         self.dispatch = d3.dispatch('update', 'filter', 'filterGraph', 'addGraph', 'deleteGraph');
 
         queue()
-            .defer(d3.csv, '/data/saudi_edu_data.csv')
+            .defer(d3.csv, 'data/saudi_edu_data.csv')
             .await(makeCharts);
 
 
