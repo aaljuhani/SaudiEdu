@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Saudi Education</title>
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/css/keen-dashboards.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF8">
+
+
+</head>
+<body class="application">
+<div class="tooltip">
+<p>Year: <span class="year-tooltip"></span></p>
+<p>Female: <span class="female-tooltip"></span></p>
+<p>Male:<span class="male-tooltip"></span></p>
+</div>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="./">Higher Education in Saudi Arabia</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">About</a></li>
+            <li><a href="#" class="active">Demo</a></li>
+            <li><a href="processbook.pdf">Process book</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="container-fluid">
+
+    <div class="row">
+
+        <div class="col-sm-8">
+            <div class="row">
+
+                <!-- Year Gender Chart -->
+                <div class="col-sm-12">
+                    <div class="chart-wrapper">
+                        <div class="chart-title">
+                            Number of Female and Male Students per year
+                            <div class="chart-tools">
+                                <span id='reset-yeargender' class="btn-md glyphicon glyphicon-filter" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                        <div class="chart-stage">
+                            <div id="yeargender-chart"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Year Gender Chart -->
+
+                <!-- Year Chart
+                <div class="col-sm-12">
+                    <div class="chart-wrapper">
+                        <div class="chart-title">
+                            Number of Students
+                        </div>
+                        <div class="chart-stage">
+                            <div id="year-chart"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Year Chart -->
+
+                <!-- level -->
+                <div class="col-sm-6">
+                    <div class="chart-wrapper">
+                        <div class="chart-title">
+                            Level
+                             <div class="chart-tools">
+                                <!--<span id='reset-level' class="btn-md glyphicon glyphicon-filter" aria-hidden="true"></span>
+                           --> </div>
+                        </div>
+                        <div class="chart-stage">
+                            <div id="level-chart"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- level -->
+
+
+                <div class="col-sm-6">
+
+                    <div class="row">
+                        <!-- Location -->
+                        <div class="col-sm-12">
+                            <div class="chart-wrapper">
+                                <div class="chart-title">
+                                    Location
+                                     <div class="chart-tools">
+                                <!--<span id='reset-location' class="btn-md glyphicon glyphicon-filter" aria-hidden="true"></span>
+                           --> </div>
+                                </div>
+                                <div class="chart-stage">
+                                    <div id="location-chart"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Location -->
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="col-sm-4">
+            <div class="row">
+
+                <!-- Subject Chart -->
+                <div class="col-sm-12">
+                    <div class="chart-wrapper">
+                        <div class="chart-title">
+                            Subject
+                             <div class="chart-tools">
+                                <span id='reset-subject' class="btn-md glyphicon glyphicon-filter" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                        <div class="chart-stage">
+                            <div id="subject-chart" style="height: 100%"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Subject Chart  -->
+            </div>
+        </div>
+
+
+       <!-- <div class="col-sm-4">
+
+            <div class="row">
+                &lt;!&ndash; Overview &ndash;&gt;
+                <div id="dynamic-charts" class="col-sm-12">
+                    <div class="chart-wrapper">
+                        <div class="chart-title">
+                            Overview 1
+                            <div class="chart-tools">
+                                &lt;!&ndash;<span class="glyphicon glyphicon-duplicate" aria-hidden="true"></span>&ndash;&gt;
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+
+
+                            </div>
+                        </div>
+                        <div class="chart-stage">
+                            <div id="overview" style="width: 400px; height: 380px"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                &lt;!&ndash; Overview &ndash;&gt;
+            </div>
+
+        </div>-->
+
+    </div>
+
+</div>
+
+<hr>
+
+<script src="lib/js/d3/d3.min.js"></script>
+<script src="lib/js/d3-tip/index.js"></script>
+
+<script src="lib/js/crossfilter.js"></script>
+
+<script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
+<script src="lib/js/jquery.min.js"></script>
+<script src="lib/js/bootstrap.min.js"></script>
+<script src="lib/js/underscore-min.js"></script>
+<script src="lib/js/queue.js"></script>
+<script src="lib/js/keen.min.js"></script>
+
+<script type="application/javascript" src="js/yeargenderChart.js"></script>
+<script type="application/javascript" src="js/yearChart.js"></script>
+<script type="application/javascript" src="js/levelChart.js"></script>
+<script type="application/javascript" src="js/locationChart.js"></script>
+<script type="application/javascript" src="js/genderChart.js"></script>
+<script type="application/javascript" src="js/subjectChart.js"></script>
+<script type="application/javascript" src="js/overviewChart.js"></script>
+<script src='js/main.js' type='text/javascript'></script>
+
+</body>
+</html>
+

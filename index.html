@@ -10,15 +10,11 @@
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <meta http-equiv="content-type" content="text/html; charset=UTF8">
-
+ <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
 
 </head>
 <body class="application">
-<div class="tooltip">
-<p>Year: <span class="year-tooltip"></span></p>
-<p>Female: <span class="female-tooltip"></span></p>
-<p>Male:<span class="male-tooltip"></span></p>
-</div>
 
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container-fluid">
@@ -26,144 +22,84 @@
             <a class="navbar-brand" href="./">Higher Education in Saudi Arabia</a>
         </div>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="About.html">About</a></li>
-            <li><a href="#" class="active">Demo</a></li>
+            <li><a href="#" class="active">About</a></li>
+            <li><a href="demo.html">Demo</a></li>
             <li><a href="processbook.pdf">Process book</a></li>
         </ul>
     </div>
 </div>
 
+
+
 <div class="container-fluid">
+<div class="'col-md-offset-2 col-md-10 col-md-offset-1">
+    <div class="row">
+           <div class="col-md-offset-2 col-md-8">
+               <div class="row" style="text-align: center">
+                   <h1> Visualization for Higher Education data of   Saudi Arabia</h1>
+                   <h3> By: Asmaa M. Aljuhani</h3>
+               </div>
+               <img src="saudiedu.gif">
+           </div>
+       </div>
 
     <div class="row">
-
-        <div class="col-sm-8">
-            <div class="row">
-
-                <!-- Year Gender Chart -->
-                <div class="col-sm-12">
-                    <div class="chart-wrapper">
-                        <div class="chart-title">
-                            Number of Female and Male Students per year
-                            <div class="chart-tools">
-                                <span id='reset-yeargender' class="btn-md glyphicon glyphicon-filter" aria-hidden="true"></span>
-                            </div>
-                        </div>
-                        <div class="chart-stage">
-                            <div id="yeargender-chart"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Year Gender Chart -->
-
-                <!-- Year Chart
-                <div class="col-sm-12">
-                    <div class="chart-wrapper">
-                        <div class="chart-title">
-                            Number of Students
-                        </div>
-                        <div class="chart-stage">
-                            <div id="year-chart"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Year Chart -->
-
-                <!-- level -->
-                <div class="col-sm-6">
-                    <div class="chart-wrapper">
-                        <div class="chart-title">
-                            Level
-                             <div class="chart-tools">
-                                <!--<span id='reset-level' class="btn-md glyphicon glyphicon-filter" aria-hidden="true"></span>
-                           --> </div>
-                        </div>
-                        <div class="chart-stage">
-                            <div id="level-chart"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- level -->
+        <div class="col-md-4">
 
 
-                <div class="col-sm-6">
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">About</h3>
+  </div>
+  <div class="panel-body">
+    This is a data visualizing app that would enable data analysts to effectively discover gender gaps and education trends through graphical means and to represent these findings in a meaningful and effective way.
 
-                    <div class="row">
-                        <!-- Location -->
-                        <div class="col-sm-12">
-                            <div class="chart-wrapper">
-                                <div class="chart-title">
-                                    Location
-                                     <div class="chart-tools">
-                                <!--<span id='reset-location' class="btn-md glyphicon glyphicon-filter" aria-hidden="true"></span>
-                           --> </div>
-                                </div>
-                                <div class="chart-stage">
-                                    <div id="location-chart"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Location -->
-
-
-                </div>
-
-
-            </div>
+  </div>
+</div>
         </div>
+        <div class="col-md-4">
 
 
-        <div class="col-sm-4">
-            <div class="row">
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Demo</h3>
+  </div>
+  <div class="panel-body">
+    <a type="button" class="btn btn-default btn-lg" href="demo.html">
+  <span class="glyphicon glyphicon-stat" aria-hidden="true" ></span> Demo
+</a>
 
-                <!-- Subject Chart -->
-                <div class="col-sm-12">
-                    <div class="chart-wrapper">
-                        <div class="chart-title">
-                            Subject
-                             <div class="chart-tools">
-                                <span id='reset-subject' class="btn-md glyphicon glyphicon-filter" aria-hidden="true"></span>
-                            </div>
-                        </div>
-                        <div class="chart-stage">
-                            <div id="subject-chart" style="height: 100%"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Subject Chart  -->
-            </div>
+      <a type="button" class="btn btn-default btn-lg" href="index.html">
+  <span class="glyphicon glyphicon-film" aria-hidden="true"></span> Video
+</a>
+  <a type="button" class="btn btn-default btn-lg" href="https://github.com/aaljuhani/SaudiEdu">
+  <span class="glyphicon glyphicon-folder-close" aria-hidden="true" ></span> Git Repo
+</a>
+  </div>
+</div>
         </div>
+        <div class="col-md-4">
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Motivation</h3>
+  </div>
+  <div class="panel-body">
+    Women are generally under-represented in tertiary computer science education in most countries around the world. The most recent report of the National Science Foundation (NSF) in 2014 shows that only 18% of CS students are women in USA. On the other side, In 2014, 59% of CS students enrolled in government universities in Saudi Arabia were women.
+  </div>
+</div>
+
+</div>
 
 
-       <!-- <div class="col-sm-4">
-
-            <div class="row">
-                &lt;!&ndash; Overview &ndash;&gt;
-                <div id="dynamic-charts" class="col-sm-12">
-                    <div class="chart-wrapper">
-                        <div class="chart-title">
-                            Overview 1
-                            <div class="chart-tools">
-                                &lt;!&ndash;<span class="glyphicon glyphicon-duplicate" aria-hidden="true"></span>&ndash;&gt;
-                                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-
-
-                            </div>
-                        </div>
-                        <div class="chart-stage">
-                            <div id="overview" style="width: 400px; height: 380px"></div>
-                        </div>
-                    </div>
-                </div>
-
-
-                &lt;!&ndash; Overview &ndash;&gt;
-            </div>
-
-        </div>-->
+        </div>
 
     </div>
+    <div class="col-md-offset-4 col-md-8">
+    <p>Designed by Asmaa Aljuhani (u6002660)</p>
+    </div>
+
+
 
 </div>
 
