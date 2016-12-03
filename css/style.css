@@ -133,4 +133,34 @@
        fill : lightgray
    }
 
+  .tooltip {
+      padding: 5px;
+	position: relative;
+	background: #d5d5d5;
+	border: 4px solid #336666;
+}
+.tooltip:after, .tooltip:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.tooltip:after {
+	border-color: rgba(213, 213, 213, 0);
+	border-right-color: #d5d5d5;
+	border-width: 10px;
+	margin-top: -10px;
+}
+.tooltip:before {
+	border-color: rgba(51, 102, 102, 0);
+	border-right-color: #336666;
+	border-width: 16px;
+	margin-top: -16px;
+}
+
 

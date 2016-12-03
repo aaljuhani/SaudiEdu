@@ -34,6 +34,15 @@ YearGenderChart.prototype.init = function () {
     var self = this;
     self.margin = {top: 10, right: 10, bottom: 10, left: 10};
 
+    //add reset button
+    d3.select('#reset-yeargender')
+        .on('click', function(){
+            //self.yeardimension.filterAll()
+            self.genderdimension.filterAll()
+            //self.svgYear.select('.brush').call(brushX.clear());
+            self.dispatch.call('update')
+        })
+
     var divChart = d3.select(self.selector).classed("fullView", true);
 
     //Gets access to the div element created for this chart from HTML
@@ -53,12 +62,11 @@ YearGenderChart.prototype.init = function () {
         .attr("height", self.svgHeight/3)
         .attr("transform", "translate(20, 0)")
 
-    var tooltipLine = d3.select("body")
-	.append("div")
+    self.tooltip = d3.select(".tooltip")
 	.style("position", "absolute")
 	.style("z-index", "10")
 	.style("visibility", "hidden")
-	.text("a simple tooltip");
+
 
 
     // x scale
@@ -263,6 +271,8 @@ YearGenderChart.prototype.update = function () {
 
         self.mouseLine
                 .attr('opacity','0')
+        self.tooltip
+            .style("visibility", "hidden")
   })
         .on("click", function(d,i){
             console.log(d)
@@ -291,9 +301,34 @@ YearGenderChart.prototype.update = function () {
                 .attr('x1', d3.mouse(this)[0] + 50)
                 .attr('x2', d3.mouse(this)[0] + 50)
 
-            console.log(val)
-            console.log('mouse',d3.mouse(this) )
-            console.log(val)
+            //mouse tool tip
+            self.tooltip
+                .transition()
+                .duration(500)
+                .style("opacity", 0);
+            self.tooltip
+                .transition()
+                .duration(200)
+                .style("opacity", .9);
+            self.tooltip
+                .style("visibility", "visible")
+                .style("left", (d3.event.pageX + 20) + "px")
+                .style("top", (d3.event.pageY -40 ) + "px")
+               // .html('test &#xa; hello');
+
+            var tooltipData = self.group.all()[index]
+
+            self.tooltip.select('.year-tooltip')
+                .html(val)
+
+            if(tooltipData.value.female != 0) {
+                self.tooltip.select('.female-tooltip')
+                    .html(tooltipData.value.female + "  (" + Math.floor(tooltipData.value.female / tooltipData.value.total * 100) + "%)")
+            }
+             if(tooltipData.value.male != 0) {
+                 self.tooltip.select('.male-tooltip')
+                     .html(tooltipData.value.male + "  (" + Math.floor(tooltipData.value.male / tooltipData.value.total * 100) + "%)")
+             }
 
         })
 

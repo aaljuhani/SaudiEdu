@@ -30,6 +30,12 @@ LocationChart.prototype.init = function () {
     self.svgWidth = self.svgBounds.width - self.margin.left - self.margin.right;
     self.svgHeight = 350 - self.margin.top - self.margin.bottom;
 
+ //add reset button
+    d3.select('#reset-locaion')
+        .on('click', function(){
+            self.dimension.filterAll()
+            self.dispatch.call('update')
+        })
 
     //creates svg element within the div
     self.svg = divChart.append("svg")

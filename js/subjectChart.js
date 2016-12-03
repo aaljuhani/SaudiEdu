@@ -25,6 +25,16 @@ SubjectChart.prototype.init = function () {
     var self = this;
     self.margin = {top: 10, right: 10, bottom: 10, left: 10};
 
+     //add reset button
+    d3.select('#reset-subject')
+        .on('click', function(){
+            self.dimension.filterAll()
+             self.clickFlag = false
+             self.activeSubjects = []
+            self.dispatch.call('update')
+
+        })
+
     var divChart = d3.select(self.selector).classed("fullView", true);
 
     //Gets access to the div element created for this chart from HTML
