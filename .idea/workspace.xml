@@ -2,6 +2,776 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fba3c069-90ca-4c93-b780-792201c1ca2a" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/charts.js" afterPath="$PROJECT_DIR$/js/charts.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/genderChart.js" afterPath="$PROJECT_DIR$/js/genderChart.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/levelChart.js" afterPath="$PROJECT_DIR$/js/levelChart.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/locationChart.js" afterPath="$PROJECT_DIR$/js/locationChart.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/overviewChart.js" afterPath="$PROJECT_DIR$/js/overviewChart.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/subjectChart.js" afterPath="$PROJECT_DIR$/js/subjectChart.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/yearChart.js" afterPath="$PROJECT_DIR$/js/yearChart.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/yeargenderChart.js" afterPath="$PROJECT_DIR$/js/yeargenderChart.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/lib/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/css/dc.min.css" afterPath="$PROJECT_DIR$/lib/css/dc.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/css/keen-dashboards.css" afterPath="$PROJECT_DIR$/lib/css/keen-dashboards.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/lib/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/crossfilter.js" afterPath="$PROJECT_DIR$/lib/js/crossfilter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/d3-tip/LICENSE" afterPath="$PROJECT_DIR$/lib/js/d3-tip/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/d3-tip/README.md" afterPath="$PROJECT_DIR$/lib/js/d3-tip/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/d3-tip/bower.json" afterPath="$PROJECT_DIR$/lib/js/d3-tip/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/d3-tip/index.js" afterPath="$PROJECT_DIR$/lib/js/d3-tip/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/d3-tip/package.json" afterPath="$PROJECT_DIR$/lib/js/d3-tip/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/d3.min.js" afterPath="$PROJECT_DIR$/lib/js/d3.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/d3/LICENSE" afterPath="$PROJECT_DIR$/lib/js/d3/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/d3/README.md" afterPath="$PROJECT_DIR$/lib/js/d3/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/d3/bower.json" afterPath="$PROJECT_DIR$/lib/js/d3/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/d3/d3.js" afterPath="$PROJECT_DIR$/lib/js/d3/d3.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/d3/d3.min.js" afterPath="$PROJECT_DIR$/lib/js/d3/d3.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc.min.js" afterPath="$PROJECT_DIR$/lib/js/dc.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/.jscsrc" afterPath="$PROJECT_DIR$/lib/js/dc/.jscsrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/.jshintrc" afterPath="$PROJECT_DIR$/lib/js/dc/.jshintrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/.mailmap" afterPath="$PROJECT_DIR$/lib/js/dc/.mailmap" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/.npmignore" afterPath="$PROJECT_DIR$/lib/js/dc/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/.travis.yml" afterPath="$PROJECT_DIR$/lib/js/dc/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/AUTHORS" afterPath="$PROJECT_DIR$/lib/js/dc/AUTHORS" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/lib/js/dc/CONTRIBUTING.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/Changelog.md" afterPath="$PROJECT_DIR$/lib/js/dc/Changelog.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/Gruntfile.js" afterPath="$PROJECT_DIR$/lib/js/dc/Gruntfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/LICENSE" afterPath="$PROJECT_DIR$/lib/js/dc/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/LICENSE_BANNER" afterPath="$PROJECT_DIR$/lib/js/dc/LICENSE_BANNER" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/README.md" afterPath="$PROJECT_DIR$/lib/js/dc/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/_SpecRunner.html" afterPath="$PROJECT_DIR$/lib/js/dc/_SpecRunner.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/bower.json" afterPath="$PROJECT_DIR$/lib/js/dc/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/component.json" afterPath="$PROJECT_DIR$/lib/js/dc/component.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/dc.css" afterPath="$PROJECT_DIR$/lib/js/dc/dc.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/dc.js" afterPath="$PROJECT_DIR$/lib/js/dc/dc.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/dc.js.map" afterPath="$PROJECT_DIR$/lib/js/dc/dc.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/dc.min.css" afterPath="$PROJECT_DIR$/lib/js/dc/dc.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/dc.min.js" afterPath="$PROJECT_DIR$/lib/js/dc/dc.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/dc.min.js.map" afterPath="$PROJECT_DIR$/lib/js/dc/dc.min.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/docs/coverage.js" afterPath="$PROJECT_DIR$/lib/js/dc/docs/coverage.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/fuck/fruits.json" afterPath="$PROJECT_DIR$/lib/js/dc/fuck/fruits.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/fuck/ordinal-bar-transitions.html" afterPath="$PROJECT_DIR$/lib/js/dc/fuck/ordinal-bar-transitions.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/fuck/ordinal-bar.html" afterPath="$PROJECT_DIR$/lib/js/dc/fuck/ordinal-bar.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/fuck/ordinal-line-transitions.html" afterPath="$PROJECT_DIR$/lib/js/dc/fuck/ordinal-line-transitions.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/fuck/ordinal-line.html" afterPath="$PROJECT_DIR$/lib/js/dc/fuck/ordinal-line.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/grunt/format-file-list.js" afterPath="$PROJECT_DIR$/lib/js/dc/grunt/format-file-list.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/headboot.ed" afterPath="$PROJECT_DIR$/lib/js/dc/headboot.ed" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/jsdoc.conf.json" afterPath="$PROJECT_DIR$/lib/js/dc/jsdoc.conf.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/.npmignore" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/.travis.yml" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/CONTRIBUTING.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/LICENSE" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/Makefile" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/Makefile" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/README.md" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/bower.json" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/component.json" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/component.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/crossfilter.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/crossfilter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/crossfilter.min.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/crossfilter.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/package.json" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/array.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/src/array.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/bisect.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/src/bisect.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/crossfilter.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/src/crossfilter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/filter.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/src/filter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/heap.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/src/heap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/heapselect.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/src/heapselect.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/identity.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/src/identity.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/insertionsort.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/src/insertionsort.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/null.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/src/null.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/permute.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/src/permute.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/quicksort.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/src/quicksort.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/reduce.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/src/reduce.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/crossfilter2/src/zero.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/crossfilter2/src/zero.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/.gitattributes" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/.gitattributes" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/.npmignore" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/.spmignore" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/.spmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/CONTRIBUTING.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/LICENSE" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/README.md" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/bin/meteor" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/bin/meteor" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/bin/start" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/bin/start" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/bin/uglify" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/bin/uglify" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/composer.json" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/composer.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/d3.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/d3.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/d3.min.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/d3.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/package.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/package.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/package.json" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/ascending.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/ascending.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/bisect.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/bisect.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/descending.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/descending.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/deviation.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/deviation.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/entries.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/entries.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/extent.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/extent.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/keys.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/keys.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/map.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/map.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/max.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/max.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/mean.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/mean.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/median.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/median.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/merge.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/merge.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/min.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/nest.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/nest.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/pairs.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/pairs.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/permute.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/permute.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/quantile.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/quantile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/range.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/range.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/set.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/set.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/shuffle.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/shuffle.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/sum.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/sum.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/transpose.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/transpose.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/values.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/values.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/variance.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/variance.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/arrays/zip.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/arrays/zip.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/behavior/behavior.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/behavior/behavior.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/behavior/drag.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/behavior/drag.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/behavior/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/behavior/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/behavior/zoom.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/behavior/zoom.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/color/color.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/color/color.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/color/hcl.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/color/hcl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/color/hsl.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/color/hsl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/color/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/color/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/color/lab.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/color/lab.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/color/rgb.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/color/rgb.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/color/xyz.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/color/xyz.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/compat/array.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/compat/array.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/compat/date.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/compat/date.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/compat/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/compat/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/compat/style.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/compat/style.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/array.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/core/array.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/class.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/core/class.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/document.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/core/document.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/functor.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/core/functor.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/identity.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/core/identity.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/core/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/noop.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/core/noop.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/ns.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/core/ns.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/rebind.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/core/rebind.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/source.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/core/source.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/subclass.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/core/subclass.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/target.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/core/target.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/true.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/core/true.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/vendor.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/core/vendor.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/core/zero.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/core/zero.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/d3.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/d3.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/dsv/csv.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/dsv/csv.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/dsv/dsv.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/dsv/dsv.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/dsv/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/dsv/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/dsv/tsv.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/dsv/tsv.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/end.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/end.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/event/dispatch.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/event/dispatch.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/event/drag.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/event/drag.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/event/event.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/event/event.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/event/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/event/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/event/mouse.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/event/mouse.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/event/timer.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/event/timer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/event/touch.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/event/touch.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/event/touches.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/event/touches.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/format/collapse.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/format/collapse.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/format/format.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/format/format.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/format/formatPrefix.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/format/formatPrefix.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/format/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/format/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/format/precision.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/format/precision.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/format/requote.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/format/requote.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/format/round.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/format/round.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/albers-usa.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/albers-usa.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/albers.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/albers.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/area.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/area.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/azimuthal-equal-area.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/azimuthal-equal-area.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/azimuthal-equidistant.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/azimuthal-equidistant.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/azimuthal.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/azimuthal.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/bounds.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/bounds.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/cartesian.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/cartesian.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/centroid.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/centroid.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/circle.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/circle.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/clip-antimeridian.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/clip-antimeridian.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/clip-circle.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/clip-circle.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/clip-extent.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/clip-extent.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/clip-polygon.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/clip-polygon.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/clip.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/clip.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/compose.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/compose.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/conic-conformal.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/conic-conformal.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/conic-equal-area.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/conic-equal-area.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/conic-equidistant.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/conic-equidistant.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/conic.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/conic.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/distance.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/distance.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/equirectangular.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/equirectangular.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/geo.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/geo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/gnomonic.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/gnomonic.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/graticule.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/graticule.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/greatArc.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/greatArc.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/interpolate.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/interpolate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/length.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/length.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/mercator.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/mercator.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/orthographic.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/orthographic.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/path-area.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/path-area.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/path-bounds.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/path-bounds.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/path-buffer.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/path-buffer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/path-centroid.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/path-centroid.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/path-context.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/path-context.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/path.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/path.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/point-in-polygon.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/point-in-polygon.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/projection.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/projection.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/resample.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/resample.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/rotation.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/rotation.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/spherical.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/spherical.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/stereographic.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/stereographic.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/stream.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/stream.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/transform.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/transform.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geo/transverse-mercator.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geo/transverse-mercator.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/clip-line.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geom/clip-line.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/delaunay.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geom/delaunay.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/geom.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geom/geom.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/hull.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geom/hull.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geom/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/point.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geom/point.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/polygon.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geom/polygon.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/quadtree.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geom/quadtree.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/voronoi.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geom/voronoi.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/voronoi/beach.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geom/voronoi/beach.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/voronoi/cell.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geom/voronoi/cell.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/voronoi/circle.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geom/voronoi/circle.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/voronoi/clip.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geom/voronoi/clip.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/voronoi/edge.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geom/voronoi/edge.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/voronoi/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geom/voronoi/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/geom/voronoi/red-black.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/geom/voronoi/red-black.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/array.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/interpolate/array.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/ease.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/interpolate/ease.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/hcl.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/interpolate/hcl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/hsl.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/interpolate/hsl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/interpolate/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/interpolate.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/interpolate/interpolate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/lab.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/interpolate/lab.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/number.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/interpolate/number.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/object.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/interpolate/object.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/rgb.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/interpolate/rgb.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/round.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/interpolate/round.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/string.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/interpolate/string.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/transform.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/interpolate/transform.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/uninterpolate.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/interpolate/uninterpolate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/interpolate/zoom.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/interpolate/zoom.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/bundle.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/layout/bundle.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/chord.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/layout/chord.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/cluster.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/layout/cluster.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/force.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/layout/force.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/hierarchy.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/layout/hierarchy.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/histogram.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/layout/histogram.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/layout/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/layout.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/layout/layout.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/pack.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/layout/pack.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/partition.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/layout/partition.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/pie.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/layout/pie.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/stack.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/layout/stack.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/tree.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/layout/tree.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/layout/treemap.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/layout/treemap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/ca-ES.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/ca-ES.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/de-CH.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/de-CH.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/de-DE.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/de-DE.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/en-CA.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/en-CA.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/en-GB.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/en-GB.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/en-US.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/en-US.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/es-ES.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/es-ES.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/fi-FI.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/fi-FI.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/fr-CA.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/fr-CA.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/fr-FR.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/fr-FR.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/he-IL.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/he-IL.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/hu-HU.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/hu-HU.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/it-IT.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/it-IT.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/ja-JP.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/ja-JP.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/ko-KR.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/ko-KR.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/locale.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/locale.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/mk-MK.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/mk-MK.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/nl-NL.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/nl-NL.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/number-format.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/number-format.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/pl-PL.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/pl-PL.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/pt-BR.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/pt-BR.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/ru-RU.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/ru-RU.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/sv-SE.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/sv-SE.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/time-format.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/time-format.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/time-scale.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/time-scale.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/locale/zh-CN.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/locale/zh-CN.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/math/abs.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/math/abs.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/math/adder.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/math/adder.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/math/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/math/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/math/number.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/math/number.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/math/random.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/math/random.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/math/transform.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/math/transform.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/math/trigonometry.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/math/trigonometry.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/bilinear.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/scale/bilinear.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/category.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/scale/category.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/identity.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/scale/identity.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/scale/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/linear.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/scale/linear.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/log.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/scale/log.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/nice.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/scale/nice.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/ordinal.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/scale/ordinal.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/polylinear.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/scale/polylinear.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/pow.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/scale/pow.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/quantile.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/scale/quantile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/quantize.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/scale/quantize.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/scale.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/scale/scale.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/sqrt.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/scale/sqrt.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/scale/threshold.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/scale/threshold.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/append.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/append.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/attr.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/attr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/call.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/call.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/classed.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/classed.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/data.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/data.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/datum.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/datum.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/each.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/each.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/empty.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/empty.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/enter-insert.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/enter-insert.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/enter-select.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/enter-select.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/enter.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/enter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/filter.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/filter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/html.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/html.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/insert.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/insert.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/interrupt.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/interrupt.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/node.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/node.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/on.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/on.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/order.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/order.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/property.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/property.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/remove.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/remove.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/select.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/select.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/selectAll.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/selectAll.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/selection.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/selection.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/size.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/size.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/sort.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/sort.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/style.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/style.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/text.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/text.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/selection/transition.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/selection/transition.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/start.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/start.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/arc.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/svg/arc.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/area-radial.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/svg/area-radial.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/area.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/svg/area.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/axis.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/svg/axis.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/brush.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/svg/brush.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/chord.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/svg/chord.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/diagonal-radial.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/svg/diagonal-radial.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/diagonal.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/svg/diagonal.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/svg/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/line-radial.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/svg/line-radial.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/line.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/svg/line.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/svg.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/svg/svg.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/svg/symbol.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/svg/symbol.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/day.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/time/day.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/format-iso.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/time/format-iso.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/format-utc.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/time/format-utc.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/format.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/time/format.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/hour.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/time/hour.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/time/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/interval.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/time/interval.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/minute.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/time/minute.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/month.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/time/month.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/scale-utc.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/time/scale-utc.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/scale.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/time/scale.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/second.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/time/second.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/time.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/time/time.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/week.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/time/week.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/time/year.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/time/year.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/attr.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/transition/attr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/delay.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/transition/delay.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/duration.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/transition/duration.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/each.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/transition/each.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/ease.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/transition/ease.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/filter.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/transition/filter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/transition/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/remove.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/transition/remove.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/select.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/transition/select.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/selectAll.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/transition/selectAll.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/style.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/transition/style.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/subtransition.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/transition/subtransition.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/text.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/transition/text.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/transition.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/transition/transition.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/transition/tween.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/transition/tween.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/xhr/html.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/xhr/html.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/xhr/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/xhr/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/xhr/json.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/xhr/json.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/xhr/text.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/xhr/text.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/xhr/xhr.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/xhr/xhr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/d3/src/xhr/xml.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/d3/src/xhr/xml.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/.jshintrc" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/.jshintrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/.npmignore" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/Gruntfile.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/Gruntfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/LICENSE-MIT" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/LICENSE-MIT" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/README.md" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/lib/git.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/lib/git.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/lib/util.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/lib/util.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/async/LICENSE" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/async/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/async/README.md" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/async/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/async/component.json" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/async/component.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/async/lib/async.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/async/lib/async.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/async/package.json" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/async/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/.npmignore" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/LICENSE" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/README.md" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/fs.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/fs.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/graceful-fs.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/graceful-fs.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/package.json" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/polyfills.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/polyfills.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/test/max-open.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/test/max-open.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/test/open.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/test/open.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/test/readdir-sort.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/test/readdir-sort.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/test/write-then-read.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/graceful-fs/test/write-then-read.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/.npmignore" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/.travis.yml" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/CHANGES.md" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/CHANGES.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/LICENSE" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/README.md" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/browser/fs.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/browser/fs.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/buffer-stream.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/buffer-stream.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/coverage-report.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/coverage-report.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/deprecate.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/deprecate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs-base.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs-base.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs-common.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs-common.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs-constructor.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs-constructor.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs-mock-stream.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs-mock-stream.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs-mock.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs-mock.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs-root.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs-root.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs2http.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/fs2http.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/chain.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/chain.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/content.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/content.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/cookie.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/cookie.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/decorators.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/decorators.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/fs.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/fs.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/html.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/html.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/json.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/json.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/negotiate.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/negotiate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/proxy.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/proxy.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/redirect.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/redirect.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/route.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/route.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/status.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-apps/status.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-cookie.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http-cookie.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/http.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/node/process-stream.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/node/process-stream.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/node/reader.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/node/reader.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/node/writer.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/node/writer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/package.json" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/pipe.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/pipe.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/readable.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/readable.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/reader.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/reader.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/semaphore.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/semaphore.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/streams.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/streams.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/boot-directory-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/boot-directory-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/contains-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/contains-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/fixtures/hello.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/fixtures/hello.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/issues/1-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/issues/1-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/make-tree-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/make-tree-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/append-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/append-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/copy-tree-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/copy-tree-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/fixture/hello.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/fixture/hello.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/link-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/link-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/make-tree-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/make-tree-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/merge-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/merge-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/move-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/move-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/object-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/object-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/range-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/range-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/read-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/read-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/remove-directory-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/remove-directory-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/remove-tree-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/remove-tree-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/root-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/root-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/stat-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/stat-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/symbolic-link-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/symbolic-link-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/working-directory-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/working-directory-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/write-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/mock/write-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/range-spec.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/range-spec.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/range-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/range-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/read-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/read-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/relative-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/relative-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/reroot-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/reroot-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/write-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/fs/write-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/cookie-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/cookie-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/directory-list-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/directory-list-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/fixtures/01234.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/fixtures/01234.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/fixtures/1234.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/fixtures/1234.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/fixtures/5678.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/fixtures/5678.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/fixtures/9012/3456.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/fixtures/9012/3456.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/hosts-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/hosts-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/interpret-range-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/interpret-range-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/partial-range-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/partial-range-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/proxy-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/proxy-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/symbolic-link-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http-apps/symbolic-link-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http/agent-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http/agent-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http/basic-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http/basic-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http/normalize-request-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/http/normalize-request-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/streams-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/streams-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/web-stream/frame.html" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/web-stream/frame.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/web-stream/frame.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/web-stream/frame.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/web-stream/index.html" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/web-stream/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/web-stream/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/test/web-stream/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/web-stream.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/web-stream.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/window-stream.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q-io/window-stream.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/CONTRIBUTING.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/LICENSE" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/README.md" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/package.json" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/q.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/q.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/queue.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/queue.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/test.html" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/test.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/q/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/url-safe/.npmignore" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/url-safe/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/url-safe/.travis.yml" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/url-safe/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/url-safe/README.md" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/url-safe/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/url-safe/index.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/url-safe/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/url-safe/package.json" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/url-safe/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/url-safe/test.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/url-safe/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/.npmignore" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/LICENSE" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/lib/wrench.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/lib/wrench.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/package.json" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/readme.md" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/copydirsync_unix.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/copydirsync_unix.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/mkdir.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/mkdir.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/readdir.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/readdir.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/readdir/bar.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/readdir/bar.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/readdir/foo/bar/ipsum.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/readdir/foo/bar/ipsum.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/readdir/foo/dolor.md" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/readdir/foo/dolor.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/readdir/foo/lorem.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/readdir/foo/lorem.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/runner.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/runner.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/shown/.hidden.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/shown/.hidden.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/shown/.hidden/dolor.md" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/shown/.hidden/dolor.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/shown/bar.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/shown/bar.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/shown/foo/bar/ipsum.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/shown/foo/bar/ipsum.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/shown/foo/dolor.md" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/shown/foo/dolor.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/shown/foo/lorem.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/shown/foo/lorem.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/withsymlinks/test" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/node_modules/wrench/tests/withsymlinks/test" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/package.json" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/tasks/gh-pages.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/tasks/gh-pages.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/.jshintrc" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/.jshintrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/add.spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/add.spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/custom-clone-dir.spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/custom-clone-dir.spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/deep-base.spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/deep-base.spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/deep-clone-dir.spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/deep-clone-dir.spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/different-repo.spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/different-repo.spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/dotfiles-option.spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/dotfiles-option.spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/add/Gruntfile.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/add/Gruntfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/add/first/first.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/add/first/first.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/add/first/sub/sub.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/add/first/sub/sub.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/add/second/second.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/add/second/second.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/add/second/sub/sub.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/add/second/sub/sub.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/custom-clone-dir/Gruntfile.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/custom-clone-dir/Gruntfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/custom-clone-dir/hello.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/custom-clone-dir/hello.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/deep-base/Gruntfile.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/deep-base/Gruntfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/deep-base/built/pages/hello.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/deep-base/built/pages/hello.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/deep-clone-dir/Gruntfile.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/deep-clone-dir/Gruntfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/deep-clone-dir/hello.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/deep-clone-dir/hello.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/different-repo/Gruntfile.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/different-repo/Gruntfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/different-repo/hello.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/different-repo/hello.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/different-repo/repo/hello.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/different-repo/repo/hello.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/dotfiles-option/Gruntfile.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/dotfiles-option/Gruntfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/dotfiles-option/dist/.one" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/dotfiles-option/dist/.one" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/dotfiles-option/dist/foo/.bar/two" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/dotfiles-option/dist/foo/.bar/two" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/multitask/Gruntfile.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/multitask/Gruntfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/multitask/one.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/multitask/one.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/multitask/two.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/multitask/two.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/same-repo/Gruntfile.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/same-repo/Gruntfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/unpushed/Gruntfile.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/unpushed/Gruntfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/unpushed/hello.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/unpushed/hello.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/unpushed/repo/hello.txt" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/fixtures/unpushed/repo/hello.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/helper.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/helper.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/lib/util.spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/lib/util.spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/multitask.spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/multitask.spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/same-repo.spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/same-repo.spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/node_modules/grunt-gh-pages/test/unpushed.spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/node_modules/grunt-gh-pages/test/unpushed.spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/npm-shrinkwrap.json" afterPath="$PROJECT_DIR$/lib/js/dc/npm-shrinkwrap.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/package.json" afterPath="$PROJECT_DIR$/lib/js/dc/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/regression/inject-serializer.js" afterPath="$PROJECT_DIR$/lib/js/dc/regression/inject-serializer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/regression/rendered-stock-fixture.html" afterPath="$PROJECT_DIR$/lib/js/dc/regression/rendered-stock-fixture.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/regression/stock-regression-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/regression/stock-regression-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/scripts/check_merge_conflict.py" afterPath="$PROJECT_DIR$/lib/js/dc/scripts/check_merge_conflict.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/scripts/pre-commit.sh" afterPath="$PROJECT_DIR$/lib/js/dc/scripts/pre-commit.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/bar-chart-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/bar-chart-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/base-mixin-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/base-mixin-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/biggish-data-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/biggish-data-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/box-plot-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/box-plot-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/bubble-chart-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/bubble-chart-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/bubble-overlay-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/bubble-overlay-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/color-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/color-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/composite-chart-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/composite-chart-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/coordinate-grid-chart-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/coordinate-grid-chart-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/core-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/core-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/data-addition-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/data-addition-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/data-count-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/data-count-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/data-grid-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/data-grid-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/data-table-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/data-table-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/event-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/event-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/filter-dates-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/filter-dates-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/filters-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/filters-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/geo-choropleth-chart-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/geo-choropleth-chart-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/heatmap-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/heatmap-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/helpers/custom_matchers.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/helpers/custom_matchers.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/helpers/fixtures.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/helpers/fixtures.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/helpers/geoFixtures.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/helpers/geoFixtures.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/helpers/load-jsreporter.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/helpers/load-jsreporter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/helpers/spec-helper.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/helpers/spec-helper.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/legend-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/legend-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/line-chart-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/line-chart-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/logger-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/logger-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/number-display-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/number-display-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/pie-chart-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/pie-chart-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/row-chart-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/row-chart-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/scatter-plot-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/scatter-plot-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/series-chart-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/series-chart-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/spec/utils-spec.js" afterPath="$PROJECT_DIR$/lib/js/dc/spec/utils-spec.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/banner.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/banner.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/bar-chart.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/bar-chart.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/base-mixin.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/base-mixin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/box-plot.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/box-plot.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/bubble-chart.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/bubble-chart.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/bubble-mixin.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/bubble-mixin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/bubble-overlay.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/bubble-overlay.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/cap-mixin.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/cap-mixin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/color-mixin.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/color-mixin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/composite-chart.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/composite-chart.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/coordinate-grid-mixin.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/coordinate-grid-mixin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/core.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/core.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/d3.box.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/d3.box.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/data-count.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/data-count.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/data-grid.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/data-grid.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/data-table.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/data-table.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/errors.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/errors.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/events.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/events.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/filters.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/filters.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/footer.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/footer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/geo-choropleth-chart.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/geo-choropleth-chart.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/heatmap.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/heatmap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/legend.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/legend.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/line-chart.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/line-chart.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/logger.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/logger.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/margin-mixin.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/margin-mixin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/number-display.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/number-display.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/pie-chart.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/pie-chart.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/row-chart.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/row-chart.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/scatter-plot.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/scatter-plot.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/series-chart.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/series-chart.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/stack-mixin.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/stack-mixin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/src/utils.js" afterPath="$PROJECT_DIR$/lib/js/dc/src/utils.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/crime/canada_map.svg" afterPath="$PROJECT_DIR$/lib/js/dc/web/crime/canada_map.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/crime/crime.csv" afterPath="$PROJECT_DIR$/lib/js/dc/web/crime/crime.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/crime/filter_stats.rb" afterPath="$PROJECT_DIR$/lib/js/dc/web/crime/filter_stats.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/crime/index.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/crime/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/css/bootstrap.css" afterPath="$PROJECT_DIR$/lib/js/dc/web/css/bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/lib/js/dc/web/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/css/colorbrewer.css" afterPath="$PROJECT_DIR$/lib/js/dc/web/css/colorbrewer.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/css/dc.css" afterPath="$PROJECT_DIR$/lib/js/dc/web/css/dc.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/css/dc.min.css" afterPath="$PROJECT_DIR$/lib/js/dc/web/css/dc.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/dc.logo.png" afterPath="$PROJECT_DIR$/lib/js/dc/web/dc.logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/dc.logo.svg" afterPath="$PROJECT_DIR$/lib/js/dc/web/dc.logo.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/docs/api-1.5.0.md" afterPath="$PROJECT_DIR$/lib/js/dc/web/docs/api-1.5.0.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/docs/api-1.6.0.md" afterPath="$PROJECT_DIR$/lib/js/dc/web/docs/api-1.6.0.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/docs/api-1.7.0.md" afterPath="$PROJECT_DIR$/lib/js/dc/web/docs/api-1.7.0.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/docs/api-2.0.0.md" afterPath="$PROJECT_DIR$/lib/js/dc/web/docs/api-2.0.0.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/docs/api-latest.md" afterPath="$PROJECT_DIR$/lib/js/dc/web/docs/api-latest.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/docs/docco.css" afterPath="$PROJECT_DIR$/lib/js/dc/web/docs/docco.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/docs/stock.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/docs/stock.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/ep/blank.gif" afterPath="$PROJECT_DIR$/lib/js/dc/web/ep/blank.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/ep/index.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/ep/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/ep/list.js" afterPath="$PROJECT_DIR$/lib/js/dc/web/ep/list.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/ep/mep.csv" afterPath="$PROJECT_DIR$/lib/js/dc/web/ep/mep.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/#fruits.json#" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/#fruits.json#" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/adjustable-threshold.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/adjustable-threshold.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/align-axes.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/align-axes.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/area.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/area.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/bar-extra-line.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/bar-extra-line.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/bar-single-select.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/bar-single-select.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/bar.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/bar.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/box-plot-time.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/box-plot-time.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/box-plot.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/box-plot.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/complex-reduce.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/complex-reduce.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/composite.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/composite.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/download-table.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/download-table.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/filtering-removing.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/filtering-removing.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/filtering.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/filtering.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/fruits.json" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/fruits.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/header.js" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/header.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/heat.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/heat.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/heatmap-filtering.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/heatmap-filtering.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/index.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/intervals.csv" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/intervals.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/line.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/line.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/lysenko-interval-tree.js" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/lysenko-interval-tree.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/monthly-move.csv" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/monthly-move.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/morley.csv" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/morley.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/morley2.csv" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/morley2.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/morley3.csv" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/morley3.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/multi-focus.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/multi-focus.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/multi-scatter.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/multi-scatter.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/number.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/number.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/ordinal-bar.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/ordinal-bar.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/ordinal-line.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/ordinal-line.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/pie-external-labels.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/pie-external-labels.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/pie.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/pie.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/range-series.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/range-series.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/replacing-data.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/replacing-data.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/right-axis.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/right-axis.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/row.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/row.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/scatter-brushing.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/scatter-brushing.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/scatter-series.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/scatter-series.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/scatter.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/scatter.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/series.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/series.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/sparkline.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/sparkline.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/stacked-bar.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/stacked-bar.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/table-on-aggregated-data.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/table-on-aggregated-data.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/table-pagination.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/table-pagination.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/examples/time-intervals.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/examples/time-intervals.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/geo/us-counties.json" afterPath="$PROJECT_DIR$/lib/js/dc/web/geo/us-counties.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/geo/us-states.json" afterPath="$PROJECT_DIR$/lib/js/dc/web/geo/us-states.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/highlighter/shAutoloader.js" afterPath="$PROJECT_DIR$/lib/js/dc/web/highlighter/shAutoloader.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/highlighter/shBrushJScript.js" afterPath="$PROJECT_DIR$/lib/js/dc/web/highlighter/shBrushJScript.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/highlighter/shBrushXml.js" afterPath="$PROJECT_DIR$/lib/js/dc/web/highlighter/shBrushXml.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/highlighter/shCore.css" afterPath="$PROJECT_DIR$/lib/js/dc/web/highlighter/shCore.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/highlighter/shCore.js" afterPath="$PROJECT_DIR$/lib/js/dc/web/highlighter/shCore.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/highlighter/shThemeDefault.css" afterPath="$PROJECT_DIR$/lib/js/dc/web/highlighter/shThemeDefault.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/img/glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/lib/js/dc/web/img/glyphicons-halflings-white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/img/glyphicons-halflings.png" afterPath="$PROJECT_DIR$/lib/js/dc/web/img/glyphicons-halflings.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/index.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/js/FileSaver.js" afterPath="$PROJECT_DIR$/lib/js/dc/web/js/FileSaver.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/js/colorbrewer.js" afterPath="$PROJECT_DIR$/lib/js/dc/web/js/colorbrewer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/js/crossfilter.js" afterPath="$PROJECT_DIR$/lib/js/dc/web/js/crossfilter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/js/d3.js" afterPath="$PROJECT_DIR$/lib/js/dc/web/js/d3.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/js/dc.js" afterPath="$PROJECT_DIR$/lib/js/dc/web/js/dc.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/js/dc.js.map" afterPath="$PROJECT_DIR$/lib/js/dc/web/js/dc.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/js/dc.min.js" afterPath="$PROJECT_DIR$/lib/js/dc/web/js/dc.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/js/dc.min.js.map" afterPath="$PROJECT_DIR$/lib/js/dc/web/js/dc.min.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/js/env-data.js" afterPath="$PROJECT_DIR$/lib/js/dc/web/js/env-data.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/js/jasmine-jsreporter.js" afterPath="$PROJECT_DIR$/lib/js/dc/web/js/jasmine-jsreporter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/ndx.csv" afterPath="$PROJECT_DIR$/lib/js/dc/web/ndx.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/play-ground.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/play-ground.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/resizing/index.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/resizing/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/resizing/resizing-bar.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/resizing/resizing-bar.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/resizing/resizing-heatmap.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/resizing/resizing-heatmap.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/resizing/resizing-pie.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/resizing/resizing-pie.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/resizing/resizing-right-axis.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/resizing/resizing-right-axis.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/resizing/resizing-row.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/resizing/resizing-row.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/resizing/resizing-series.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/resizing/resizing-series.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/stock.js" afterPath="$PROJECT_DIR$/lib/js/dc/web/stock.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/area-transitions.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/transitions/area-transitions.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/bar-transitions.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/transitions/bar-transitions.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/index.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/transitions/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/number-transitions.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/transitions/number-transitions.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/ordinal-bar-transitions.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/transitions/ordinal-bar-transitions.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/ordinal-line-transitions.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/transitions/ordinal-line-transitions.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/ordinal-row-transitions.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/transitions/ordinal-row-transitions.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/ordinal-transition.js" afterPath="$PROJECT_DIR$/lib/js/dc/web/transitions/ordinal-transition.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/pie-external-label-transitions.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/transitions/pie-external-label-transitions.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/pie-transitions.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/transitions/pie-transitions.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/stacked-bar-transitions.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/transitions/stacked-bar-transitions.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/transitions/transition-test.js" afterPath="$PROJECT_DIR$/lib/js/dc/web/transitions/transition-test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/vc/index.html" afterPath="$PROJECT_DIR$/lib/js/dc/web/vc/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/vc/state2code.rb" afterPath="$PROJECT_DIR$/lib/js/dc/web/vc/state2code.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/web/vc/vc.csv" afterPath="$PROJECT_DIR$/lib/js/dc/web/vc/vc.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dc/welcome.md" afterPath="$PROJECT_DIR$/lib/js/dc/welcome.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/dispatch.js" afterPath="$PROJECT_DIR$/lib/js/dispatch.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/jquery.min.js" afterPath="$PROJECT_DIR$/lib/js/jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/keen.min.js" afterPath="$PROJECT_DIR$/lib/js/keen.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/queue.js" afterPath="$PROJECT_DIR$/lib/js/queue.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/lib/js/underscore-min.js" afterPath="$PROJECT_DIR$/lib/js/underscore-min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="SaudiWIC.iws" />
@@ -32,7 +802,7 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/static/js/main.js">
+            <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="-10.0">
                   <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
@@ -47,8 +817,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.764622">
-                  <caret line="171" column="16" selection-start-line="171" selection-start-column="16" selection-end-line="171" selection-end-column="16" />
+                <state vertical-scroll-proportion="0.06419401">
+                  <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -57,7 +827,7 @@
             </entry>
           </file>
           <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/static/css/style.css">
+            <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="-26.416666">
                   <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
@@ -67,7 +837,7 @@
             </entry>
           </file>
           <file leaf-file-name="levelChart.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/static/js/levelChart.js">
+            <entry file="file://$PROJECT_DIR$/js/levelChart.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="-5.25">
                   <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
@@ -77,7 +847,7 @@
             </entry>
           </file>
           <file leaf-file-name="yeargenderChart.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/static/js/yeargenderChart.js">
+            <entry file="file://$PROJECT_DIR$/js/yeargenderChart.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="-5.0185184">
                   <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
@@ -91,7 +861,7 @@
       <split-second>
         <leaf>
           <file leaf-file-name="yearChart.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/static/js/yearChart.js">
+            <entry file="file://$PROJECT_DIR$/js/yearChart.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="-21.592592">
                   <caret line="197" column="36" selection-start-line="196" selection-start-column="7" selection-end-line="197" selection-end-column="36" />
@@ -101,7 +871,7 @@
             </entry>
           </file>
           <file leaf-file-name="subjectChart.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/static/js/subjectChart.js">
+            <entry file="file://$PROJECT_DIR$/js/subjectChart.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.20106524">
                   <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
@@ -111,7 +881,7 @@
             </entry>
           </file>
           <file leaf-file-name="locationChart.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/static/js/locationChart.js">
+            <entry file="file://$PROJECT_DIR$/js/locationChart.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="-5.0">
                   <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
@@ -260,24 +1030,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SaudiWIC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SaudiWIC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -292,11 +1044,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,7 +1058,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -700,11 +1448,11 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/static/js/levelChart.js</url>
+          <url>file://$PROJECT_DIR$/js/levelChart.js</url>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/static/js/yeargenderChart.js</url>
+          <url>file://$PROJECT_DIR$/js/yeargenderChart.js</url>
           <line>283</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -742,7 +1490,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/css/keen-dashboards.css">
+    <entry file="file://$PROJECT_DIR$/lib/css/keen-dashboards.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -750,7 +1498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/js/keen.min.js">
+    <entry file="file://$PROJECT_DIR$/lib/js/keen.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -758,21 +1506,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/js/bootstrap.min.js">
+    <entry file="file://$PROJECT_DIR$/lib/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/js/crossfilter.js">
+    <entry file="file://$PROJECT_DIR$/lib/js/crossfilter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/lib/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -780,7 +1528,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/js/underscore-min.js">
+    <entry file="file://$PROJECT_DIR$/lib/js/underscore-min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -815,49 +1563,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/js/queue.js">
+    <entry file="file://$PROJECT_DIR$/lib/js/queue.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/css/dc.min.css">
+    <entry file="file://$PROJECT_DIR$/lib/css/dc.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/js/d3.min.js">
+    <entry file="file://$PROJECT_DIR$/lib/js/d3.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/js/dc/src/core.js">
+    <entry file="file://$PROJECT_DIR$/lib/js/dc/src/core.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/js/dc/dc.js">
+    <entry file="file://$PROJECT_DIR$/lib/js/dc/dc.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4954955">
           <caret line="486" column="22" selection-start-line="486" selection-start-column="22" selection-end-line="486" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/js/dispatch.js">
+    <entry file="file://$PROJECT_DIR$/lib/js/dispatch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/charts.js">
+    <entry file="file://$PROJECT_DIR$/js/charts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75">
           <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
@@ -913,14 +1661,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/overviewChart.js">
+    <entry file="file://$PROJECT_DIR$/js/overviewChart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.24725275">
           <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/genderChart.js">
+    <entry file="file://$PROJECT_DIR$/js/genderChart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.025">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
@@ -936,7 +1684,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/yearChart.js">
+    <entry file="file://$PROJECT_DIR$/js/yearChart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-21.592592">
           <caret line="197" column="36" selection-start-line="196" selection-start-column="7" selection-end-line="197" selection-end-column="36" />
@@ -944,7 +1692,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/main.js">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.0">
           <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
@@ -955,7 +1703,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-26.416666">
           <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
@@ -963,7 +1711,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/levelChart.js">
+    <entry file="file://$PROJECT_DIR$/js/levelChart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.25">
           <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
@@ -971,7 +1719,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/locationChart.js">
+    <entry file="file://$PROJECT_DIR$/js/locationChart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0">
           <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
@@ -979,7 +1727,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/subjectChart.js">
+    <entry file="file://$PROJECT_DIR$/js/subjectChart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20106524">
           <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
@@ -987,7 +1735,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/yeargenderChart.js">
+    <entry file="file://$PROJECT_DIR$/js/yeargenderChart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0185184">
           <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
@@ -997,8 +1745,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.764622">
-          <caret line="171" column="16" selection-start-line="171" selection-start-column="16" selection-end-line="171" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.06419401">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
